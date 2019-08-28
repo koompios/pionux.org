@@ -10,7 +10,7 @@ cache:
   directories:
   - node_modules
 before_install:
-- cd /website
+- cd website
 - npm update
 before_script: cd website
 install:
