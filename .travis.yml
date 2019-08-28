@@ -42,7 +42,7 @@ script:
     - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
     - rm -rf /.ssh/id_rsa
     - echo "$HOST_CERT" > ~/.ssh/id_rsa
-    - rm -rf /.ssh/known_hosts
+    - chmod 600 ~/.ssh/id_rsa
     - sshpass -p passphrase ssh-add ~/.ssh/id_rsa
     - ssh $USER@$HOST_SERVER "touch testfrom-travis-ci  && exit"
 
