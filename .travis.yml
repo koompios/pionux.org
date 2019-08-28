@@ -11,8 +11,10 @@ cache:
   - node_modules
 before_install:
 - npm update
-before_script: cd website
+before_script: 
+- cd website
+- npm run start
 install:
 - npm install
-script:
-- npm run start
+# script:
+# - npm run start
