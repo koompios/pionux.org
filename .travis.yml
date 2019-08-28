@@ -12,7 +12,7 @@ cache:
 before_install:
 - npm update
 before_script: 
-- cd website
+- cd hongsea/piox.org/website
 - npm run start
 install:
 - npm install
