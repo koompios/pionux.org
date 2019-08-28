@@ -1,4 +1,4 @@
-
+# run as Node_js
 # sudo: false
 # language: node_js
 # node_js:
@@ -22,13 +22,18 @@
 # script:
 # - npm run start
 # - sleep 4
+
+# run as docker-compose 
 sudo: required
 
 language: go
 
 services:
     - docker
-
+addons:
+  ssh_known_hosts: 165.22.251.128
+install:
+  - echo 'KEY' >> $HOME/.ssh/known_hosts
 before_install:
     - apt-cache madison docker-engine
     - docker ps -a
