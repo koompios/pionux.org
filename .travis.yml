@@ -23,3 +23,5 @@ addons:
   ssh_known_hosts: 165.22.251.128
 install:
 - npm install
+script:
+- npm run start
