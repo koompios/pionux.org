@@ -1,19 +1,25 @@
 
-sudo: false
+# sudo: false
+# language: node_js
+# node_js:
+# - '8'
+# branches:
+#   only:
+#   - master
+# cache:
+#   directories:
+#   - node_modules
+# before_install:
+# - cd website
+# - npm update
+# # before_script: cd website
+# install:
+# - npm install
+# script:
+# - npm run start
 language: node_js
-node_js:
 - '8'
-branches:
-  only:
-  - master
-cache:
-  directories:
-  - node_modules
-before_install:
-- cd website
-- npm update
-# before_script: cd website
+addons:
+  ssh_known_hosts: 165.22.251.128
 install:
 - npm install
-script:
-- npm run start
