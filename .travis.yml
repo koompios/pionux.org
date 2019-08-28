@@ -30,14 +30,18 @@ language: minimal
 branchs:
   only:
   - master
-before_install:
-    - ssh-add - <<< "${HOST_CERT}"
-after_success:
-    - chmod 600 ~/.ssh/id_rsa   
+# before_install:
+#     - ssh-add - <<< "${HOST_CERT}"
+# after_success:
+#     - chmod 600 ~/.ssh/id_rsa   
     # - ssh root@$HOST_SERVER 
     # - docker-compose up -d
     # - docker ps -a
 
 script:
-    - ssh root@$HOST_SERVER 'touch testfrom-travis-ci && exit'
+    - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+    - rm -rf /.ssh/id_rsa
+    - echo "$HOST_CERT" > ~/.ssh/id_rsa
+    - chmod 600 ~/.ssh/id_rsa
+    - ssh $USER@$HOST_SERVER "touch testfrom-travis-ci  && exit"
 
