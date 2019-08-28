@@ -9,9 +9,9 @@ branches:
 cache:
   directories:
   - node_modules
+script: cd website
 before_install:
 - npm update
-- cd website
 install:
 - npm install
 script:
