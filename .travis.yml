@@ -17,9 +17,14 @@
 # - npm run start
 
 sudo: required
-
+language: node_js
+node_js:
+- '8'
+branches:
+  only:
+  - master
 services:
   - docker
 
 before_script:
-  - docker-compose up -d
+  - docker-compose down
