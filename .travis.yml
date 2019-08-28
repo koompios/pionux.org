@@ -10,12 +10,15 @@ branches:
   - master
 cache:
   directories:
+  - ~/.npm
   - node_modules
 before_install:
 - cd website
 - npm update
-# before_script: cd website
+before_script:
+- npm start & 
+- sleep 4
 install:
 - npm install
-script:
-- npm run start
+# script:
+# - npm run start
