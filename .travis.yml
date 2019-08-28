@@ -14,6 +14,7 @@ before_install:
 - npm update
 before_script: cd /home/travis/build/hongsea/piox.org/website
 install:
+- cd /home/travis/build/hongsea/piox.org/website
 - npm install
 script:
 - npm run start
