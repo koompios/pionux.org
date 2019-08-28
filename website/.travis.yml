@@ -1,14 +1,18 @@
-sudo::  false
+
+sudo: false
 language: node_js
 node_js:
-  -"8"
-braches:
+- '8'
+branches:
   only:
   - master
 cache:
   directories:
   - node_modules
+before_install:
+- npm update
 install:
-  - yarn install
+- npm install
 script:
-  - yarn start
+- npm test
+- npm run coveralls
