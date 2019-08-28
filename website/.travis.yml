@@ -1,5 +1,6 @@
 
 sudo: false
+cd website
 language: node_js
 node_js:
 - '8'
@@ -9,7 +10,6 @@ branches:
 cache:
   directories:
   - node_modules
-script: cd website
 before_install:
 - npm update
 install:
