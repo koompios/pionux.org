@@ -46,6 +46,3 @@ script:
     # - sshpass -p passphrase ssh-add ~/.ssh/id_rsa
     # - ssh $USER@$HOST_SERVER "touch testfrom-travis-ci  && exit"
     - ssh -v -i ~/.ssh/id_rsa $USER@$HOST_SERVER "touch testfrom-travis-ci  && exit"
-
------BEGIN OPENSSH PRIVATE KEY-----
------END OPENSSH PRIVATE KEY-----
