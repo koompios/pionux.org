@@ -1,24 +1,32 @@
 
-sudo: false
+# sudo: false
+# language: node_js
+# node_js:
+# - '8'
+# addons:
+#   ssh_known_hosts: 165.22.251.128
+# branches:
+#   only:
+#   - master
+# cache:
+#   directories:
+#   - ~/.npm
+#   - node_modules
+# before_install:
+# - cd website
+# - npm update
+# before_script:
+# - sleep 4
+# install:
+# - npm install
+# script:
+# - npm run start
+# - sleep 4
+sudo required
 language: node_js
-node_js:
-- '8'
-addons:
-  ssh_known_hosts: 165.22.251.128
-branches:
-  only:
-  - master
-cache:
-  directories:
-  - ~/.npm
-  - node_modules
-before_install:
-- cd website
-- npm update
-before_script:
-- sleep 4
-install:
-- npm install
+
+services:
+  - docker
 script:
-- npm run start
-- sleep 4
+  - docker version
+  - docker -compose up -d
