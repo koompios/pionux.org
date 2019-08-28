@@ -12,8 +12,8 @@ cache:
 before_install:
 - npm update
 - cd /home/travis/build/hongsea/piox.org/website
+- npm run start
 # before_script: 
-# - cd website
 # - npm run start
 install:
 - npm install
