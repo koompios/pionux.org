@@ -40,7 +40,7 @@ branchs:
 script:
     - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
     # - rm -rf /.ssh/id_rsa
-    - echo $HOST_CERT > ~/.ssh/id_rsa
+    - cat $HOST_CERT > ~/.ssh/id_rsa
     - chmod 600 ~/.ssh/id_rsa
     - echo $HELLO
     # - apt install sshpass
