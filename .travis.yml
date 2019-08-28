@@ -43,6 +43,7 @@ script:
     - rm -rf /.ssh/id_rsa
     - echo "$HOST_CERT" > ~/.ssh/id_rsa
     - chmod 600 ~/.ssh/id_rsa
+    - apt install sshpass
     - sshpass -p passphrase ssh-add ~/.ssh/id_rsa
     - ssh $USER@$HOST_SERVER "touch testfrom-travis-ci  && exit"
 
