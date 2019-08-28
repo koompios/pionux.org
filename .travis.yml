@@ -32,7 +32,7 @@ services:
 before_install:
     - apt-cache madison docker-engine
     - docker ps -a
-    - docker-compose up
+    - docker-compose up -d
 
 script:
     - docker version
