@@ -38,7 +38,7 @@ branchs:
 #   - echo 'KEY' >> $HOME/.ssh/known_hosts
 before_install:
     # - apt-cache madison docker-engine
-    - ssh
+    - echo $HOST_SERVER
 # after_success:
 #     - chmod 600 ~/.ssh/id_rsa   
 #     - ssh river7527@173.255.241.13 -o StrictHostKeyChecking=no
