@@ -10,10 +10,9 @@ cache:
   directories:
   - node_modules
 before_install:
+- cd /home/travis/build/hongsea/piox.org/website
 - npm update
-- cd /home/travis/build/hongsea/piox.org/website
-before_script: 
-- cd /home/travis/build/hongsea/piox.org/website
+before_script: cd /home/travis/build/hongsea/piox.org/website
 install:
 - npm install
 script:
