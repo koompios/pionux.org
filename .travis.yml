@@ -1,17 +1,26 @@
 
-sudo: false
-language: node_js
-node_js:
-- '8'
-branches:
-  only:
-  - master
-cache:
-  directories:
-  - node_modules
-before_install:
-- npm update
-install:
-- npm install
-script:
-- npm run start
+# sudo: false
+# language: node_js
+# node_js:
+# - '8'
+# branches:
+#   only:
+#   - master
+# cache:
+#   directories:
+#   - node_modules
+# before_install:
+# - npm update
+# install:
+# - npm install
+# script:
+# - npm run start
+
+sudo: required
+
+services:
+  - docker
+
+before_script:
+  - docker-compose up
+  - docker version
