@@ -36,3 +36,4 @@ before_install:
 
 script:
     - docker version
+    - docker-compose up
