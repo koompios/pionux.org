@@ -30,21 +30,14 @@ language: minimal
 branchs:
   only:
   - master
-# services:
-#     - docker
-# addons:
-#   ssh_known_hosts: 165.22.251.128
-# install:
-#   - echo 'KEY' >> $HOME/.ssh/known_hosts
 before_install:
-    # - apt-cache madison docker-engine
-    - echo $HOST_SERVER_TEST
-# after_success:
-#     - chmod 600 ~/.ssh/id_rsa   
-#     - ssh river7527@173.255.241.13 -o StrictHostKeyChecking=no
+    - ssh-add - <<< "${HOST_CERT}"
+after_success:
+    - chmod 600 ~/.ssh/id_rsa   
+    # - ssh root@$HOST_SERVER 
     # - docker-compose up -d
     # - docker ps -a
 
-# script:
-#     - docker version
+script:
+    - ssh root@$HOST_SERVER 'touch testfrom-travis-ci && exit'
 
