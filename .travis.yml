@@ -12,7 +12,7 @@ cache:
 before_install:
 - cd website
 - npm update
-before_script: cd website
+# before_script: cd website
 install:
 - npm install
 script:
