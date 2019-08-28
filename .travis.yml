@@ -36,8 +36,8 @@ install:
   - echo 'KEY' >> $HOME/.ssh/known_hosts
 before_install:
     - apt-cache madison docker-engine
-    - docker ps -a
     - docker-compose up -d
+    - docker ps -a
 
 script:
     - docker version
