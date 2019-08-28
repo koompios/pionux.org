@@ -22,5 +22,4 @@ services:
   - docker
 
 before_script:
-  - docker-compose up
-  - docker version
+  - docker-compose up -d
