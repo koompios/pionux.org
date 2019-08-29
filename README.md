@@ -1,1 +1,1 @@
-[![Build Status](https://travis-ci.org/hongsea/piox.org.svg?branch=master)](https://travis-ci.org/hongsea/piox.org)
+[![pipeline status](https://gitlab.com/hongsea/piox-org/badges/master/pipeline.svg)](https://gitlab.com/hongsea/piox-org/commits/master)
