@@ -1,0 +1,14 @@
+deploy_production:
+    stage: deploy
+    image: kroniak/ssh-client
+    environment: TESTNET-DEV
+    script:
+        - mkdir -p ~/.ssh
+        - chmod 700 ~/.ssh
+        - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+        - echo "$HOST_CERT" > ~/.ssh/id_rsa
+        - chmod 600 ~/.ssh/id_rsa
+        - ssh $USER@$HOST "cd /root/piox-org && git add . && git pull && docker-compose up -d && exit"
+
+    only:
+        - master
