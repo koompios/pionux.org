@@ -11,4 +11,4 @@ deploy_production:
         - ssh $USER@$HOST "cd /root/piox.org && git add . && git pull && docker-compose up -d && exit"
 
     only:
-        - master 
+        - master
