@@ -8,4 +8,4 @@ COPY ./website /app/website
 RUN apt-get update
 RUN npm install 
 
-CMD ["npm", "start"] 
+CMD ["npm", "start"]
