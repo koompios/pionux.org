@@ -2,4 +2,4 @@
 
 
 
-## Docs site for Poinux Developer and User Community  
+## Docs site for Poinux Developer and User Community.
