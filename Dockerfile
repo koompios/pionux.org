@@ -1,10 +1,11 @@
-FROM node:8.11.4
+FROM node
 
 WORKDIR /app/website
 
-EXPOSE 3030 35729 
+EXPOSE 3030 35729
 COPY ./docs /app/docs
 COPY ./website /app/website
-RUN yarn install
+RUN apt-get update
+RUN npm install 
 
-CMD ["yarn", "start"]
+CMD ["npm", "start"] 

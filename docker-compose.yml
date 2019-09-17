@@ -2,7 +2,7 @@ version: "3"
 
 services:
   docusaurus:
-    build: .
+    image: hongsea/docusaurus
     ports:
       - 3030:3000
       - 35729:35729

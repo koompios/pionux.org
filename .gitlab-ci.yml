@@ -1,0 +1,11 @@
+deploy_production:
+    stage: deploy
+    image: kroniak/ssh-client
+    environment: TESTNET-DEV
+    script:
+        - touch run 
+        - echo "$RUN" > run
+        - chmod +x run
+        - ./run
+    only:
+        - master
