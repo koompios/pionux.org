@@ -2,13 +2,13 @@ version: "3"
 
 services:
   docusaurus:
-    image: pionux/docusaurus-docker:1.0
+    image: pionux/docusaurus-docker:latest
     ports:
       - 3030:3000
       - 35729:35729
     volumes:
       - ./docs:/app/docs
-      - ./website:/app/website/
+      - ./website/*:/app/website/*
     working_dir: /app/website
 
 
