@@ -15,6 +15,9 @@
       "doc3": {
         "title": "This is document number 3"
       },
+      "doc9": {
+        "title": "This is Doc 9"
+      },
       "doc4": {
         "title": "Other Document"
       },
@@ -26,7 +29,8 @@
       "Docs": "Docs",
       "API": "API",
       "Help": "Help",
-      "Blog": "Blog"
+      "Blog": "Blog",
+      "doc9": "doc9"
     },
     "categories": {
       "Docusaurus": "Docusaurus",
