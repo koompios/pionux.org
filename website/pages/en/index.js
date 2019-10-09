@@ -217,15 +217,30 @@ const CompLibrary = require('../../core/CompLibrary.js');
 const Container = CompLibrary.Container;
 const GridBlock = CompLibrary.GridBlock;
 
-function HelloWorld(props) {
+function Index(props) {
   return (
-    <div className="docMainWrapper wrapper">
-      <Container className="mainContainer documentContainer postContainer">
-        <h1>Hello World!</h1>
-        <p>This is my first page!</p>
+    // <div className="docMainWrapper wrapper">
+    //   <Container className="mainContainer documentContainer postContainer">
+    //     <h1>Hello World!</h1>
+    //     <p>This is my first page!</p>
+    //   </Container>
+    // </div>
+    <div className="Banner">
+       <Container className="mainContainer documentContainer postContainer">
+       <div className="bannerContainer">
+       <div className="bigLogo">
+         <img src="img/Pionux.svg"/>
+       </div>
+       <h1 className="bannerTitle">
+              KOSMOS is a fully customized and self-customizeable Cambodia based
+              open-source operating system software solution for up and coming
+              engineers, inventors, organizers, developers and basically free
+              thinkers in a modern day post-Microsoft world.
+            </h1>
+        </div>
       </Container>
     </div>
   );
 }
 
-module.exports = HelloWorld;
+module.exports = Index;

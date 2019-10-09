@@ -21,25 +21,18 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Pionux', // Title for your website.
+  // title: 'Pionux', // Title for your website.
   tagline: 'A website for testing',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
-
-
-//Search bar
-algolia: {
-  algoliaOptions: {
-    facetFilters: [ "language:LANGUAGE", "version:VERSION" ]
+  algolia: {
+    apiKey: 'my-api-key',
+    indexName: 'my-index-name',
+    algoliaOptions: {},
   },
-  apiKey: 'my-api-key',
-  indexName: 'my-index-name',
-  algoliaOptions: {} // Optional, if provided by Algolia
-  
-},
 
 
   // Used for publishing and more
@@ -62,14 +55,14 @@ algolia: {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
+  headerIcon: 'img/Pionux (2).svg',
   footerIcon: 'img/favicon.ico',
   favicon: 'img/favicon.ico',
 
   /* Colors for website */
   colors: {
     primaryColor: '#321653',
-    secondaryColor: '#313516',
+    secondaryColor: '#321653',
   },
 
   /* Custom fonts for website */
