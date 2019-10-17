@@ -119,11 +119,38 @@
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
 }
 .two-column{
-    padding-left:12rem;
-    margin-top:-62px;
+    padding-left:2rem;
+    margin-top:-34px;
 }
 @media only screen and (max-width:1060px){
     .two-column{
         padding: 2px;
     }
+}
+/*mediaplayer*/
+.mediaPlayer{
+   width:95%;
+   margin:auto; 
+}
+.media-header{
+    padding: 32px;
+}
+.mediaPl{
+    background-color:#f7eff2;
+    margin-top: -48px;
+}
+.description-size{
+    font-size: 20px;
+}
+.icon-h1 img{
+    float: left;
+    width:auto;
+    height: auto;
+    height: 81px;
+}
+.icon-h1 h1{
+    position: relative;
+    top: 18px;
+    left: 10px;
+    font-size: 53px;
 }

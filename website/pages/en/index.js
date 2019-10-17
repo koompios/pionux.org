@@ -246,7 +246,7 @@ function Index(props) {
             <img src="img/Banner3.png" />
             <div className="text-container">
               <p>
-                PionxOS gives you more of everything you love about KOOMPI. Experience music, TV, and podcasts in three all-new KOOMPI apps. Enjoy your favorite iPad apps now on your Mac. Extend your workspace and expand your creativity with iPad and Apple Pencil. And discover smart new features in the apps you use every day. Now you can take everything you do above and beyond.
+                PionxOS gives you more of everything you love about KOOMPI. Experience music, TV, and podcasts in three all-new KOOMPI apps. Enjoy your favorite KOOMPI apps now on your KOOMPI-PC. And discover smart new features in the apps you use every day. Now you can take everything you do above and beyond.
         </p>
             </div>
           </center>
@@ -267,7 +267,7 @@ KOOMPI users can achieve more and learn more with less effort and frustration.</
           </center>
         </div>
 {/* section two     */}
-        <div className="office-main">
+        {/* <div className="office-main">
           <center>
             <h1>OFFICE</h1>
           </center>
@@ -293,8 +293,46 @@ KOOMPI users can achieve more and learn more with less effort and frustration.</
             </div>
             </div>
           </div>
+        </div> */}
+
+        {/* mediaPlayer */}
+        <div className="mediaPl">
+        <div className="mediaPlayer">
+          <center>
+            <h1 className="media-header">MEDIA</h1>
+          </center>
+          <div className="office">
+            <div>
+            <div className="two-column">
+                <div className="icon-h1">
+                <img src="img/KMP.png"/>
+              <h1>KM Player</h1>
+                </div>
+              <p className="description-size">KMPlayer is a highly customizable multimedia software providing high-quality video playback of media files with much more additional functionality. KMPlayer recognizes a large number of file formats, is able to capture videos from online sources and allows users to make animated GIFs.</p>
+              </div>
+              <center>
+              <img src="img/KMPlayer.png"/>
+              </center>
+            </div>
+            <div>
+            <div>
+            <div className="two-column">
+                <div className="icon-h1">
+                <img src="img/Popcorn_Time.png"></img>
+              <h1>Pop Corntime</h1>
+                </div>
+              <p className="description-size">Popcorn Time is a multi-platform, free software BitTorrent client that includes an integrated media player. Popcorn Time provide a free "alternative" to subscription-based video streaming services such as Netflix.</p>
+              </div>
+              <center>
+              <img className="popcorn-image" src="img/Popcorn-Time-UI-1.png"/>
+              </center>
+                
+            </div>
+            </div>
+          </div>
         </div>
       </div>
+    </div>
     </React.Fragment>
 
   );
