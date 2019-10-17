@@ -44,11 +44,11 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
-    {doc:'doc9', label:'Community'},
+    { doc: 'doc1', label: 'Docs' },
+    { doc: 'doc4', label: 'API' },
+    { page: 'help', label: 'Help' },
+    { blog: true, label: 'Blog' },
+    { doc: 'doc9', label: 'Community' },
   ],
 
   // If you have users set above, you add it here:
@@ -56,8 +56,9 @@ const siteConfig = {
 
   /* path to images for header/footer */
   headerIcon: 'img/Pionux (2).svg',
-  footerIcon: 'img/favicon.ico',
-  favicon: 'img/favicon.ico',
+  footerIcon: 'img/Pionux.svg',
+  favicon: 'img/Pionux.svg',
+  // favicon: 'img/favicon.ico',
 
   /* Colors for website */
   colors: {

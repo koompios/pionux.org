@@ -1,5 +1,4 @@
 /* your custom css */
-
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
 
@@ -14,6 +13,7 @@
 
 @media only screen and (min-width: 1500px) {
 }
+/*banner*/
 .Banner{
     background-image: url(../img/background.jpg);
     height: 70vh;
@@ -29,12 +29,13 @@
 }
 .bannerContainer{
     padding-right: 37%;
+    position: relative;
 }
 .bigLogo{
     position: absolute;
-    right: 237px;
+    right:87px;
     top: 21%;
-    width: 20rem;
+    width: 18rem;
     animation-name: rotate;
     animation-duration: 90000ms;
     animation-iteration-count: infinite;
@@ -54,4 +55,75 @@
 @keyframes rotate{
     from {transform:rotate(0deg);}
     to {transform:rotate(360deg);}
+}
+.Indrouce-pionux{
+    margin-top:-19px;
+}
+
+
+
+.text-container {
+  width: 40%;
+  margin: auto;
+}
+.text-container p{
+    font-size: 24px;
+}
+@media only screen and (max-width:1060px){
+    .text-container{
+        width: 90%;    
+    }
+    .text-container p{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width:1509px){
+    .bigLogo{
+        display: none;
+    }
+}
+@media only screen and (max-width:480px){
+    .bannerTitle{
+    padding-left: 0px;
+    text-transform: inherit;
+    text-align: left;
+    font-size: 20px !important;
+    }
+    .bannerContainer{
+        padding: 0;
+    }
+}
+
+.first-component{
+    display: grid;
+    grid-template-rows:repeat(3,minmax(0px, auto));
+    position: relative;
+}
+/* .first-component > div:nth-child(odd){
+    background-color: #ddd;
+} */
+.feature{
+    background-color:#f1f1f1;
+    position: relative;
+}
+.feature h1{
+    padding-top:69px;
+}
+/*office*/
+.office-main{
+    width:95%;
+    margin:auto;
+}
+.office{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+}
+.two-column{
+    padding-left:12rem;
+    margin-top:-62px;
+}
+@media only screen and (max-width:1060px){
+    .two-column{
+        padding: 2px;
+    }
 }
