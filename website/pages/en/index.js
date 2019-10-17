@@ -332,6 +332,18 @@ KOOMPI users can achieve more and learn more with less effort and frustration.</
           </div>
         </div>
       </div>
+
+      <div className="Software">
+        <div className="text-container">
+          <h1 className="software-h1">
+            Software
+          </h1>
+          <p>PIONUX has the GNOME Software utility for software application installations and updates. The Software Center allows for easy installations and updates of software applications and system extensions.</p>
+        </div>
+        <center className="software-width">
+          <img src="img/software.png"/>
+        </center>
+      </div>
     </div>
     </React.Fragment>
 

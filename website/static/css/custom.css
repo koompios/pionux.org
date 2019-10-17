@@ -146,11 +146,22 @@
     float: left;
     width:auto;
     height: auto;
-    height: 81px;
 }
 .icon-h1 h1{
     position: relative;
     top: 18px;
     left: 10px;
-    font-size: 53px;
+}
+/*software*/
+.Software{
+   background-color: #e7ebe7;
+    margin:auto;
+    margin-top:-48px;
+}
+.software-width img {
+    max-width: 65%;
+    
+}
+.software-h1{
+    padding-top:32px;
 }
