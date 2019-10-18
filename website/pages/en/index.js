@@ -321,7 +321,7 @@ KOOMPI users can achieve more and learn more with less effort and frustration.</
                 <img src="img/Popcorn_Time.png"></img>
               <h1>Pop Corntime</h1>
                 </div>
-              <p className="description-size">Popcorn Time is a multi-platform, free software BitTorrent client that includes an integrated media player. Popcorn Time provide a free "alternative" to subscription-based video streaming services such as Netflix.</p>
+              <p className="description-size">Popcorn Time is a multi-platform, free software BitTorrent client that includes an integrated media player. Popcorn Time provide a free "alternative" to subscription-based video streaming services such as Netflix.Popcorn Time uses sequential downloading to stream video listed by several torrent website</p>
               </div>
               <center>
               <img className="popcorn-image" src="img/Popcorn-Time-UI-1.png"/>
