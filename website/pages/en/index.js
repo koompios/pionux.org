@@ -296,7 +296,7 @@ KOOMPI users can achieve more and learn more with less effort and frustration.</
         </div> */}
 
         {/* mediaPlayer */}
-        <div className="mediaPl">
+        {/* <div className="mediaPl">
         <div className="mediaPlayer">
           <center>
             <h1 className="media-header">MEDIA</h1>
@@ -343,7 +343,7 @@ KOOMPI users can achieve more and learn more with less effort and frustration.</
         <center className="software-width">
           <img src="img/software.png"/>
         </center>
-      </div>
+      </div> */}
     </div>
     </React.Fragment>
 
