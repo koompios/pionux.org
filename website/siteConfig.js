@@ -36,8 +36,8 @@ const siteConfig = {
 
 
   // Used for publishing and more
-  projectName: 'test-site',
-  organizationName: 'facebook',
+  projectName: 'Pionux-website',
+  organizationName: 'koompi',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -56,8 +56,8 @@ const siteConfig = {
 
   /* path to images for header/footer */
   headerIcon: 'img/Pionux (2).svg',
-  footerIcon: 'img/Pionux.ico',
-  favicon: 'img/Pionux.ico',
+  footerIcon: 'img/docusaurus.ico',
+  favicon: 'img/docusaurus.ico',
 
   /* Colors for website */
   colors: {
