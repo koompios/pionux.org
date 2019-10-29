@@ -241,8 +241,7 @@ function Index(props) {
       {/* section1 */}
         <div className="first-component">
           <center>
-            <h1>Operating System for Every Computers</h1>
-            <p>PIONUX can run on almost any computers there us. It works well on your old laptop as well.</p>
+            <h2 className="header-name">Operating System for Every Computers</h2>
             <img src="img/Banner3.png" />
             <div className="text-container">
               <p>
@@ -253,97 +252,99 @@ function Index(props) {
         </div>
         <div className="feature">
           <div className="text-container">
-            <h1>Everything You Need
-              Available Here</h1>
-            <p>The KOOMPI contains a handpicked suite of software for
+            <h2 className="header-name">Everything You Need
+              Available Here</h2>
+            <p>The Pionux contains a handpicked suite of software for
 everyday computing, Internet browsing,
 office productivity, entertainment and more.
-We've compiled the KOOMPI computer software suite to offer a
+We've compiled the Pionux computer software suite to offer a
 user experience providing simplicity, power, privacy and freedom.
-KOOMPI users can achieve more and learn more with less effort and frustration.</p>
+Pionux users can achieve more and learn more with less effort and frustration.</p>
           </div>
           <center>
             <img src="img/feature-koompi-banner1.webp" />
           </center>
         </div>
 {/* section two     */}
-        {/* <div className="office-main">
-          <center>
-            <h1>OFFICE</h1>
-          </center>
-          <div className="office">
-            <div>
-              <center>
-              <img src="img/Office.webp"/>
-              </center>
-                <div className="two-column">
-              <h1>Apache OpenOffice</h1>
-              <p>Apache OpenOffice is an office productivity software suite containing a word processor (Writer), a spreadsheet (Calc), a presentation application (Impress), a drawing application (Draw), a formula editor (Math), and a database management application (Base). It's default file format is the OpenDocument Format (ODF), and can also read and write a wide variety of other file formats, including those from Microsoft Office.</p>
-              </div>
-            </div>
-            <div>
-            <div>
-              <center>
-              <img src="img/Office.webp"/>
-              </center>
-                <div className="two-column">
-              <h1>Microsoft Office</h1>
-              <p>Apache OpenOffice is an office productivity software suite containing a word processor (Writer), a spreadsheet (Calc), a presentation application (Impress), a drawing application (Draw), a formula editor (Math), and a database management application (Base). It's default file format is the OpenDocument Format (ODF), and can also read and write a wide variety of other file formats, including those from Microsoft Office.</p>
-              </div>
-            </div>
-            </div>
-          </div>
-        </div> */}
-
-        {/* mediaPlayer */}
-        {/* <div className="mediaPl">
-        <div className="mediaPlayer">
-          <center>
-            <h1 className="media-header">MEDIA</h1>
-          </center>
-          <div className="office">
-            <div>
-            <div className="two-column">
-                <div className="icon-h1">
-                <img src="img/KMP.png"/>
-              <h1>KM Player</h1>
-                </div>
-              <p className="description-size">KMPlayer is a highly customizable multimedia software providing high-quality video playback of media files with much more additional functionality. KMPlayer recognizes a large number of file formats, is able to capture videos from online sources and allows users to make animated GIFs.</p>
-              </div>
-              <center>
-              <img src="img/KMPlayer.png"/>
-              </center>
-            </div>
-            <div>
-            <div>
-            <div className="two-column">
-                <div className="icon-h1">
-                <img src="img/Popcorn_Time.png"></img>
-              <h1>Pop Corntime</h1>
-                </div>
-              <p className="description-size">Popcorn Time is a multi-platform, free software BitTorrent client that includes an integrated media player. Popcorn Time provide a free "alternative" to subscription-based video streaming services such as Netflix.Popcorn Time uses sequential downloading to stream video listed by several torrent website</p>
-              </div>
-              <center>
-              <img className="popcorn-image" src="img/Popcorn-Time-UI-1.png"/>
-              </center>
-                
-            </div>
-            </div>
-          </div>
-        </div>
+      <div className="dolp">
+      <center>
+      <h2 className="header-name">Browse your file easily</h2>
+      <img className="image-size" src="img/home.png"/>
+      <div className="description-p">
+      <p>Quickly find that important document, photo, or video.
+        <br/>
+      Split View, Editable Location, a built-in Terminal and many other useful features.
+      <br/>
+      Dolphin makes connecting your USB flash drives, SD cards, and your phone super easy!</p>
+      </div>
+      </center>
       </div>
 
-      <div className="Software">
-        <div className="text-container">
-          <h1 className="software-h1">
-            Software
-          </h1>
-          <p>PIONUX has the GNOME Software utility for software application installations and updates. The Software Center allows for easy installations and updates of software applications and system extensions.</p>
-        </div>
-        <center className="software-width">
-          <img src="img/software.png"/>
-        </center>
+      <div className="xpdf">
+      <center>
+      <h2 className="header-name">Open and read documents easily</h2>
+      <img className="image-size xpdf1" src="img/xpdf1.png"/>
+      <div className="description-p">
+      <p>Open PDF, Dejavu, PS, DVI, and more, annotate documents and fill in forms and even read eBooks with XPDF, the universal document viewer.</p>
+      </div>
+      </center>
+      </div>
+      
+      <div className="dolp">
+      <center>
+      <h2 className="header-name">Browse images</h2>
+      <img className="image-size" src="img/browseimg1.png"/>
+      <div className="description-p">
+      <p>Images are an important part of modern life. Pionux has applications that make it easy to browse, share, and enhance your photos.</p>
+      </div>
+      </center>
+      </div>
+
+
+      <div className="firefox">
+      <center>
+      <h2 className="header-name">Surf the Internet with Firefox</h2>
+      <img className="image-size" src="img/koompi.png"/>
+      <div className="description-p">
+     <p>Pionux comes with the award-winning Firefox web browser by default.</p>
+      </div>
+      </center>
+      </div>
+
+
+      {/* <div className="kontact">
+      <center>
+      <h1>Productivity suite</h1>
+      <img className="image-size" src="img/kontact.png"/>
+      <div className="description-p">
+     <p>Kontact is the productivity suite that does it all: integration into your Google Calendar, Email, RSS feeds, a to-do list and much more.</p>
+      </div>
+      </center>
       </div> */}
+
+      <div className="vlc">
+      <center>
+      <h2 className="header-name">Multimedia made easy with Pionux
+</h2>
+      <img className="image-size" src="img/vlc.png"/>
+      <div className="description-p">
+    <p>Pionux comes built-in with a music and a movie player that are simple to use.</p>
+      </div>
+      </center>
+      </div>
+
+
+      <div className="kontact">
+      <center>
+      <h2 className="header-name">Complete and professional office suite</h2>
+      <img className="image-size" src="img/office.png"/>
+      <div className="description-p">
+     <p>Create professional documents, spreadsheets and presentations with LibreOffice.
+       <br/>
+LibreOffice is compatible with all office applications including Microsoft Office.</p>
+      </div>
+      </center>
+      </div>
     </div>
     </React.Fragment>
 

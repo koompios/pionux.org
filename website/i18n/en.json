@@ -6,7 +6,7 @@
     "tagline": "A website for testing",
     "docs": {
       "doc1": {
-        "title": "Latin-ish",
+        "title": "Documents",
         "sidebar_label": "Example Page"
       },
       "doc2": {
@@ -27,10 +27,8 @@
     },
     "links": {
       "Docs": "Docs",
-      "API": "API",
-      "Help": "Help",
-      "Blog": "Blog",
-      "Community": "Community"
+      "Tutorial": "Tutorial",
+      "Github": "Github"
     },
     "categories": {
       "Docusaurus": "Docusaurus",

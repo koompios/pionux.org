@@ -99,12 +99,10 @@
     grid-template-rows:repeat(3,minmax(0px, auto));
     position: relative;
 }
-/* .first-component > div:nth-child(odd){
-    background-color: #ddd;
-} */
 .feature{
     background-color:#f1f1f1;
     position: relative;
+    padding: 9px;
 }
 .feature h1{
     padding-top:69px;
@@ -126,42 +124,54 @@
     .two-column{
         padding: 2px;
     }
+    .image-size{
+        max-width: 90% !important;
+    }
+    .xpdf1{
+        height: auto !important;
+    }
 }
-/*mediaplayer*/
-.mediaPlayer{
-   width:95%;
-   margin:auto; 
+
+.header-name{
+    font-size: 32px;
+    color: #444444;
 }
-.media-header{
-    padding: 32px;
+
+.image-size{
+    max-width: 50%;
+    box-shadow: 0px 0px 25px #888888;
+    margin-top:31px;
+    border-radius: 5px;
 }
-.mediaPl{
+
+
+.description-p p{
+    font-weight: 300;
+    margin-top:12px;
+    color: #777777;
+    font-size: 16px;
+    font-family: Ubuntu,Arial,'libra sans',sans-serif;
+}
+.description-p{
+    margin-top:45px;
+}
+
+.dolphin{
     background-color:#f7eff2;
-    margin-top: -48px;
+    padding: 10px;
 }
-.description-size{
-    font-size: 20px;
+.xpdf{
+    background-color: #fcf8f1;
+    padding:10px;
 }
-.icon-h1 img{
-    float: left;
-    width:auto;
-    height: auto;
+.xpdf1{
+    height: 50rem;
 }
-.icon-h1 h1{
-    position: relative;
-    top: 18px;
-    left: 10px;
+.firefox{
+    background-color:#e9edf0;
+    padding:10px;
 }
-/*software*/
-.Software{
-   background-color: #e7ebe7;
-    margin:auto;
-    margin-top:-48px;
-}
-.software-width img {
-    max-width: 65%;
-    
-}
-.software-h1{
-    padding-top:32px;
+.kontact{
+    padding: 10px;
+    background-color:#f6f5f9;
 }

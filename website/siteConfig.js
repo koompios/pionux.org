@@ -22,7 +22,7 @@ const users = [
 
 const siteConfig = {
   // title: 'Pionux', // Title for your website.
-  tagline: 'A website for testing',
+  tagline: 'Pionux',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -45,10 +45,10 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
-    {doc:'doc9', label:'Community'},
+    {doc: 'doc4', label: 'Tutorial'},
+    // {page: 'help', label: 'Help'},
+    // {blog: true, label: 'Blog'},
+    {doc:'doc9', label:'Github'},
   ],
 
   // If you have users set above, you add it here:
@@ -56,8 +56,8 @@ const siteConfig = {
 
   /* path to images for header/footer */
   headerIcon: 'img/Pionux (2).svg',
-  footerIcon: 'img/sun.ico',
-  favicon: 'img/sun.ico',
+  footerIcon: 'img/Pionux.ico',
+  favicon: 'img/Pionux.ico',
 
   /* Colors for website */
   colors: {
@@ -80,7 +80,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} KOOMPI`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
