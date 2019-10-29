@@ -269,7 +269,7 @@ Pionux users can achieve more and learn more with less effort and frustration.</
       <div className="dolp">
       <center>
       <h2 className="header-name">Browse your file easily</h2>
-      <img className="image-size" src="img/home.png"/>
+      <img className="image-size" src="https://pionux.org/img/home.png"/>
       <div className="description-p">
       <p>Quickly find that important document, photo, or video.
         <br/>
