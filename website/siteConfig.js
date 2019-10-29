@@ -56,8 +56,8 @@ const siteConfig = {
 
   /* path to images for header/footer */
   headerIcon: 'img/Pionux (2).svg',
-  footerIcon: 'img/docusaurus.ico',
-  favicon: 'img/docusaurus.ico',
+  footerIcon: 'img/Pionux.ico',
+  favicon: 'img/Pionux.ico',
 
   /* Colors for website */
   colors: {
