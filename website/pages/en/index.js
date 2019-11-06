@@ -212,6 +212,152 @@
 // }
 
 // module.exports = Index;
+
+
+// const React = require('react');
+
+// const CompLibrary = require('../../core/CompLibrary.js');
+
+// const Container = CompLibrary.Container;
+// const GridBlock = CompLibrary.GridBlock;
+
+// function Index(props) {
+//   return (
+//     <React.Fragment>
+//       <div className="Banner">
+//         <Container className="mainContainer documentContainer postContainer">
+//           <div className="bannerContainer">
+//             <div className="bigLogo">
+//               <img src="img/Pionux.svg" />
+//             </div>
+//             <h1 className="bannerTitle">
+//               PIONUX is a fully customized and self-customizeable Cambodia based
+//               open-source operating system software solution for up and coming
+//               engineers, inventors, organizers, developers and basically free
+//               thinkers in a modern day post-Microsoft world.
+//             </h1>
+//           </div>
+//         </Container>
+//       </div>
+//       <div className="container">
+//       {/* section1 */}
+//         <div className="first-component">
+//           <center>
+//             <h2 className="header-name">Operating System for Every Computers</h2>
+//             <img src="img/Banner3.png" />
+//             <div className="text-container">
+//               <p>
+//                 PionxOS gives you more of everything you love about KOOMPI. Experience music, TV, and podcasts in three all-new KOOMPI apps. Enjoy your favorite KOOMPI apps now on your KOOMPI-PC. And discover smart new features in the apps you use every day. Now you can take everything you do above and beyond.
+//         </p>
+//             </div>
+//           </center>
+//         </div>
+//         <div className="feature">
+//           <div className="text-container">
+//             <h2 className="header-name">Everything You Need
+//               Available Here</h2>
+//             <p>The Pionux contains a handpicked suite of software for
+// everyday computing, Internet browsing,
+// office productivity, entertainment and more.
+// We've compiled the Pionux computer software suite to offer a
+// user experience providing simplicity, power, privacy and freedom.
+// Pionux users can achieve more and learn more with less effort and frustration.</p>
+//           </div>
+//           <center>
+//             <img src="img/feature-koompi-banner1.webp" />
+//           </center>
+//         </div>
+// {/* section two     */}
+//       <div className="dolp">
+//       <center>
+//       <h2 className="header-name">Browse your file easily</h2>
+//       <img className="image-size" src="img/home.png"/>
+//       <div className="description-p">
+//       <p>Quickly find that important document, photo, or video.
+//         <br/>
+//       Split View, Editable Location, a built-in Terminal and many other useful features.
+//       <br/>
+//       Dolphin makes connecting your USB flash drives, SD cards, and your phone super easy!</p>
+//       </div>
+//       </center>
+//       </div>
+
+//       <div className="xpdf">
+//       <center>
+//       <h2 className="header-name">Open and read documents easily</h2>
+//       <img className="image-size xpdf1" src="img/xpdf1.png"/>
+//       <div className="description-p">
+//       <p>Open PDF, Dejavu, PS, DVI, and more, annotate documents and fill in forms and even read eBooks with XPDF, the universal document viewer.</p>
+//       </div>
+//       </center>
+//       </div>
+      
+//       <div className="dolp">
+//       <center>
+//       <h2 className="header-name">Browse images</h2>
+//       <img className="image-size" src="img/browseimg1.png"/>
+//       <div className="description-p">
+//       <p>Images are an important part of modern life. Pionux has applications that make it easy to browse, share, and enhance your photos.</p>
+//       </div>
+//       </center>
+//       </div>
+
+
+//       <div className="firefox">
+//       <center>
+//       <h2 className="header-name">Surf the Internet with Firefox</h2>
+//       <img className="image-size" src="img/koompi.png"/>
+//       <div className="description-p">
+//      <p>Pionux comes with the award-winning Firefox web browser by default.</p>
+//       </div>
+//       </center>
+//       </div>
+
+
+//       {/* <div className="kontact">
+//       <center>
+//       <h1>Productivity suite</h1>
+//       <img className="image-size" src="img/kontact.png"/>
+//       <div className="description-p">
+//      <p>Kontact is the productivity suite that does it all: integration into your Google Calendar, Email, RSS feeds, a to-do list and much more.</p>
+//       </div>
+//       </center>
+//       </div> */}
+
+//       <div className="vlc">
+//       <center>
+//       <h2 className="header-name">Multimedia made easy with Pionux
+// </h2>
+//       <img className="image-size" src="img/vlc.png"/>
+//       <div className="description-p">
+//     <p>Pionux comes built-in with a music and a movie player that are simple to use.</p>
+//       </div>
+//       </center>
+//       </div>
+
+
+//       <div className="kontact">
+//       <center>
+//       <h2 className="header-name">Complete and professional office suite</h2>
+//       <img className="image-size" src="img/office.png"/>
+//       <div className="description-p">
+//      <p>Create professional documents, spreadsheets and presentations with LibreOffice.
+//        <br/>
+// LibreOffice is compatible with all office applications including Microsoft Office.</p>
+//       </div>
+//       </center>
+//       </div>
+//     </div>
+//     </React.Fragment>
+
+//   );
+// }
+
+// module.exports = Index;
+
+
+
+
 const React = require('react');
 
 const CompLibrary = require('../../core/CompLibrary.js');
@@ -220,15 +366,16 @@ const Container = CompLibrary.Container;
 const GridBlock = CompLibrary.GridBlock;
 
 function Index(props) {
-  return (
+  return(
     <React.Fragment>
-      <div className="Banner">
+      <div>
+          <div className="Banner">
         <Container className="mainContainer documentContainer postContainer">
           <div className="bannerContainer">
             <div className="bigLogo">
               <img src="img/Pionux.svg" />
             </div>
-            <h1 className="bannerTitle">
+           <h1 className="bannerTitle">
               PIONUX is a fully customized and self-customizeable Cambodia based
               open-source operating system software solution for up and coming
               engineers, inventors, organizers, developers and basically free
@@ -237,118 +384,217 @@ function Index(props) {
           </div>
         </Container>
       </div>
-      <div className="container">
-      {/* section1 */}
-        <div className="first-component">
-          <center>
-            <h2 className="header-name">Operating System for Every Computers</h2>
-            <img src="img/Banner3.png" />
-            <div className="text-container">
-              <p>
-                PionxOS gives you more of everything you love about KOOMPI. Experience music, TV, and podcasts in three all-new KOOMPI apps. Enjoy your favorite KOOMPI apps now on your KOOMPI-PC. And discover smart new features in the apps you use every day. Now you can take everything you do above and beyond.
-        </p>
-            </div>
-          </center>
-        </div>
-        <div className="feature">
-          <div className="text-container">
-            <h2 className="header-name">Everything You Need
-              Available Here</h2>
-            <p>The Pionux contains a handpicked suite of software for
-everyday computing, Internet browsing,
-office productivity, entertainment and more.
-We've compiled the Pionux computer software suite to offer a
-user experience providing simplicity, power, privacy and freedom.
-Pionux users can achieve more and learn more with less effort and frustration.</p>
-          </div>
-          <center>
-            <img src="img/feature-koompi-banner1.webp" />
-          </center>
-        </div>
-{/* section two     */}
-      <div className="dolp">
-      <center>
+      </div>
+      <div className="feature-pc">
+           <div className="text-container">
+             <h2 className="header-name">Everything You Need
+               Available Here</h2>
+             <p>The Pionux contains a handpicked suite of software for
+ everyday computing, Internet browsing,
+ office productivity, entertainment and more.
+ We've compiled the Pionux computer software suite to offer a
+ user experience providing simplicity, power, privacy and freedom.
+ Pionux users can achieve more and learn more with less effort and frustration.</p>
+           </div>
+           <center>
+             <img src="img/feature-koompi-banner1.webp" />
+           </center>
+         </div>
+      <div className="Container">
+      <div className="all-feature">
+      <div className="item-letter">
+      <div className="describe">
       <h2 className="header-name">Browse your file easily</h2>
-      <img className="image-size" src="https://pionux.org/img/home.png"/>
-      <div className="description-p">
       <p>Quickly find that important document, photo, or video.
-        <br/>
+         <br/>
       Split View, Editable Location, a built-in Terminal and many other useful features.
       <br/>
-      Dolphin makes connecting your USB flash drives, SD cards, and your phone super easy!</p>
+       Dolphin makes connecting your USB flash drives, SD cards, and your phone super easy!</p>
       </div>
+      </div>
+      <div className="item-img">
+      <center>
+      <img src="img/home.png"></img>
       </center>
       </div>
+      </div>
 
-      <div className="xpdf">
+      <div className="all-feature">
+      <div className="item-img">
       <center>
+      <img src="img/xpdf.png"></img>
+      </center>
+      </div>
+      <div className="item-letter">
+      <div className="describe">
       <h2 className="header-name">Open and read documents easily</h2>
-      <img className="image-size xpdf1" src="img/xpdf1.png"/>
-      <div className="description-p">
       <p>Open PDF, Dejavu, PS, DVI, and more, annotate documents and fill in forms and even read eBooks with XPDF, the universal document viewer.</p>
       </div>
-      </center>
       </div>
-      
-      <div className="dolp">
-      <center>
+      </div>  
+
+      <div className="all-feature">
+      <div className="item-letter">
+      <div className="describe">
       <h2 className="header-name">Browse images</h2>
-      <img className="image-size" src="img/browseimg1.png"/>
-      <div className="description-p">
       <p>Images are an important part of modern life. Pionux has applications that make it easy to browse, share, and enhance your photos.</p>
       </div>
+      </div>
+      <div className="item-img">
+      <center>
+      <img src="img/browseimg1.png"></img>
       </center>
       </div>
+      </div>
 
-
-      <div className="firefox">
+      <div className="all-feature">
+      <div className="item-img">
       <center>
+      <img src="img/koompi.png"/>
+      </center>
+      </div>
+      <div className="item-letter">
+      <div className="describe">
       <h2 className="header-name">Surf the Internet with Firefox</h2>
-      <img className="image-size" src="img/koompi.png"/>
-      <div className="description-p">
-     <p>Pionux comes with the award-winning Firefox web browser by default.</p>
+      <p>Pionux comes with the award-winning Firefox web browser by default.</p>
       </div>
+      </div>
+      </div> 
+
+      <div className="all-feature">
+      <div className="item-letter">
+      <div className="describe">
+      <h2 className="header-name">Multimedia made easy with Pionux</h2>
+      <p>Pionux comes built-in with a music and a movie player that are simple to use.</p>
+      </div>
+      </div>
+      <div className="item-img">
+      <center>
+      <img src="img/vlc.png"></img>
       </center>
       </div>
-
-
-      {/* <div className="kontact">
-      <center>
-      <h1>Productivity suite</h1>
-      <img className="image-size" src="img/kontact.png"/>
-      <div className="description-p">
-     <p>Kontact is the productivity suite that does it all: integration into your Google Calendar, Email, RSS feeds, a to-do list and much more.</p>
       </div>
-      </center>
-      </div> */}
 
-      <div className="vlc">
+      <div className="all-feature all-feature-office">
+      <div className="item-img">
       <center>
-      <h2 className="header-name">Multimedia made easy with Pionux
-</h2>
-      <img className="image-size" src="img/vlc.png"/>
-      <div className="description-p">
-    <p>Pionux comes built-in with a music and a movie player that are simple to use.</p>
-      </div>
+      <img src="img/office.png"></img>
       </center>
       </div>
-
-
-      <div className="kontact">
-      <center>
+      <div className="item-letter">
+      <div className="describe">
       <h2 className="header-name">Complete and professional office suite</h2>
-      <img className="image-size" src="img/office.png"/>
-      <div className="description-p">
-     <p>Create professional documents, spreadsheets and presentations with LibreOffice.
-       <br/>
+      <p>Create professional documents, spreadsheets and presentations with LibreOffice.
 LibreOffice is compatible with all office applications including Microsoft Office.</p>
       </div>
-      </center>
       </div>
-    </div>
+      </div> 
+      </div>
+
+
+{/* Mobile */}
+
+
+      <div className="container-mobile">
+       {/* section1 */}
+         {/* <div className="first-component">
+           <center>
+             <h2 className="header-name">Operating System for Every Computers</h2>
+             <img src="img/Banner3.png" />
+             <div className="text-container">
+               <p>
+                 PionxOS gives you more of everything you love about KOOMPI. Experience music, TV, and podcasts in three all-new KOOMPI apps. Enjoy your favorite KOOMPI apps now on your KOOMPI-PC. And discover smart new features in the apps you use every day. Now you can take everything you do above and beyond.
+         </p>
+             </div>
+           </center>
+         </div> */}
+         <div className="feature">
+           <div className="text-container">
+             <h2 className="header-name">Everything You Need
+               Available Here</h2>
+             <p>The Pionux contains a handpicked suite of software for
+ everyday computing, Internet browsing,
+ office productivity, entertainment and more.
+ We've compiled the Pionux computer software suite to offer a
+ user experience providing simplicity, power, privacy and freedom.
+ Pionux users can achieve more and learn more with less effort and frustration.</p>
+           </div>
+           <center>
+             <img src="img/feature-koompi-banner1.webp" />
+           </center>
+         </div>
+ {/* section two     */}
+       <div className="dolp">
+       <center>
+       <h2 className="header-name">Browse your file easily</h2>
+       <img className="image-size" src="img/home.png"/>
+       <div className="description-p">
+       <p>Quickly find that important document, photo, or video.
+         <br/>
+       Split View, Editable Location, a built-in Terminal and many other useful features.
+       <br/>
+       Dolphin makes connecting your USB flash drives, SD cards, and your phone super easy!</p>
+       </div>
+       </center>
+       </div>
+
+       <div className="xpdf">
+       <center>
+       <h2 className="header-name">Open and read documents easily</h2>
+       <img className="image-size xpdf1" src="img/xpdf.png"/>
+       <div className="description-p">
+       <p>Open PDF, Dejavu, PS, DVI, and more, annotate documents and fill in forms and even read eBooks with XPDF, the universal document viewer.</p>
+       </div>
+       </center>
+       </div>
+      
+       <div className="dolp">
+       <center>
+       <h2 className="header-name">Browse images</h2>
+       <img className="image-size" src="img/browseimg1.png"/>
+       <div className="description-p">
+       <p>Images are an important part of modern life. Pionux has applications that make it easy to browse, share, and enhance your photos.</p>
+       </div>
+       </center>
+       </div>
+
+
+       <div className="firefox">
+       <center>
+       <h2 className="header-name">Surf the Internet with Firefox</h2>
+       <img className="image-size" src="img/koompi.png"/>
+       <div className="description-p">
+      <p>Pionux comes with the award-winning Firefox web browser by default.</p>
+       </div>
+       </center>
+       </div>
+
+
+       <div className="vlc">
+       <center>
+       <h2 className="header-name">Multimedia made easy with Pionux
+ </h2>
+       <img className="image-size" src="img/vlc.png"/>
+       <div className="description-p">
+     <p>Pionux comes built-in with a music and a movie player that are simple to use.</p>
+       </div>
+       </center>
+       </div>
+
+
+       <div className="kontact">
+       <center>
+       <h2 className="header-name">Complete and professional office suite</h2>
+       <img className="image-size" src="img/office.png"/>
+       <div className="description-p">
+      <p>Create professional documents, spreadsheets and presentations with LibreOffice.
+        <br/>
+ LibreOffice is compatible with all office applications including Microsoft Office.</p>
+       </div>
+       </center>
+       </div>
+     </div>
     </React.Fragment>
-
-  );
+  ) 
 }
-
 module.exports = Index;

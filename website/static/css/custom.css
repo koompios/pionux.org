@@ -2,7 +2,13 @@
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (max-width: 1024px) {
+.Container{
+    display: none;
+}
+.feature-pc{
+    display: none;
+}
 }
 
 @media only screen and (max-width: 1023px) {
@@ -13,7 +19,13 @@
 
 @media only screen and (min-width: 1500px) {
 }
+@media only screen and (min-width:1025px){
+    .container-mobile{
+        display: none;
+    }
+}
 /*banner*/
+
 .Banner{
     background-image: url(../img/background.jpg);
     height: 70vh;
@@ -26,7 +38,12 @@
     color: #ffffff;
     text-transform: inherit;
     font-size: 40px;
+   font-family:Ubuntu,Arial,'libra sans',sans-serif;
+   font-weight: 450;
 }
+/* .bannerTitle h1{
+    font-family: 'Hind', sans-serif;
+} */
 .bannerContainer{
     padding-right: 37%;
     position: relative;
@@ -61,6 +78,7 @@
 }
 
 
+/*moblie*/
 
 .text-container {
   width: 40%;
@@ -104,10 +122,15 @@
     position: relative;
     padding: 9px;
 }
+.feature-pc{
+    background-color:#f1f1f1;
+    position: relative;
+    padding: 9px;
+}
 .feature h1{
     padding-top:69px;
 }
-/*office*/
+
 .office-main{
     width:95%;
     margin:auto;
@@ -134,7 +157,8 @@
 
 .header-name{
     font-size: 32px;
-    color: #444444;
+    /* color: #444444; */
+    color:#1a4f58;
 }
 
 .image-size{
@@ -157,21 +181,77 @@
 }
 
 .dolphin{
-    background-color:#f7eff2;
     padding: 10px;
 }
 .xpdf{
-    background-color: #fcf8f1;
+
     padding:10px;
 }
 .xpdf1{
     height: 50rem;
 }
 .firefox{
-    background-color:#e9edf0;
+
     padding:10px;
 }
 .kontact{
     padding: 10px;
-    background-color:#f6f5f9;
+
+}
+
+
+
+/*for PC*/
+@media only screen and (max-width:480px){
+    .bannerTitle{
+    padding-left: 0px;
+    text-transform: inherit;
+    text-align: left;
+    font-size: 20px !important;
+    }
+    .bannerContainer{
+        padding: 0;
+    }
+}
+.Container{
+    width: 80%;
+    margin:auto;
+}
+.all-feature{
+    display: grid;
+    grid-template-columns:  repeat(auto-fit, minmax(300px,1fr));
+    padding-top:120px;
+}
+.item-img img{
+    max-width: 80%;
+    box-shadow: 0px 0px 25px #888888;
+    border-radius: 5px;
+}
+.describe{
+    padding-left: 75px;
+    padding-top:62px;
+     font-weight: 300;
+    margin-top:12px;
+    color: #777777;
+    font-size: 16px;
+    font-family: Ubuntu,Arial,'libra sans',sans-serif;
+}
+.all-feature-office{
+    padding-bottom: 120px;
+}
+.nav-footer {
+    background: #1a4f58;
+}
+
+
+
+
+/*Header logo name*/
+.fixedHeaderContainer header .headerTitleWithLogo {
+    display: none;
+    font-size: 2.25em;
+    line-height: 18px;
+    margin: 0;
+    position: relative;
+    z-index: 9999;
 }

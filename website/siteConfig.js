@@ -21,7 +21,7 @@ const users = [
 ];
 
 const siteConfig = {
-  //title: 'Pionux', // Title for your website.
+  title: 'Pionux', // Title for your website.
   tagline: 'Pionux',
   url: 'https://pionux.org', // Your website URL
   baseUrl: '/', // Base URL for your project */
@@ -48,7 +48,7 @@ const siteConfig = {
     {doc: 'doc4', label: 'Tutorial'},
     // {page: 'help', label: 'Help'},
     // {blog: true, label: 'Blog'},
-    {doc:'doc9', label:'Github'},
+    {href:'https://github.com/', label:'Github'},
   ],
 
   // If you have users set above, you add it here:
@@ -61,8 +61,8 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#321653',
-    secondaryColor: '#321653',
+    primaryColor: '#1a4f58',
+    secondaryColor: '#1a4f58',
   },
 
   /* Custom fonts for website */
