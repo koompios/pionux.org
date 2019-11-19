@@ -1,13 +1,23 @@
 /* your custom css */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
 
 @media only screen and (max-width: 1024px) {
-.Container{
-    display: none;
+ .left-wallpaper img{
+        height: 125px !important;
+    }
+.middle-wallpaper img{
+    height: 125px !important;
 }
-.feature-pc{
-    display: none;
+.right-wallpaper img{
+    height: 125px !important;
+}
+.koompi-banner img{
+margin-top:220px;
+}
+.gallary-p{
+    margin-top:-78px
 }
 }
 
@@ -25,7 +35,9 @@
     }
 }
 /*banner*/
-
+body{
+    font-family: 'Roboto', sans-serif;
+}
 .Banner{
     background-image: url(../img/background.jpg);
     height: 70vh;
@@ -86,6 +98,9 @@
 }
 .text-container p{
     font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: 1.5;
+    margin: 1.5em 0;
 }
 @media only screen and (max-width:1060px){
     .text-container{
@@ -126,6 +141,7 @@
     background-color:#f1f1f1;
     position: relative;
     padding: 9px;
+    padding-bottom: 68px;
 }
 .feature h1{
     padding-top:69px;
@@ -156,9 +172,12 @@
 }
 
 .header-name{
-    font-size: 32px;
+    font-size: 60px;
     /* color: #444444; */
     color:#1a4f58;
+    font-weight: bold;
+    
+    
 }
 
 .image-size{
@@ -166,6 +185,71 @@
     box-shadow: 0px 0px 25px #888888;
     margin-top:31px;
     border-radius: 5px;
+}
+
+
+.margin-top-top{
+margin-top:-63px !important;
+}
+.button-downlaod {
+    position: relative;
+    width: 250px; height: 60px;
+    background:  #1a4f58;
+    margin: 0 auto;
+    /* margin-top: 40px; */
+    margin-top:16px;
+    overflow: hidden;
+    z-index: 1;
+    cursor: pointer;
+    transition: color .3s;
+    /* Typo */
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    border:none;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  .button-downlaod:after {
+    position: absolute;
+    top: 90%; left: 0;
+    width: 100%; height: 100%;
+    background: #14434b;
+    content: "";
+    z-index: -2;
+    transition: transform .3s;
+  }
+  
+  .button-downlaod:hover::after {
+    transform: translateY(-80%);
+    transition: transform .3s;
+  }
+
+.header-name-top{
+    font-size: 90px;
+    /* color: #444444; */
+    color:#1a4f58;
+    font-weight: 300;
+}
+.describe-top p{
+    color:black;
+    font-weight: 100;
+    font-size: 22px;
+    /* text-align: justify; */
+}
+.p-of-top p{
+padding-left: 214px;
+}
+
+.describe-top{
+    padding-left: 75px;
+    /* padding-top:62px; */
+     font-weight: 300;
+    margin-top:12px;
+    color: #777777;
+    font-size: 24px;
+    font-family: Ubuntu,Arial,'libra sans',sans-serif;
 }
 
 
@@ -228,12 +312,16 @@
     border-radius: 5px;
 }
 .describe{
-    padding-left: 75px;
+    /* padding-left: 75px;
     padding-top:62px;
      font-weight: 300;
     margin-top:12px;
     color: #777777;
-    font-size: 16px;
+    font-size:24px; */
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: 1.5;
+    margin: 1.5em 0;
     font-family: Ubuntu,Arial,'libra sans',sans-serif;
 }
 .all-feature-office{
@@ -241,6 +329,7 @@
 }
 .nav-footer {
     background: #1a4f58;
+    margin-top:-180px;
 }
 
 
@@ -258,4 +347,347 @@
 .fixedHeaderContainer{
     background-color: #1a4f58;
 
+}
+
+
+
+
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+      'header header header header header header' 
+      'left left middle middle right right' 
+      'footer footer footer footer footer footer';
+    /* grid-column-gap: 10px; - if you want gap between the columns */
+  } 
+
+
+  .left,
+.middle,
+.right {
+  /* padding: 10px; */
+  height: auto; /* Should be removed. Only for demonstration */
+}
+
+/* Style the left column */
+.left {
+  grid-area: left;
+}
+
+/* Style the middle column */
+.middle {
+  grid-area: middle;
+}
+
+/* Style the right column */
+.right {
+  grid-area: right;
+}
+
+/* Style the footer */
+
+
+@media (max-width: 600px) {
+    .grid-container  {
+      grid-template-areas: 
+        'header header header header header header' 
+        'left left left left left left' 
+        'middle middle middle middle middle middle' 
+        'right right right right right right' 
+        'footer footer footer footer footer footer';
+    }
+  }
+  .Container-secondComponent{
+      width: 61%;
+      margin: -62px auto;
+      padding-top:78px;
+  }
+  /* .background-color-secondComponent{
+    background-color:#f8f8f8;
+  } */
+  /* .thirdComponent-background-color{
+      background-color:white;
+  } */
+  .banner2Png{
+      margin-left:0px;
+      width:80%;
+  }
+  .item-letter-banner2{
+    width: 81%;
+    margin-top: 135px;
+  }
+  .image-lastComponent img{
+      width:35%;
+  }
+  .image-lastComponent h2{
+    font-size: 60px;
+    letter-spacing: -0.022em;
+    font-weight: bold;
+    line-height: 1.25;
+    margin: 0 0 0.5em 0;
+  }
+  .image-lastComponent p{
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: 1.5;
+    margin: 1.5em 0;
+    width: 86%;
+  }
+
+
+  .grid-containers {
+    display: grid;
+    grid-template-areas: 
+      'header header header header header header' 
+      'lefts lefts middles middles rights rights' 
+      'footer footer footer footer footer footer';
+    /* grid-column-gap: 10px; - if you want gap between the columns */
+  } 
+
+
+  .lefts,
+.middles,
+.rights {
+  padding: 10px;
+  height: auto; /* Should be removed. Only for demonstration */
+}
+
+/* Style the left column */
+.lefts {
+  grid-area: left;
+}
+
+/* Style the middle column */
+.middles {
+  grid-area: middle;
+}
+
+/* Style the right column */
+.rights {
+  grid-area: right;
+}
+
+/* Style the footer */
+
+
+@media (max-width: 600px) {
+    .grid-containers  {
+      grid-template-areas: 
+        'header header header header header header' 
+        'lefts lefts lefts lefts lefts lefts' 
+        'middles middles middles middles middles middles' 
+        'rights rights rights rights rights rights' 
+        'footer footer footer footer footer footer';
+    }
+  }
+
+  .Container-lastComponent{
+     margin: auto;
+     width:70%;
+  }
+  .visitBanner a{
+    color: #00aeff !important;
+    position: relative;
+    top:15px;
+    font-size: 24px;
+    font-weight: 800;
+    transition: 0.3s;
+  }
+  .visitBanner a:hover{
+      top:10px;
+  }
+
+
+  /* new design */
+
+.middle-logo img{
+    width: 242px;
+    margin-top:84px;
+}
+.right-wallpaper p{
+text-align:center;
+font-size: 21px;
+color: #1a4f58;
+}
+.right-wallpaper img{
+height: 211px;
+border-radius: 4px;
+box-shadow: 0px 0px 25px #888888;
+}
+.left-wallpaper img{
+    height: 211px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 25px #888888;
+}
+.left-wallpaper p{
+    text-align: center;
+    font-size: 21px;
+    color:  #1a4f58;
+}
+.middle-wallpaper img{
+    height: 211px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 25px #888888;
+}
+.middle-wallpaper p{
+    text-align: center;
+    font-size: 21px;
+    color: #1a4f58;
+}
+.middle-logo h1{
+    margin-top:9px;
+    font-weight: 300;
+    font-family: Ubuntu,Arial,'libra sans',sans-serif;
+    font-weight: 400;
+}
+.middle-logo p{
+    font-size: 18px;
+}
+.gallary-p p{
+    font-size: 18px;
+}
+.grid-containerr {
+    margin-top:29px;
+    display: grid;
+    grid-template-areas: 
+      'header header header header header header header header' 
+      'left left middle middle right right den den' 
+      'footer footer footer footer footer footer footer footer';
+    /* grid-column-gap: 10px; - if you want gap between the columns */
+  } 
+  .den,
+  .left,
+  .middle,
+  .right {
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Style the left column */
+  .left {
+    grid-area: left;
+  }
+  
+  /* Style the middle column */
+  .middle {
+    grid-area: middle;
+  }
+  
+  /* Style the right column */
+  .right {
+    grid-area: right;
+  }
+  .den{
+  grid-area:den;
+  }
+  
+  /* Style the footer */
+  .footer {
+    grid-area: footer;
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    .grid-containerr  {
+      grid-template-areas: 
+        'header header header header header header header header' 
+        'left left left left left left left left' 
+        'middle middle middle middle middle middle middle middle' 
+        'right right right right right right right right' 
+        'den den den den den den den den'
+        'footer footer footer footer footer footer footer footer';
+    }
+  }
+  .feature-icon img{
+      width: 73px;
+  }
+  .feature-icon h1{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .feature-icon p{
+      font-size: 16px;
+      font-family: 'Roboto', sans-serif;
+  }
+  .features{
+      margin-top:-36px;
+  }
+  .GallaryBtn{
+    margin-top:-31px;
+  }
+  .sponsor-koompi img{
+      width: 59%
+  }
+
+  .sponsor-smallworldVenture img{
+      width:59%;
+      margin-top:-41px;
+  }
+  .features h1{
+      font-weight: 400;
+      text-decoration: underline;
+  }
+  .grid-containerrr {
+    margin-top:-23px;
+    display: grid;
+    grid-template-areas: 
+      'header header header header header header header header' 
+      'left left middle middle right right den den' 
+      'footer footer footer footer footer footer footer footer';
+    /* grid-column-gap: 10px; - if you want gap between the columns */
+  } 
+  .den,
+  .left,
+  .middle,
+  .right {
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Style the left column */
+  .left {
+    grid-area: left;
+  }
+  
+  /* Style the middle column */
+  .middle {
+    grid-area: middle;
+  }
+  
+  /* Style the right column */
+  .right {
+    grid-area: right;
+  }
+  .den{
+  grid-area:den;
+  }
+  
+  /* Style the footer */
+  .footer {
+    grid-area: footer;
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    .grid-containerrr  {
+      grid-template-areas: 
+        'header header header header header header header header' 
+        'left left left left left left left left' 
+        'middle middle middle middle middle middle middle middle' 
+        'right right right right right right right right' 
+        'den den den den den den den den'
+        'footer footer footer footer footer footer footer footer';
+    }
 }

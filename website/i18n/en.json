@@ -3,11 +3,10 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "Pionux",
+    "tagline": "",
     "docs": {
-      "doc1": {
-        "title": "Documents",
-        "sidebar_label": "Example Page"
+      "about": {
+        "title": "About"
       },
       "doc2": {
         "title": "document number 2"
@@ -18,22 +17,36 @@
       "doc9": {
         "title": "This is Doc 9"
       },
-      "doc4": {
-        "title": "Tutorial"
+      "documentation": {
+        "title": "Documents",
+        "sidebar_label": "Example Page"
       },
       "doc5": {
         "title": "Fifth Document"
+      },
+      "installation": {
+        "title": "Installation",
+        "sidebar_label": "Example Page"
+      },
+      "News": {
+        "title": "News"
+      },
+      "tutorial": {
+        "title": "Tutorial"
       }
     },
     "links": {
-      "Docs": "Docs",
+      "News": "News",
+      "Documentation": "Documentation",
+      "Installation": "Installation",
       "Tutorial": "Tutorial",
-      "Github": "Github"
+      "About": "About"
     },
     "categories": {
       "Docusaurus": "Docusaurus",
       "First Category": "First Category",
-      "Second Category": "Second Category"
+      "Second Category": "Second Category",
+      "Second Catagory": "Second Catagory"
     }
   },
   "pages-strings": {

@@ -1,5 +1,5 @@
 ---
-id: doc1
+id: documentation
 title: Documents
 sidebar_label: Example Page
 ---
