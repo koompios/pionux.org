@@ -13,6 +13,9 @@
 .describe-top{
 padding-left: 0px !important;
 }
+.left.feature-icon{
+    margin-left:0px !important;
+}
 .header-name-top{
     font-size: 30px !important;
 }
