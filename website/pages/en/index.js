@@ -161,7 +161,7 @@ class HomeSplash extends React.Component {
       <div className="grid-containerrr Container-secondComponent ">
       <div class="left sponsor-koompi">
       <center>
-        <a href="#"><img src="img/Koompi-Black.png"/></a>
+        <a href="https://koompi.com/"><img src="img/Koompi-Black.png"/></a>
       </center>
       </div>
   {/* <div class="middle feature-icon" >

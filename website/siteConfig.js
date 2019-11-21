@@ -58,7 +58,7 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/Pionux.ico',
+  headerIcon: 'img/Pionux (2).svg',
   footerIcon: 'img/Pionux.ico',
   favicon: 'img/Pionux.ico',
 

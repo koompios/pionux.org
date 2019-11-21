@@ -1,11 +1,81 @@
 /* your custom css */
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+@media only screen and (max-device-width: 600px) {
+.koompi-banner img{
+        display: none;
+        }
+        /* .all-feature{
+            padding-top:35px !important;
+        } */
+        .all-feature.margin-top-top{
+            margin-top:11px !important;
+        }
+.describe-top{
+padding-left: 0px !important;
+}
+.header-name-top{
+    font-size: 30px !important;
+}
+.button-downlaod{
+   margin-left: 22px !important;
+}
+.middle-wallpaper{
+    margin-top:-95px !important;
+}
+.right-wallpaper{
+    margin-top:-95px !important;
+}
+.middle.feature-icon{
+    margin-top:-95px;
+}
+.right.feature-icon{
+    margin-top:-74px;
+}
+.den.feature-icon{
+    margin-top:-95px !important;
+}
+.left.sponsor-koompi{
+    margin-bottom:-238px;
+}
+
+
+/* .nav-footer{
+    margin-top:-124px !important;
+} */
+}
+
+@media only screen and (max-device-width: 736px) {
+.Container-secondComponent{
+    margin-top:30px !important;
+}
+.koompi-banner img{
+    display: none
+}
+.left.feature-icon{
+    margin-left:-20px;
+}
 }
 
 @media only screen and (max-width: 1024px) {
  .left-wallpaper img{
         height: 125px !important;
+    }
+    .describe-top{
+        padding-left: 0px !important;
+    }
+    .feature-pc{
+        padding-left: 0px !important;
+    }
+    .grid-containerrr.Container-secondComponent{
+        /* margin-top:34px; */
+        margin-bottom:-330px !important;
+    }
+    .sponsor{
+        margin-bottom: -237px !important;
+        margin-top:109px;
+    }
+    .feature-pc{
+        margin-top:-146px !important;
     }
 .middle-wallpaper img{
     height: 125px !important;
@@ -19,6 +89,19 @@ margin-top:220px;
 .gallary-p{
     margin-top:-78px
 }
+.Container-secondComponent{
+    padding-top:10px !important;
+}
+
+.sponsor-smallworldVenture img{
+    margin-top:-16px !important;
+}
+.middle-logo p{
+    margin-bottom: 70px !important;
+}
+/* .nav-footer{
+    margin-top:-250px !important;
+} */
 }
 
 @media only screen and (max-width: 1023px) {
@@ -30,9 +113,7 @@ margin-top:220px;
 @media only screen and (min-width: 1500px) {
 }
 @media only screen and (min-width:1025px){
-    .container-mobile{
-        display: none;
-    }
+
 }
 /*banner*/
 body{
@@ -73,12 +154,15 @@ body{
 }
 /*header logo*/
 .fixedHeaderContainer header .headerTitleWithLogo {
-    display: block;
+   display: block;
     font-size: 2.25em;
     line-height: 18px;
     margin: 0;
     position: relative;
     z-index: 9999;
+    font-weight: 400;
+    color:#0baada;
+    font-family: Ubuntu,Arial,'libra sans',sans-serif;
 }
 
 @keyframes rotate{
@@ -329,7 +413,7 @@ padding-left: 214px;
 }
 .nav-footer {
     background: #1a4f58;
-    margin-top:-180px;
+    /* margin-top:-180px; */
 }
 
 
@@ -337,7 +421,7 @@ padding-left: 214px;
 
 /*Header logo name*/
 .fixedHeaderContainer header .headerTitleWithLogo {
-    display: none;
+display: none;
     font-size: 2.25em;
     line-height: 18px;
     margin: 0;
@@ -621,9 +705,7 @@ box-shadow: 0px 0px 25px #888888;
   .features{
       margin-top:-36px;
   }
-  .GallaryBtn{
-    margin-top:-31px;
-  }
+ 
   .sponsor-koompi img{
       width: 59%
   }
@@ -639,6 +721,7 @@ box-shadow: 0px 0px 25px #888888;
   .grid-containerrr {
     margin-top:-23px;
     display: grid;
+    margin-bottom: -233px;
     grid-template-areas: 
       'header header header header header header header header' 
       'left left middle middle right right den den' 
@@ -678,6 +761,12 @@ box-shadow: 0px 0px 25px #888888;
     padding: 10px;
     text-align: center;
   }
+  .inner.GallaryBtn{
+      margin-top:-25px;
+  }
+  /* .homeContainer{
+      display: none
+  } */
   
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
   @media (max-width: 600px) {
@@ -691,3 +780,4 @@ box-shadow: 0px 0px 25px #888888;
         'footer footer footer footer footer footer footer footer';
     }
 }
+
