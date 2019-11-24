@@ -10,7 +10,6 @@ function HelloWorld() {
   const [count, setCount] =useState(1);
     const counHandle = () => {
       setCount(count+1);
-      console.log(setCount);
     }
    
   return (

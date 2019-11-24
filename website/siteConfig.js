@@ -49,7 +49,7 @@ const siteConfig = {
     {doc: 'installation', label: 'Installation'},
     {doc: 'tutorial', label: 'Tutorial'},
     {doc: 'about', label: 'About'},
-    {page:'hello-world', label:'Job'}
+    // {page:'helloworld', label:'Job'}
     // {page: 'help', label: 'Help'},
     // {blog: true, label: 'Blog'},
     // {href:'https://github.com/', label:'Github'},
