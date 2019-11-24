@@ -55,7 +55,7 @@ padding-left: 0px !important;
     display: none
 }
 .left.feature-icon{
-    margin-left:-20px;
+    margin-left:-41px;
 }
 }
 
@@ -65,6 +65,9 @@ padding-left: 0px !important;
     }
     .describe-top{
         padding-left: 0px !important;
+    }
+    .header-name-top{
+        font-size: 68px;
     }
     .feature-pc{
         padding-left: 0px !important;
@@ -88,6 +91,7 @@ padding-left: 0px !important;
 }
 .koompi-banner img{
 margin-top:220px;
+/* display: none; */
 }
 .gallary-p{
     margin-top:-78px
@@ -446,9 +450,9 @@ display: none;
 .grid-container {
     display: grid;
     grid-template-areas: 
-      'header header header header header header' 
+      /* 'header header header header header header'  */
       'left left middle middle right right' 
-      'footer footer footer footer footer footer';
+      /* 'footer footer footer footer footer footer'; */
     /* grid-column-gap: 10px; - if you want gap between the columns */
   } 
 
@@ -481,11 +485,11 @@ display: none;
 @media (max-width: 600px) {
     .grid-container  {
       grid-template-areas: 
-        'header header header header header header' 
+        /* 'header header header header header header'  */
         'left left left left left left' 
         'middle middle middle middle middle middle' 
         'right right right right right right' 
-        'footer footer footer footer footer footer';
+        /* 'footer footer footer footer footer footer'; */
     }
   }
   .Container-secondComponent{
@@ -706,7 +710,10 @@ box-shadow: 0px 0px 25px #888888;
       font-family: 'Roboto', sans-serif;
   }
   .features{
-      margin-top:-36px;
+      margin-top:-81px;
+  }
+  .sponsor{
+      margin-top:-81px;
   }
  
   .sponsor-koompi img{
