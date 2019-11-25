@@ -76,6 +76,7 @@ class HomeSplash extends React.Component {
       </div>
       </div>
 
+<div className="feature-backgroundcolor">
       <div>
         <center className="middle-logo">
           <img src="img/Pionux (2).svg"></img>
@@ -115,7 +116,7 @@ class HomeSplash extends React.Component {
           </PromoSection>
         </div>
       </SplashContainer>  
-
+      </div>
 </div>
 <br></br>
 <br></br>
