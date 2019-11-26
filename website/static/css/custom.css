@@ -88,10 +88,13 @@ padding-left: 0px !important;
     }
     .sponsor{
         margin-bottom: -237px !important;
-        margin-top:109px;
+        margin-top:146px !important;
     }
     .feature-pc{
         margin-top:-146px !important;
+    }
+    .features{
+        margin-top:-80px !important;
     }
 .middle-wallpaper img{
     height: 125px !important;
@@ -654,7 +657,7 @@ box-shadow: 0px 0px 25px #888888;
     font-size: 18px;
 }
 .grid-containerr {
-    margin-top:29px;
+    margin-top:-8px;
     display: grid;
     grid-template-areas: 
       'header header header header header header header header' 
