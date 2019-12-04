@@ -174,7 +174,7 @@ class HomeSplash extends React.Component {
   </div>   */}
   <div className="right sponsor-smallworldVenture ">
   <center  >
-   <a href="#"> <img src="img/smallworld.png"></img></a> 
+   <a href="https://smallworldventure.com/"> <img src="img/smallworld.png"></img></a> 
     </center>
   </div>
   {/* <div class="den feature-icon" >

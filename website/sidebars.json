@@ -1,11 +1,10 @@
 {
   "docs": {
-    "Docusaurus": ["documentation", "doc9"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
+    "Documentation": ["documentation", "package", "password","Pi","root"],
+    "Contribute":["contributer","Maintainer"]
   },
   "docs-other": {
-    "First Category": ["News", "doc5"],
-    "Second Catagory":["doc2"]
+    "Installation": ["installation"],
+    "Setup":["setup","filemanagement","keybaord","network","printer"]
   }
 }

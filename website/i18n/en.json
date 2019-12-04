@@ -8,6 +8,10 @@
       "about": {
         "title": "About"
       },
+      "contributer": {
+        "title": "Basic",
+        "sidebar_label": "Contributor"
+      },
       "doc2": {
         "title": "document number 2"
       },
@@ -18,18 +22,49 @@
         "title": "This is Doc 9"
       },
       "documentation": {
-        "title": "Documents",
-        "sidebar_label": "Example Page"
+        "title": "Basic",
+        "sidebar_label": "Command"
       },
       "doc5": {
         "title": "Fifth Document"
       },
+      "filemanagement": {
+        "title": "File Management"
+      },
       "installation": {
-        "title": "Installation",
-        "sidebar_label": "Example Page"
+        "title": "PionuxOs Installation",
+        "sidebar_label": "Installation"
+      },
+      "keybaord": {
+        "title": "Keybord"
+      },
+      "Maintainer": {
+        "title": "Maintainer guide"
+      },
+      "network": {
+        "title": "Network"
       },
       "News": {
         "title": "News"
+      },
+      "package": {
+        "title": "Package"
+      },
+      "password": {
+        "title": "Password"
+      },
+      "Pi": {
+        "title": "Pi or Pacman"
+      },
+      "printer": {
+        "title": "Printer"
+      },
+      "root": {
+        "title": "Root"
+      },
+      "setup": {
+        "title": "Bluetooth Setup",
+        "sidebar_label": "Bluetooth Setup"
       },
       "tutorial": {
         "title": "Tutorial"
@@ -43,10 +78,10 @@
       "About": "About"
     },
     "categories": {
-      "Docusaurus": "Docusaurus",
-      "First Category": "First Category",
-      "Second Category": "Second Category",
-      "Second Catagory": "Second Catagory"
+      "Documentation": "Documentation",
+      "Contribute": "Contribute",
+      "Installation": "Installation",
+      "Setup": "Setup"
     }
   },
   "pages-strings": {

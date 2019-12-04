@@ -1,21 +1,61 @@
 ---
 id: installation
-title: Installation
-sidebar_label: Example Page
+title: PionuxOs Installation
+sidebar_label: Installation
 ---
 
-Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
+This is the documentation on how to install PionuxOS to your laptop or PC and the installation on Virtualbox. Dual boot is also available for Pionux.
 
-## Lorem
+> Note: The process of installation is different is you are using KramaOS (v1) which is the Pionux (v1) because it is Ubuntu based. Reminder that Pionux is Arch based.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum massa eget nulla aliquet sagittis. Proin odio tortor, vulputate ut odio in, ultrices ultricies augue. Cras ornare ultrices lorem malesuada iaculis. Etiam sit amet libero tempor, pulvinar mauris sed, sollicitudin sapien.
+[//]: # (TODO: this is only the base. More will be added in the future.)
 
-## Mauris In Code
+[//]: # (TODO: Add Screenshots)
 
-```
-Mauris vestibulum ullamcorper nibh, ut semper purus pulvinar ut. Donec volutpat orci sit amet mauris malesuada, non pulvinar augue aliquam. Vestibulum ultricies at urna ut suscipit. Morbi iaculis, erat at imperdiet semper, ipsum nulla sodales erat, eget tincidunt justo dui quis justo. Pellentesque dictum bibendum diam at aliquet. Sed pulvinar, dolor quis finibus ornare, eros odio facilisis erat, eu rhoncus nunc dui sed ex. Nunc gravida dui massa, sed ornare arcu tincidunt sit amet. Maecenas efficitur sapien neque, a laoreet libero feugiat ut.
-```
+## How to install PionuxOS on your Laptop /PC
 
-## Nulla
+### Create a bootable UBS Key
 
-Nulla facilisi. Maecenas sodales nec purus eget posuere. Sed sapien quam, pretium a risus in, porttitor dapibus erat. Sed sit amet fringilla ipsum, eget iaculis augue. Integer sollicitudin tortor quis ultricies aliquam. Suspendisse fringilla nunc in tellus cursus, at placerat tellus scelerisque. Sed tempus elit a sollicitudin rhoncus. Nulla facilisi. Morbi nec dolor dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras et aliquet lectus. Pellentesque sit amet eros nisi. Quisque ac sapien in sapien congue accumsan. Nullam in posuere ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin lacinia leo a nibh fringilla pharetra.
+1.  Get a USB minimum of 4GB.
+2.  Install [Etcher](https://www.balena.io/etcher/).
+3.  Download the [ISO](https://kosmos.kramaos.org/kosmos).
+4.  Follow the instruction on the screen to create your bootable USB key.
+
+### Install the ISO to your machine
+
+1.  Plug the USB key to your machine.
+2.  Enter the BIOS of your machine.
+3.  Go to the tap `boot`.
+4.  Select the USB.
+5.  Press Enter.
+6.  Follow the instruction on the screen to install the OS.
+
+[//]: # (TODO: add screenshots)
+
+## How to install PionuxOS on VirtualBox
+
+1.  Install VirtualBox to your machine. This is a open source software. [Download](https://www.virtualbox.org/wiki/Downloads)
+
+2.  Download the [ISO](https://kosmos.kramaos.org/kosmos).
+   
+3.  Select `New` .
+
+4.  Follow the instruction to create your VitrualMachine(VM).
+
+5.  Start the Machine.
+
+6.  Go to your folder and select where you saved your ISO.
+
+7.  Follow the instruction to install the OS to your VirtualMachine.
+
+> Minimum requirement:
+
+[//]: # ( TODO: check)
+
+## Resources
+
+### YouTube
+
+-   [Koompi - Installation on VirtualBox](https://www.youtube.com/watch?v=CtsfNA1mlA8&t=1s)
+
+-   [How to Set up KramaOs on Oracle VM VirtualBox](https://www.youtube.com/watch?v=c-KuY5HY-tQ)
