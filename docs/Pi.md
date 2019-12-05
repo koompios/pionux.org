@@ -1,6 +1,7 @@
 ---
 id: Pi
 title: Pi or Pacman
+sidebar_label: Pi or Pacman
 ---
 
 The **`pi`** which is the shortcut formation of **`pacman`** is one of the majority features of our System. It is a combination of simple binary package manager with easy-open-source-to-use build system.

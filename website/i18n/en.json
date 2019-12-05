@@ -22,8 +22,8 @@
         "title": "This is Doc 9"
       },
       "documentation": {
-        "title": "Basic",
-        "sidebar_label": "Command"
+        "title": "Basic Commands in Pionux",
+        "sidebar_label": "Commands"
       },
       "doc5": {
         "title": "Fifth Document"
@@ -48,13 +48,15 @@
         "title": "News"
       },
       "package": {
-        "title": "Package"
+        "title": "Listing Packages",
+        "sidebar_label": "Packages"
       },
       "password": {
         "title": "Password"
       },
       "Pi": {
-        "title": "Pi or Pacman"
+        "title": "Pi or Pacman",
+        "sidebar_label": "Pi"
       },
       "printer": {
         "title": "Printer"

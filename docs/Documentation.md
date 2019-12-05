@@ -1,12 +1,10 @@
 ---
 id: documentation
-title: Basic
-sidebar_label: Command
+title: Basic Commands in Pionux
+sidebar_label: Commands
 ---
 
-# Basic Commands in Pionux
-
-> Noted: To do all these basic commands below, you must be in the terminal:
+> Noted: To do all  basic commands below, you must be in the terminal:
 
 To show the directory you are currently in:
 
@@ -89,7 +87,7 @@ To delete directory or files, "rm" it is:
 ```
 
 > Tips : Not Strongly Recommended.
->
+
 > Warning : Not only empty directory or file, but also everything!!!
 
 If you cant't delete, you can use command below to force remove:
@@ -108,7 +106,7 @@ Need some help with commands, this would be useful:
 Output :
 ```
 cd: cd [-L|[-P [-e]] [-@]] [dir]
-    Change the shell working directory.
+    Change shell working directory.
     
     Change the current directory to DIR.  The default DIR is the value 
     HOME shell variable.
@@ -177,7 +175,7 @@ If you want to search for the locateion of the file, you can use **locate**:
 ```command
     $ locate <file_name>
 ```
-## Intermediate Commands in Pionux
+# Intermediate Commands in Pionux
 
 - The **echo** command helps us move some data, usually text into file.For example, if you want to create a new text file or add to an already made text file, you just need to type in, **“echo Hello, This is Pionux. >> new.txt”**.
 
@@ -277,6 +275,6 @@ The following example is the WORD grep where it is searching only for the word �
     And this is the last line
 ```
 
-If you need any further assistance please contact our support department.
+If you need any further assistance please [contact]() our support department.
 
 ----

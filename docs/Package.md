@@ -1,10 +1,9 @@
 ---
 id: package
-title: Package
+title: Listing Packages
+sidebar_label: Packages
 ---
 
-## Listing Packages
-----
 You may want to get the list of installed packages with their version, which is useful when reporting bugs or discussing installed packages.
 
 - List all explicitly installed packages: `pi -Qe`.
