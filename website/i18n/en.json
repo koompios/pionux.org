@@ -10,7 +10,7 @@
       },
       "contributer": {
         "title": "Basic",
-        "sidebar_label": "Contributor"
+        "sidebar_label": "Contributors"
       },
       "doc2": {
         "title": "document number 2"
@@ -22,8 +22,8 @@
         "title": "This is Doc 9"
       },
       "documentation": {
-        "title": "Basic Commands in Pionux",
-        "sidebar_label": "Commands"
+        "title": "PionuxOS Infomations",
+        "sidebar_label": "PionuxOS Info"
       },
       "doc5": {
         "title": "Fifth Document"
@@ -32,14 +32,15 @@
         "title": "File Management"
       },
       "installation": {
-        "title": "PionuxOs Installation",
-        "sidebar_label": "Installation"
+        "title": "Application Installation",
+        "sidebar_label": "Info of Applications Installation"
       },
       "keybaord": {
         "title": "Keybord"
       },
       "Maintainer": {
-        "title": "Maintainer guide"
+        "title": "Process on how to update/add documentation",
+        "sidebar_label": "Maintainers"
       },
       "network": {
         "title": "Network"
@@ -47,22 +48,16 @@
       "News": {
         "title": "News"
       },
-      "package": {
-        "title": "Listing Packages",
-        "sidebar_label": "Packages"
+      "Guide-line": {
+        "title": "PionuxOS Info",
+        "sidebar_label": "PionuxOS Info"
       },
-      "password": {
-        "title": "Password"
-      },
-      "Pi": {
-        "title": "Pi or Pacman",
-        "sidebar_label": "Pi"
+      "pionux-OS": {
+        "title": "Installation of PionuxOS",
+        "sidebar_label": "Info of PionuxOS Installation"
       },
       "printer": {
         "title": "Printer"
-      },
-      "root": {
-        "title": "Root"
       },
       "setup": {
         "title": "Bluetooth Setup",
@@ -75,14 +70,15 @@
     "links": {
       "News": "News",
       "Documentation": "Documentation",
-      "Installation": "Installation",
+      "PionuxOS": "PionuxOS",
       "Tutorial": "Tutorial",
       "About": "About"
     },
     "categories": {
-      "Documentation": "Documentation",
-      "Contribute": "Contribute",
-      "Installation": "Installation",
+      "Installation of PionuxOS": "Installation of PionuxOS",
+      "PionuxOS Informations": "PionuxOS Informations",
+      "Support": "Support",
+      "PionuxOs Informations": "PionuxOs Informations",
       "Setup": "Setup"
     }
   },

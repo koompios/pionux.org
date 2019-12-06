@@ -46,7 +46,7 @@ const siteConfig = {
   headerLinks: [ 
     {doc: 'News', label: 'News'},
     {doc: 'documentation', label: 'Documentation'},
-    {doc: 'installation', label: 'Installation'},
+    {doc: 'Guide-line', label: 'PionuxOS'},
     {doc: 'tutorial', label: 'Tutorial'},
     {doc: 'about', label: 'About'},
     // {page:'helloworld', label:'Job'}

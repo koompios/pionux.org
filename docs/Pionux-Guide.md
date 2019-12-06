@@ -1,6 +1,6 @@
 ---
-id: documentation
-title: PionuxOS Infomations
+id: Guide-line
+title: PionuxOS Info
 sidebar_label: PionuxOS Info
 ---
 ---
