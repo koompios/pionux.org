@@ -67,7 +67,7 @@ class HomeSplash extends React.Component {
          {/* <h1>Pionux os</h1> */}
       <h2 className="header-name-top">Pionux OS</h2>
       <p>Pionux is an open source and free software operating system build around Linux kernel. You can customize everything on Pionux that you want.</p>
-      <a href="https://repo.pionux.org/iso/x86_64/"><button className="button-downlaod">Download</button></a>
+      <a href="https://repo.pionux.org/iso/x86_64/koompi-os-v2.1.3-x86_64.iso "><button className="button-downlaod">Download</button></a>
       </div>
       </div>
       <center className="koompi-banner">
