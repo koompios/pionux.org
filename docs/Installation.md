@@ -1,9 +1,9 @@
 ---
 id: installation
-title: PionuxOs Installation
-sidebar_label: Installation
+title: Application Installation 
+sidebar_label: Info of Applications Installation
 ---
-
+---
 This is the documentation on how to install PionuxOS to your laptop or PC and the installation on Virtualbox. Dual boot is also available for Pionux.
 
 > Note: The process of installation is different is you are using KramaOS (v1) which is the Pionux (v1) because it is Ubuntu based. Reminder that Pionux is Arch based.

@@ -1,9 +1,10 @@
 ---
 id: Maintainer
-title: Maintainer guide
+sidebar_label: Maintainers
+title: Process on how to update/add documentation
+---
 ---
 
-## Process on how to update/add documentation
 This way, we determine clearly what we are working on without stepping on each other's toes.
 If there's something unclear to you please let me know or feedback on the process.
 
@@ -14,11 +15,11 @@ If there's something unclear to you please let me know or feedback on the proces
 3.  Create PR (Pull request). Try to make it small.
 By having a PR, it is easier for contributors of this project to follow-up with each other’s task. Be clear about what you have changes in the PRs description, it will be easier in the future to have a history of the work. PRs will help each other’s for improvement and by giving comment to make the task done.
 
-    *  Bong Rithy and others will be reviewing the PR by giving comments.
+    *  Rithy Thul and others will be reviewing the PR by giving comments.
     *  Developer updates the PR based on the comments.
-    *  Team review again. Once the PR is approved, the docs updated do not need to be touched until the team decides to. Bong Rithy will make the final call, put as required reviewer (minimum of 2, ideally one of them could be bong Brilliant or bong Rithy) for the PR.
+    *  Team review again. Once the PR is approved, the docs updated do not need to be touched until the team decides to. Rithy Thul will make the final call, put as required reviewer (minimum of 2, ideally one of them could be Mrs. Brilliant or Rithy Thul) for the PR.
 
-**Task**: Before starting a new task, check frequently the project board. This tools is a great way to check colleague work and not wasting time. If a contributor has an idea for documentation. Add it in the backlog items with proper description it will be addressed later.
+>**Task**: Before starting a new task, check frequently the project board. This tools is a great way to check colleague work and not wasting time. If a contributor has an idea for documentation. Add it in the backlog items with proper description it will be addressed later.
 
 It way seems difficult with practice it will be easier.
 

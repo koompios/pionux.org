@@ -1,10 +1,15 @@
 {
   "docs": {
-    "Documentation": ["documentation", "package", "password","Pi","root"],
-    "Contribute":["contributer","Maintainer"]
+    "Installation of PionuxOS": ["installation","pionux-OS"],
+    "PionuxOS Informations": ["documentation"],
+    "Support":["contributer","Maintainer"]
+    
   },
-  "docs-other": {
-    "Installation": ["installation"],
+  "docs-1":{
+    "PionuxOs Informations":["Guide-line"]
+  },
+
+  "docs-3": {
     "Setup":["setup","filemanagement","keybaord","network","printer"]
   }
 }
