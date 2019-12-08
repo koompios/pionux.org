@@ -711,7 +711,7 @@ getpkgbuild specific options:
     -f --force            # Force download for existing tar packages
 ```
 
-Developed by @LyhourChhen
+Contributed by @LyhourChhen
 
 ## Root Info In PionuxOS
 

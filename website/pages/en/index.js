@@ -65,7 +65,7 @@ class HomeSplash extends React.Component {
       <div className="item-letter">
       <div className="describe-top">
          {/* <h1>Pionux os</h1> */}
-      <h2 className="header-name-top">Pionux OS</h2>
+      <h2 className="header-name-top">PionuxOS</h2>
       <p>Pionux is an open source and free software operating system build around Linux kernel. You can customize everything on Pionux that you want.</p>
       <a href="https://repo.pionux.org/iso/x86_64/koompi-os-v2.1.3-x86_64.iso "><button className="button-downlaod">Download</button></a>
       </div>
@@ -81,7 +81,7 @@ class HomeSplash extends React.Component {
         <center className="middle-logo">
           <img src="img/Pionux (2).svg"></img>
           <h1>A Lean KDE Distribution.</h1>
-          <p>Pionux OS is an independent distribution <br></br>focused on Qt and KDE.</p>
+          <p>PionuxOS is an independent distribution <br></br>focused on Qt and KDE.</p>
         </center>
       </div>
 
@@ -122,7 +122,7 @@ class HomeSplash extends React.Component {
 <br></br>
 <div className="features">
 <center>
-  <h1>Feature</h1>
+  <h1>Features</h1>
 </center>
       <div className="grid-containerr Container-secondComponent ">
       <div class="left feature-icon">
