@@ -44,11 +44,11 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [ 
-    {doc: 'News', label: 'News'},
+    // {doc: 'News', label: 'News'},
     {doc: 'documentation', label: 'Documentation'},
     {doc: 'Guide-line', label: 'PionuxOS'},
-    {doc: 'tutorial', label: 'Tutorial'},
-    {doc: 'about', label: 'About'},
+    // {doc: 'tutorial', label: 'Tutorial'},
+    // {doc: 'about', label: 'About'},
     // {page:'helloworld', label:'Job'}
     // {page: 'help', label: 'Help'},
     // {blog: true, label: 'Blog'},
