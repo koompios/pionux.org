@@ -72,11 +72,8 @@
       }
     },
     "links": {
-      "News": "News",
       "Documentation": "Documentation",
-      "PionuxOS": "PionuxOS",
-      "Tutorial": "Tutorial",
-      "About": "About"
+      "PionuxOS": "PionuxOS"
     },
     "categories": {
       "Installation of PionuxOS": "Installation of PionuxOS",
