@@ -46,9 +46,6 @@
         "title": "Process on how to update/add documentation",
         "sidebar_label": "Maintainers"
       },
-      "network": {
-        "title": "Network"
-      },
       "News": {
         "title": "News"
       },
@@ -60,27 +57,29 @@
         "title": "Installation of PionuxOS",
         "sidebar_label": "Info of PionuxOS Installation"
       },
-      "printer": {
-        "title": "Printer"
+      "version": {
+        "title": "Version",
+        "sidebar_label": "Version"
       },
       "setup": {
         "title": "Bluetooth Setup",
         "sidebar_label": "Bluetooth Setup"
       },
       "tutorial": {
-        "title": "tutorial"
+        "title": "Tutorial",
+        "sidebar_label": "Setup"
       }
     },
     "links": {
       "Documentation": "Documentation",
-      "PionuxOS": "PionuxOS"
+      "PionuxOS": "PionuxOS",
+      "Tutorial": "Tutorial"
     },
     "categories": {
       "Installation of PionuxOS": "Installation of PionuxOS",
       "PionuxOS Informations": "PionuxOS Informations",
       "Support": "Support",
-      "PionuxOs Informations": "PionuxOs Informations",
-      "Setup": "Setup"
+      "Turorial": "Turorial"
     }
   },
   "pages-strings": {

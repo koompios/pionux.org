@@ -6,10 +6,10 @@
     
   },
   "docs-1":{
-    "PionuxOs Informations":["Guide-line"]
+    "PionuxOS Informations":["Guide-line","version"]
   },
-
-  "docs-3": {
-    "Setup":["setup","filemanagement","keybaord","network","printer"]
+  "docs-2":{
+    "Turorial":["tutorial"]
   }
+
 }

@@ -47,7 +47,7 @@ const siteConfig = {
     // {doc: 'News', label: 'News'},
     {doc: 'documentation', label: 'Documentation'},
     {doc: 'Guide-line', label: 'PionuxOS'},
-    // {doc: 'tutorial', label: 'Tutorial'},
+    {doc: 'tutorial', label: 'Tutorial'},
     // {doc: 'about', label: 'About'},
     // {page:'helloworld', label:'Job'}
     // {page: 'help', label: 'Help'},

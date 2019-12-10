@@ -1,17 +1,14 @@
 ---
 id: tutorial
-# title: Tutorial
+title: Tutorial
+sidebar_label: Setup
 ---
-<!-- 
-this is tutorial
-Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
+---
+## Resources
 
-## Lorem
+### YouTube
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum massa eget nulla aliquet sagittis. Proin odio tortor, vulputate ut odio in, ultrices ultricies augue. Cras ornare ultrices lorem malesuada iaculis. Etiam sit amet libero tempor, pulvinar mauris sed, sollicitudin sapien.
+-   [Koompi - Installation on VirtualBox](https://www.youtube.com/watch?v=CtsfNA1mlA8&t=1s)
 
-## Mauris In Code
+-   [How to Set up KramaOs on Oracle VM VirtualBox](https://www.youtube.com/watch?v=c-KuY5HY-tQ)
 
-```
-Mauris vestibulum ullamcorper nibh, ut semper purus pulvinar ut. Donec volutpat orci sit amet mauris malesuada, non pulvinar augue aliquam. Vestibulum ultricies at urna ut suscipit. Morbi iaculis, erat at imperdiet semper, ipsum nulla sodales erat, eget tincidunt justo dui quis justo. Pellentesque dictum bibendum diam at aliquet. Sed pulvinar, dolor quis finibus ornare, eros odio facilisis erat, eu rhoncus nunc dui sed ex. Nunc gravida dui massa, sed ornare arcu tincidunt sit amet. Maecenas efficitur sapien neque, a laoreet libero feugiat ut.
-``` -->
