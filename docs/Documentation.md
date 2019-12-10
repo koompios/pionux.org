@@ -4,7 +4,7 @@ title: PionuxOS Infomations
 sidebar_label: PionuxOS Info
 ---
 ---
-## Basic Commands in PionuxOS
+## Basic Commands 
 > **Noted**: To do all  basic commands below, you must be in the terminal:
 
 To show the directory you are currently in:
@@ -176,7 +176,7 @@ If you want to search for the locateion of the file, you can use **locate**:
 ```command
     $ locate <file_name>
 ```
-## Intermediate Commands in PionuxOS
+## Intermediate Commands 
 
 - The **echo** command helps us move some data, usually text into file.For example, if you want to create a new text file or add to an already made text file, you just need to type in, **“echo Hello, This is Pionux. >> new.txt”**.
 
@@ -277,7 +277,7 @@ The following example is the WORD grep where it is searching only for the word �
 ```
 >**Tips**: If you need any further assistance please [contact]() our support department.
 
-## Packages Info in PionuxOS
+## Packages Info 
 
 #### Listing Packages
 You may want to get the list of installed packages with their version, which is useful when reporting bugs or discussing installed packages.
@@ -323,7 +323,7 @@ To reinstall all native packages, use:
 ```shell
     # pi -Qqn | pi -S -
 ```
-## Password Info in PionuxOS
+## Password Info 
 > - How do I set or change Pionux system password for any user account?
 > - How can I change user password on Pionux operating system using the command-line options?
 
@@ -395,7 +395,7 @@ The passwd command line utility is used to update or change user’s password. T
     $ cat /etc/passwd
     $ grep '^userNameHere' /etc/passwd
 ```
-## Pi Info in PionuxOS
+## Pi Info
 #### What is Pi?
 The **`pi`** which is the shortcut formation of **`pacman`** is one of the majority features of our System. It is a combination of simple binary package manager with easy-open-source-to-use build system.
 
@@ -713,7 +713,7 @@ getpkgbuild specific options:
 
 Contributed by @LyhourChhen
 
-## Root Info In PionuxOS
+## Root Info
 
 The **root** account on a Pionux computer is the account with full privileges. Root access is often necessary for performing commands in PionuxOS, especially commands that affect system files. Because root is so powerful, it's recommended to only request root access when necessary, as opposed to logging in as the root user. This can help prevent accidental damage to important system files.
 
