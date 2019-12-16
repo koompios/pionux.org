@@ -1,12 +1,11 @@
 {
   "docs": {
-    "Installation of PionuxOS": ["installation","pionux-OS"],
-    "PionuxOS Informations": ["documentation"],
-    "Support":["contributer","Maintainer","FAQs"]
+    "PionuxOS Informations": ["documentation","installation","pionux-OS"],
+    "Support":["contributer","Maintainer","FAQs","Community"]
     
   },
   "docs-1":{
-    "PionuxOS Informations":["Guide-line","version"]
+    "PionuxOS Informations":["applications-list","Guide-line","version"]
   },
   "docs-2":{
     "Turorial":["tutorial"]

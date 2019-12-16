@@ -1,7 +1,7 @@
 ---
 id: Guide-line
 title: PionuxOS Info
-sidebar_label: PionuxOS Info
+sidebar_label: PionuxOS
 ---
 ---
 ## Basic Commands in PionuxOS

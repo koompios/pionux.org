@@ -8,6 +8,10 @@
       "about": {
         "title": "About"
       },
+      "applications-list": {
+        "title": "Applications Docs",
+        "sidebar_label": "Applications"
+      },
       "contributer": {
         "title": "Basic",
         "sidebar_label": "Contributors"
@@ -37,29 +41,29 @@
       },
       "installation": {
         "title": "Application Installation",
-        "sidebar_label": "Info of Applications Installation"
+        "sidebar_label": "Info of Applications"
       },
       "keybaord": {
         "title": "Keybord"
       },
       "Maintainer": {
-        "title": "Process on how to update/add documentation",
-        "sidebar_label": "Maintainers"
+        "title": "Our Community",
+        "sidebar_label": "Community"
       },
       "News": {
         "title": "News"
       },
       "Guide-line": {
         "title": "PionuxOS Info",
-        "sidebar_label": "PionuxOS Info"
+        "sidebar_label": "PionuxOS"
       },
       "pionux-OS": {
         "title": "Installation of PionuxOS",
-        "sidebar_label": "Info of PionuxOS Installation"
+        "sidebar_label": "Info of PionuxOS"
       },
       "version": {
-        "title": "Version",
-        "sidebar_label": "Version"
+        "title": "Versions",
+        "sidebar_label": "Versions"
       },
       "setup": {
         "title": "Bluetooth Setup",
@@ -76,7 +80,6 @@
       "Tutorial": "Tutorial"
     },
     "categories": {
-      "Installation of PionuxOS": "Installation of PionuxOS",
       "PionuxOS Informations": "PionuxOS Informations",
       "Support": "Support",
       "Turorial": "Turorial"
