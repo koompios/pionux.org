@@ -16,16 +16,6 @@ Kosmos is the **Old version** of PionuxOS which is customize and self-Customizab
 
 [Pionux](https://pionux.org/) is a fully customized and self-customizable Cambodia based open-source operating system software solution for up and coming engineers, inventors, organizers, developers and basically free thinkers in a modern-day post-Microsoft world.
 
-## Why would I not choose PionuxOS?
-
-You may want to use it:
-- you do not have the ability/time/desire for a 'do-it-yourself' GNU/Linux distribution.
-- you require support for an architecture other than x86_64.
-- you take a strong stand on using a distribution which only provides free software as defined by GNU.
-- you believe an operating system should configure itself, run out of the box, and include a complete   default set of software and desktop environment on the installation media.
-- you do not want a rolling release GNU/Linux distribution.
-- you are happy with your current OS.
-
 ## How can I install PionuxOS?
 
 ## What is different between Pionux and Linux?
@@ -40,8 +30,6 @@ Pinoux is the fully customized and self-customizable which make it more special 
 
 PionuxOS releases are simply a live environment for installation or rescue, which include the base meta package and a few other packages. The releases will be let everyone know through [here](../README.md##Resources).
 
-## Why is Pionux using all my RAM?
-## Dose PionuxOs have Documents?
 ## The Packages update was released, but pi says system is up to date!
 ## How to upgrade or update system?
 
