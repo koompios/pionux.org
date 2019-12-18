@@ -52,9 +52,6 @@
         "title": "The revolution of our OS(Operating System)",
         "sidebar_label": "Version"
       },
-      "Report": {
-        "title": "Report"
-      },
       "Set-up": {
         "title": "Input/Output",
         "sidebar_label": "Setup"
@@ -64,8 +61,12 @@
         "sidebar_label": "Troubleshooting"
       },
       "tutorial": {
-        "title": "Tutorial",
-        "sidebar_label": "Setup"
+        "title": "Desktop OS Installation",
+        "sidebar_label": "Desktop Operating System"
+      },
+      "tutorial1": {
+        "title": "Mobile OS Installation",
+        "sidebar_label": "Mobile Operating System"
       }
     },
     "links": {
@@ -76,7 +77,8 @@
     "categories": {
       "PionuxOS Informations": "PionuxOS Informations",
       "Support": "Support",
-      "Turorial": "Turorial"
+      "Desktop Operating System": "Desktop Operating System",
+      "Mobile Operating System": "Mobile Operating System"
     }
   },
   "pages-strings": {

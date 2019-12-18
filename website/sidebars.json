@@ -8,7 +8,9 @@
     "PionuxOS Informations":["applications-list","Guide-line","Set-up","version"]
   },
   "docs-2":{
-    "Turorial":["tutorial"]
+    "Desktop Operating System":["tutorial"],
+    "Mobile Operating System":["tutorial1"]
+
   }
 
 }
