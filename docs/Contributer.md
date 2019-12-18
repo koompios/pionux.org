@@ -19,9 +19,9 @@ If you haven't found your answer to your issue. Feel free to create an issue on 
 ## Creating 
 
 Ensure you understand the philosophy of Pionux and think about what others may want to read.As mentioned, the wiki's scope is quite wide.
-### Feature request
+#### Feature request
 New features are welcome. Before, take a moment to find out if a similar request have been made and if it's fit within our project. Once it meets our scope, please provide as many details as you can.
-### Pull request
+#### Pull request
 We prefer small pull request (PR) with minimal code change. Smaller pull request (PRs) are easy to review and merge. A team member will pick it up and review it as soon as they can. Please don't feel offender if they reject or ask for changes in your PR. 
 
 For more details Talk to the maintainers for help coordinating major projects.
