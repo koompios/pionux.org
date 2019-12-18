@@ -3,12 +3,29 @@ id: installation
 title: Application Installation 
 sidebar_label: Info of Applications
 ---
-## Coding
+
+> **Tips**:Down here are all the application that you can install in PionuxOS. It is all open-source apps. You can install them through commands or through snap store.
+
+## Code Editors
 #### Atom
 Atom is a free and open-source text and source code editor for macOS, Linux, and Microsoft Windows with support for plug-ins written in Node. js, and embedded Git Control, developed by GitHub. Atom is a desktop application built using web technologies.
+You can install atom by go into **Terminal**, type this:
+```Text
+     $ pi -S atom
+```
+After that follow the instruction.
 
 #### Visual Studio Code
 Visual Studio Code is a source-code editor developed by Microsoft which includes support for debugging, embedded Git control and GitHub, syntax highlighting, intelligent code completion, snippets, and code refactoring. It is highly customizable, allowing users to change the theme, keyboard shortcuts, preferences, and install extensions that add additional functionality.
+First update the pi package repository cache with the following command:
+```Text
+    $ pi -Sy
+```
+After it updated
+Use this command
+```Text
+    $ pi -S code --classic
+```
 
 
 ## Web Browser
@@ -37,27 +54,52 @@ In order to install it use these command
     3. And it would ask for your permission 'Enter' for 'Yes'
 ```
 
-## Input/Output
-#### Bluetooth
-#### Font
-#### KeyBoard
-#### Network
-#### Printer
+#### Git
+Git is the version control system (VCS) designed and developed by Linus Torvalds, the creator of the Linux kernel. Git is now used to maintain AUR packages, as well as many other projects, including sources for the Linux kernel.
+
+You can install git through this line:
+```Text
+    $ pi -S git
+```
 
 ## Editors
 #### Krita
-Krita is a raster graphics editor designed primarily for digital painting and animation. It is a fast,flexible, and free Photoshop alternative built by artists and perfect for everyone from amateur to professional. Krita gives budding artists and illustrators a pro-level set of tools with a natural painting toolbox.
+[Krita](https://docs.krita.org/en/index.html) is a raster graphics editor designed primarily for digital painting and animation. It is a fast,flexible, and free Photoshop alternative built by artists and perfect for everyone from amateur to professional. Krita gives budding artists and illustrators a pro-level set of tools with a natural painting toolbox.
 
+``` 
+    $ pi -S krita
+```
 #### Kdenlive
 Kdenlive is a non-linear video editing software featuring multi-track editing with a timeline. It supports an unlimited number of video and audio tracks and includes tools to create, move, crop and delete video, audio, text and image clips. Kdenlive has a built-in title editor and the ability to add custom effects and transitions.
-
+```
+    $ pi -S kdenlive
+```
 #### KMPlayer
 KMPlayer is a highly customizable multimedia software providing high-quality video playback of media files with much more additional functionality. KMPlayer recognizes a large number of file formats, is able to capture videos from online sources and allows users to make animated GIFs.
-
+```
+    $ pi -S kmplayer
+```
 ## Software
 #### Gnome
 GNOME Software utility for software application installations and updates. The Software Center allows for easy installations and updates of software applications and system extensions.
-
+First of all, make sure you have updated your PionuxOS system.
+```Text
+    $ sudo pacman -Syu
+```
+After updating, reboot Arch Linux to apply the latest updates.
+```Text
+    $ sudo reboot
+```
+Next, Install X Window System (xorg) using command:
+```Text
+    $ sudo pacman -S xorg xorg-server
+```
+Finally, install GNOME Desktop environment using command:
+```Text
+    $ sudo pacman -S gnome
+```
+This command will install all required applications including the gnome display manager for the GNOME desktip environment.
+For more info [Click here]().
 ## WordSheets
 #### Apache OpenOffice
 Apache OpenOffice is an office productivity software suite containing a word processor (Writer), a spreadsheet (Calc), a presentation application (Impress), a drawing application (Draw), a formula editor (Math), and a database management application (Base). It's default file format is the OpenDocument Format (ODF), and can also read and write a wide variety of other file formats, including those from Microsoft Office.
@@ -68,8 +110,25 @@ Apache OpenOffice is an office productivity software suite containing a word pro
 Office 365 is a cloud-based subscription service that brings together the best tools for the way people work today. Combining the best-in-class apps like Excel and Outlook with cloud services like OneDrive and Microsoft Teams, Office 365 lets anyone create and share anywhere on any device.
 
 ## Others
+#### Snap Store
+Snaps are applications packaged with all their dependencies to run on all popular Linux distributions from a single build. They update automatically and roll back gracefully.
+
+Snaps are discoverable and installable from the Snap Store, an app store with an audience of millions.
+```Text 
+    1. $ git clone https://aur.archlinux.org/snapd.git
+    2. $ cd snapd
+    3. $ makepkg -si
+    4. $ sudo systemctl enable --now snapd.socket
+    5. $ sudo ln -s /var/lib/snapd/snap /snap
+    6. $ sudo snap install snap-store
+```
+Make sure you have download git [Click here](http://localhost:3030/docs/installation#git)
 #### Guvcview
 Guvcview is a webcam application at providing a simple interface for capturing and viewing video from v4l2 devices.
+Here the command:
+```Text
+    $ pi -S guvcview
+```
 
 #### Popcorn Time
 Popcorn Time is a multi-platform, free software BitTorrent client that includes an integrated media player. Popcorn Time provide a free "alternative" to subscription-based video streaming services such as Netflix.

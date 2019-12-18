@@ -13,8 +13,8 @@
         "sidebar_label": "Applications"
       },
       "contributer": {
-        "title": "Basic",
-        "sidebar_label": "Contributors"
+        "title": "Learn more about Contributing",
+        "sidebar_label": "Contributing"
       },
       "doc2": {
         "title": "document number 2"
@@ -29,45 +29,39 @@
         "title": "PionuxOS Infomations",
         "sidebar_label": "PionuxOS Info"
       },
-      "doc5": {
-        "title": "Fifth Document"
-      },
       "FAQs": {
         "title": "Contents",
         "sidebar_label": "FAQs"
-      },
-      "filemanagement": {
-        "title": "File Management"
       },
       "installation": {
         "title": "Application Installation",
         "sidebar_label": "Info of Applications"
       },
-      "keybaord": {
-        "title": "Keybord"
-      },
-      "Maintainer": {
-        "title": "Our Community",
-        "sidebar_label": "Community"
-      },
       "News": {
         "title": "News"
       },
       "Guide-line": {
-        "title": "PionuxOS Info",
+        "title": "OS Details",
         "sidebar_label": "PionuxOS"
       },
       "pionux-OS": {
-        "title": "Installation of PionuxOS",
-        "sidebar_label": "Info of PionuxOS"
+        "title": "How to install PionuxOS on your Laptop /PC",
+        "sidebar_label": "PionuxOS Installation"
       },
       "version": {
-        "title": "Versions",
-        "sidebar_label": "Versions"
+        "title": "The revolution of our OS(Operating System)",
+        "sidebar_label": "Version"
       },
-      "setup": {
-        "title": "Bluetooth Setup",
-        "sidebar_label": "Bluetooth Setup"
+      "Report": {
+        "title": "Report"
+      },
+      "Set-up": {
+        "title": "Input/Output",
+        "sidebar_label": "Setup"
+      },
+      "Troubleshooting": {
+        "title": "Trouble Shooting",
+        "sidebar_label": "Troubleshooting"
       },
       "tutorial": {
         "title": "Tutorial",

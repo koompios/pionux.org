@@ -1,11 +1,11 @@
 {
   "docs": {
     "PionuxOS Informations": ["documentation","installation","pionux-OS"],
-    "Support":["contributer","Maintainer","FAQs","Community"]
+    "Support":["contributer","Report","Troubleshooting","FAQs"]
     
   },
   "docs-1":{
-    "PionuxOS Informations":["applications-list","Guide-line","version"]
+    "PionuxOS Informations":["applications-list","Guide-line","Set-up","version"]
   },
   "docs-2":{
     "Turorial":["tutorial"]

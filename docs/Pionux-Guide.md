@@ -1,9 +1,12 @@
 ---
 id: Guide-line
-title: PionuxOS Info
+title: OS Details
 sidebar_label: PionuxOS
 ---
 ---
+Pionux is an open source and free software operating system build around Linux kernel. You can customize everything on Pionux that you want.
+
+Even the almost the commands are down here for you to use it. furthermore you would see something that how team have produces in this past year. [Click here]() to see what is news? 
 ## Basic Commands in PionuxOS
 > **Noted**: To do all  basic commands below, you must be in the terminal:
 

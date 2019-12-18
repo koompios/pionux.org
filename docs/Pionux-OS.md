@@ -1,7 +1,7 @@
 ---
 id: pionux-OS
-title: Installation of PionuxOS
-sidebar_label: Info of PionuxOS
+title: How to install PionuxOS on your Laptop /PC
+sidebar_label: PionuxOS Installation
 ---
 
 ---
@@ -12,8 +12,6 @@ This is the documentation on how to install PionuxOS to your laptop or PC and th
 [//]: # (TODO: this is only the base. More will be added in the future.)
 
 [//]: # (TODO: Add Screenshots)
-
-## How to install PionuxOS on your Laptop /PC
 
 ## Create a bootable UBS Key
 
