@@ -1,11 +1,22 @@
 ---
 id: News
-title: News
+title: Latest News
+sidebar_label: Latest News
 ---
+---
+We have just released an update for Pix to version 0.0.5
+### Installing PinouxOS
+To install Pix, open Konsole and run the following command:
+1. Open terminal or konsole
+2.  And type this `curl -s https://repo.koompi.org/script/pix.sh -o pix && chmod +x pix && sudo mv pix /usr/bin`
+3. Following the instruction have been given, and it's done.
 
-
-## Mauris In Code
-
+> **Tips**: If you have already installed Pionux previously, just run this command in Konsole:
 ```
-Mauris vestibulum ullamcorper nibh, ut semper purus pulvinar ut. Donec volutpat orci sit amet mauris malesuada, non pulvinar augue aliquam. Vestibulum ultricies at urna ut suscipit. Morbi iaculis, erat at imperdiet semper, ipsum nulla sodales erat, eget tincidunt justo dui quis justo. Pellentesque dictum bibendum diam at aliquet. Sed pulvinar, dolor quis finibus ornare, eros odio facilisis erat, eu rhoncus nunc dui sed ex. Nunc gravida dui massa, sed ornare arcu tincidunt sit amet. Maecenas efficitur sapien neque, a laoreet libero feugiat ut.
+    $ pix update
 ```
+If you have problem with Pi, you can use Pix to reinstall Pi now.
+```
+    $ pix i pi
+```
+

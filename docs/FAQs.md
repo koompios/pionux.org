@@ -82,3 +82,7 @@ As a Pionux or Linux system administrator (sysadmin) you can change password for
 
 For more Info about password: [Click here](https://pionux.org/docs/documentation#password-info-in-pionuxos)
 
+<!-- * [I found error, what should I do?]()
+* [Can I join the community?]()
+* [Is Pionux need more developer?]()
+* [I found bugs, How to report bug?]() -->

@@ -14,4 +14,4 @@ Finally, now our team have created new possible OS, which is **PionuxOS** a full
 
 And here is the link for you: [Click here for download](https://repo.pionux.org/iso/x86_64/koompi-os-v2.1.3-x86_64.iso)
 
-For instruction how to install it in your computer[Click here](http://localhost:3030/docs/pionux-OS)
+For instruction how to install it in your computer [Click here](http://localhost:3030/docs/pionux-OS)

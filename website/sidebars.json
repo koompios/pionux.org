@@ -1,4 +1,7 @@
 {
+  "doc":{
+    "News":["News"]
+  },
   "docs": {
     "PionuxOS Informations": ["documentation","installation","pionux-OS"],
     "Support":["contributer","Report","Troubleshooting","FAQs"]
@@ -9,7 +12,8 @@
   },
   "docs-2":{
     "Desktop Operating System":["tutorial"],
-    "Mobile Operating System":["tutorial1"]
+    "Mobile Operating System":["tutorial1"],
+    "Others":["tutorial2"]
 
   }
 

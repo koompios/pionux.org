@@ -16,15 +16,6 @@
         "title": "Learn more about Contributing",
         "sidebar_label": "Contributing"
       },
-      "doc2": {
-        "title": "document number 2"
-      },
-      "doc3": {
-        "title": "This is document number 3"
-      },
-      "doc9": {
-        "title": "This is Doc 9"
-      },
       "documentation": {
         "title": "PionuxOS Infomations",
         "sidebar_label": "PionuxOS Info"
@@ -38,7 +29,8 @@
         "sidebar_label": "Info of Applications"
       },
       "News": {
-        "title": "News"
+        "title": "Latest News",
+        "sidebar_label": "Latest News"
       },
       "Guide-line": {
         "title": "OS Details",
@@ -61,24 +53,31 @@
         "sidebar_label": "Troubleshooting"
       },
       "tutorial": {
-        "title": "Desktop OS Installation",
-        "sidebar_label": "Desktop Operating System"
+        "title": "Desktop OS Details",
+        "sidebar_label": "Desktop OS Details"
       },
       "tutorial1": {
-        "title": "Mobile OS Installation",
-        "sidebar_label": "Mobile Operating System"
+        "title": "Mobile OS Details",
+        "sidebar_label": "Mobile OS Details"
+      },
+      "tutorial2": {
+        "title": "Video Instructions",
+        "sidebar_label": "Help"
       }
     },
     "links": {
+      "News": "News",
       "Documentation": "Documentation",
       "PionuxOS": "PionuxOS",
       "Tutorial": "Tutorial"
     },
     "categories": {
+      "News": "News",
       "PionuxOS Informations": "PionuxOS Informations",
       "Support": "Support",
       "Desktop Operating System": "Desktop Operating System",
-      "Mobile Operating System": "Mobile Operating System"
+      "Mobile Operating System": "Mobile Operating System",
+      "Others": "Others"
     }
   },
   "pages-strings": {
