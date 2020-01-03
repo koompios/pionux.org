@@ -18,7 +18,7 @@
       },
       "documentation": {
         "title": "PionuxOS Infomations",
-        "sidebar_label": "PionuxOS Info"
+        "sidebar_label": "PionuxOS"
       },
       "FAQs": {
         "title": "Contents",
@@ -27,6 +27,14 @@
       "installation": {
         "title": "Application Installation",
         "sidebar_label": "Info of Applications"
+      },
+      "Licence": {
+        "title": "License",
+        "sidebar_label": "License"
+      },
+      "Maintainer": {
+        "title": "Learn more about Maintainer",
+        "sidebar_label": "Maintainer"
       },
       "News": {
         "title": "Latest News",
@@ -67,14 +75,15 @@
     },
     "links": {
       "News": "News",
-      "Documentation": "Documentation",
+      "Documents": "Documents",
       "PionuxOS": "PionuxOS",
-      "Tutorial": "Tutorial"
+      "Tutorials": "Tutorials"
     },
     "categories": {
       "News": "News",
       "PionuxOS Informations": "PionuxOS Informations",
       "Support": "Support",
+      "Licence": "Licence",
       "Desktop Operating System": "Desktop Operating System",
       "Mobile Operating System": "Mobile Operating System",
       "Others": "Others"

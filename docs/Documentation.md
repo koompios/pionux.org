@@ -1,7 +1,7 @@
 ---
 id: documentation
 title: PionuxOS Infomations
-sidebar_label: PionuxOS Info
+sidebar_label: PionuxOS
 ---
 ---
 Pionux is an open source and free software operating system build around Linux Kernel. You can customize everything on Pionux that you want.

@@ -66,7 +66,7 @@ class HomeSplash extends React.Component {
       <div className="describe-top">
          {/* <h1>Pionux os</h1> */}
       <h2 className="header-name-top">PionuxOS</h2>
-      <p>Pionux is an open source and free software operating system build around Linux kernel. You can customize everything on Pionux that you want.</p>
+      <p>Pionux is an open source and free software operating system build around Linux Kernel. You can customize everything on PionuxOS.</p>
       <a href="https://repo.pionux.org/iso/x86_64/koompi-os-v2.1.3-x86_64.iso "><button className="button-downlaod">Download</button></a>
       </div>
       </div>
@@ -97,17 +97,17 @@ class HomeSplash extends React.Component {
 </div>
   <div className="middle middle-wallpaper" >
            <img src="https://cdn.pling.com/img/8/4/8/d/ba5a229167eebedbfa2eec822732158e25d7.png"></img>
-           <p>Pionux theme</p>
+           <p>Pionux Theme</p>
   </div>  
   <div className="right right-wallpaper" >
            <img src="img/pionux-walpaper.jpg"></img>
-          <p>Pionux wallpaper</p>
+          <p>Pionux Wallpaper</p>
   </div>
 </div>
 <br></br>
 <br></br>
   <center class="gallary-p">
-    <p>Visit the Gallery page for screenshots, video showcase and instructional videos.</p>
+    <p>Visit the Gallery page for screenshots, videos, showcases, and instructional videos.</p>
   </center>
   <SplashContainer>    
         <div className="inner GallaryBtn">
@@ -128,36 +128,36 @@ class HomeSplash extends React.Component {
       <div class="left feature-icon">
       <center>
         <img src="img/laptopicon1.png"></img>
-        <h1>Plasma by KDE</h1>
-        <p>A continuously updated Plasma desktop.</p>
+        <h1>Plasma By KDE</h1>
+        <p>A continuously updated Plasma Desktop.</p>
       </center>
       </div>
   <div class="middle feature-icon" >
   <center>
     <img src="img/starticon1.png"></img>
-    <h1>Bleeding edge applications</h1>
+    <h1>Bleeding Edge Applications</h1>
     <p>The latest versions of your favorite applications.</p>
   </center>
   </div>  
   <div className="right  feature-icon ">
   <center  >
     <img src="img/hearticon1.png"></img>
-    <h1>Stable core</h1>
+    <h1>Stable Core</h1>
     <p>A periodically updated core system provides stability.</p>
     </center>
   </div>
   <div class="den feature-icon" >
   <center>
     <img src="img/rocketicon1.png"></img>
-    <h1>One-time installation</h1>
-    <p>Set up your system once, and you will receive all the latest changes by keeping it updated.</p>
+    <h1>One-Time Installation</h1>
+    <p>Set up your system once, and you will receive all the latest changes of all the software system.</p>
   </center>
 
   </div>
       </div>
       <div className="sponsor">
       <center>
-       <h1>Sponsor</h1>
+       <h1>Sponsors</h1>
       </center>
       <div className="grid-containerrr Container-secondComponent ">
       <div class="left sponsor-koompi">
@@ -227,7 +227,7 @@ class Index extends React.Component {
       <div
         className="productShowcaseSection paddingBottom"
         style={{textAlign: 'center'}}>
-        <h2>Feature Callout</h2>
+        <h2>Feature CallOut</h2>
         <MarkdownBlock>These are features of this project</MarkdownBlock>
       </div>
     );

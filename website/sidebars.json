@@ -4,11 +4,11 @@
   },
   "docs": {
     "PionuxOS Informations": ["documentation","installation","pionux-OS"],
-    "Support":["contributer","Report","Troubleshooting","FAQs"]
+    "Support":["contributer","Maintainer","Troubleshooting","FAQs"]
     
   },
   "docs-1":{
-    "PionuxOS Informations":["applications-list","Guide-line","Set-up","version"]
+    "PionuxOS Informations":["applications-list","Guide-line","Set-up","version","Licence"]
   },
   "docs-2":{
     "Desktop Operating System":["tutorial"],

@@ -4,32 +4,29 @@ title: Learn more about Contributing
 sidebar_label: Contributing
 ---
 ---
-Love Pionux and you want to help? Thank you so much for contributing to Pionux!
+Love Pionux and you want to help? Thank you so much for being Contributors with Pionux!
+## Tracking Issues
+Issue can be reported in the [issue tracker](https://github.com/koompi/users-guide/issues).
 
-## Track Issues
-
-Issue can be reported in the [issue tracker]().
-
-## Bug Reports
-
+## Reporting Bugs
 Before creating an issue please make sure you have check out the docs and the issue section. It's pretty common someone else already has a similar question.
 
-If you haven't found your answer to your issue. Feel free to create an issue on [Github]() by using the bug report template.
+If you haven't found your answer to your issue. Feel free to create an issue on [Github](https://github.com/koompi/users-guide/issues) by using the bug report template.
 
-## Creating 
+## Requested Features 
+New features are welcome. Before, take a moment to find out if a similar request have been made and if it's fitting within our project. Once it meets our scope, please provide as many details as you can.
+#### Pull Requesting
 
-Ensure you understand the philosophy of Pionux and think about what others may want to read.As mentioned, the wiki's scope is quite wide.
-#### Feature request
-New features are welcome. Before, take a moment to find out if a similar request have been made and if it's fit within our project. Once it meets our scope, please provide as many details as you can.
-#### Pull request
-We prefer small pull request (PR) with minimal code change. Smaller pull request (PRs) are easy to review and merge. A team member will pick it up and review it as soon as they can. Please don't feel offender if they reject or ask for changes in your PR. 
+Thank you for your time!  Feel free to communicate with our time for more information.  
+
+We prefer small pull request (PR) with minimal code change. Smaller pull request (PRs) are easy to review and merge. A team member will pick it up and review it as soon as they can. Please don't feel offender if they reject or ask for changes in your PR.
 
 For more details Talk to the maintainers for help coordinating major projects.
 Help:Editing#Creating pages covers the steps to create a new article in the main namespace.
 
 The wiki's subpage feature (article/subpage) is available for your userpage as well. Using it you could create the draft on a blank subpage. Please note that userpage content must not be categorized, but all other features can be used. Once you have finished drafting, you can simply move the subpage to its new name.
 
-Please add relevant article status templates (only) after you moved it. The better you describe a status template's reason, the easier it is for users #Improving the wiki to collaborate with you.
+Please add relevant article status templates (only) after you moved it. The better you describe a status template's reason, the easier it is for users.
 
 ## Organizing
 
@@ -46,4 +43,13 @@ If you have any ***generic*** negative remarks or complaints about how the wiki 
 
 ## Pionux
 
-Please note that this project is released with a [Pionux](). By participating in this project you agree to aside by its terms.
+Please note that this project is released with a [Pionux](https://pionux.org/). By participating in this project you agree to aside by its terms.
+## Our Contributors
+Thanks goes to these wonderful people:
+- Mr. Rithy Thul
+- Mr. Sela Thul
+- Mr. Brilliant Phal
+- Mr. Vuthy San
+- Miss Claire Bun
+- Mr. Sovanden Sarim
+- Mr. Hengsrun Seang
