@@ -33,8 +33,8 @@
         "sidebar_label": "License"
       },
       "Maintainer": {
-        "title": "Learn more about Maintainer",
-        "sidebar_label": "Maintainer"
+        "title": "Learn more about Maintainers",
+        "sidebar_label": "Maintainers"
       },
       "News": {
         "title": "Latest News",
@@ -57,8 +57,8 @@
         "sidebar_label": "Setup"
       },
       "Troubleshooting": {
-        "title": "Trouble Shooting",
-        "sidebar_label": "Troubleshooting"
+        "title": "Bugs & Helps",
+        "sidebar_label": "Bugs & Helps"
       },
       "tutorial": {
         "title": "Desktop OS Details",
@@ -82,8 +82,7 @@
     "categories": {
       "News": "News",
       "PionuxOS Informations": "PionuxOS Informations",
-      "Support": "Support",
-      "Licence": "Licence",
+      "Supports": "Supports",
       "Desktop Operating System": "Desktop Operating System",
       "Mobile Operating System": "Mobile Operating System",
       "Others": "Others"

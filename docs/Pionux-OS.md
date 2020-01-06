@@ -47,6 +47,8 @@ This is the documentation on how to install PionuxOS to your laptop or PC and th
 
 7.  Follow the instruction to install the OS to your VirtualMachine.
 
+If you want to watch the video tutorial of this, you can [Click Here](https://youtu.be/1NZ4XcFevpA)
+
 <!-- > Minimum requirement: -->
 
 [//]: # ( TODO: check)

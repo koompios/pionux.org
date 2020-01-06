@@ -129,6 +129,14 @@ Here the command:
 ```Text
     $ pi -S guvcview
 ```
+#### Dropbox
+Dropbox is a modern workspace designed to reduce busywork-so you can focus on the things that matter. Sign in and put your creative energy to work.
+```Text
+    $ pi -S dropbox
+```
 
 #### Popcorn Time
 Popcorn Time is a multi-platform, free software BitTorrent client that includes an integrated media player. Popcorn Time provide a free "alternative" to subscription-based video streaming services such as Netflix.
+```Text
+    $ pi -S popcorntime-bin  or $ pi -S popcorntime
+```

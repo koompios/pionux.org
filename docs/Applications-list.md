@@ -19,6 +19,7 @@ Down Here are some tips for installing applications with its name:
     atom            $ pi -S atom
     brave           $ pi -S brave
     chrome          $ pi -S google-chrome
+    dropbox         $ pi -S dropbox
     firefox          $ pi -S firefox
     git             $ pi -S git
     gnome           $ pi -S gnome
@@ -26,7 +27,7 @@ Down Here are some tips for installing applications with its name:
     kdenlive        $ pi -S kdenlive
     KMPlayer        $ pi -S kmplayer
     krita           $ pi -S krita
-    Popcorn Time    $
+    Popcorn Time    $ pi -S popcorntime-bin
     snape store     $ sudo snap install snap-store
     vscode          $ pi -S code --classic
 ```

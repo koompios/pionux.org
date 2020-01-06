@@ -1,7 +1,7 @@
 ---
 id: Troubleshooting
-title: Trouble Shooting
-sidebar_label: Troubleshooting
+title: Bugs & Helps
+sidebar_label: Bugs & Helps
 ---
 ---
 ## **"Failed to commit transaction (conflicting files)" error**

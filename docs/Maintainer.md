@@ -1,7 +1,7 @@
 ---
 id: Maintainer
-title: Learn more about Maintainer
-sidebar_label: Maintainer
+title: Learn more about Maintainers
+sidebar_label: Maintainers
 ---
 ---
 ### Responsibilities
