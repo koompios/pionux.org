@@ -99,7 +99,7 @@ After you finished, you must restart your pc:
 ```Text
     $ reboot
 ```
-## Fonts
+<!-- ## Fonts -->
 ## KeyBoard
 The default console [keymap]() is [US](). Available layouts can be listed with:
 ```Text
@@ -114,8 +114,8 @@ To modify the layout, append a corresponding file name to loadkeys(1), omitting 
     $ loadkeys de-latin1
 ```
 
-## Network
-## Printer
+<!-- ## Network
+## Printer -->
 ## Time
 Showing the current settings of the system clock and RTC, including whether network time synchronization is active by command below: 
 ```Text
