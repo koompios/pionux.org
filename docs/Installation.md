@@ -130,11 +130,36 @@ Here the command:
     $ pi -S guvcview
 ```
 #### Dropbox
-Dropbox is a modern workspace designed to reduce busywork-so you can focus on the things that matter. Sign in and put your creative energy to work.
-```Text
-    $ pi -S dropbox
-```
+Dropbox is a file sharing system with a GNU/Linux client. Use it to transparently sync files across computers and architectures. It is really easy to use. You can use Dropbox for free. But it also has paid plans if you want more storage space than the free version of it.
+>**Tips :** Make sure your system up to date, want to update system [Click Here](http://localhost:3030/docs/documentation#update-the-system)
 
+You need Git version control system to clone the git repository of Dropbox AUR (Arch User Repository)
+To install git:
+```Text
+    $ pi -S git
+```
+Want to know more about git [here](http://localhost:3030/docs/installation#git).
+Before you start clone the repo of dropbox Find location for installing it.
+We recommend to install in `~/Downloads` directory, Go into the Downloads directory using this:
+```Text
+    $ cd Downloads/ 
+```
+**Noted:**Or you want to go into other director use the same command, but changing the directory name.
+After you done with installing git run this command to clone Dropbox repo:
+```Text
+    $ git clone https://aur.archlinux.org/dropbox.git
+```
+Your dropbox repo was cloned and then go into the directory by `$ cd dropbox/`.
+After that run this command:
+```Text
+    $ makepkg -s
+```
+When the processed is done, now you have to list the files. by using this `$ ls`.
+After that you see the name of a dropbox that end with this `.pkg.tar.xz `.
+```Text
+    $ pi -U dropbox*.pkg.tar.xz
+```
+And you will be done installing it and it will be appear on your  system.
 #### Popcorn Time
 Popcorn Time is a multi-platform, free software BitTorrent client that includes an integrated media player. Popcorn Time provide a free "alternative" to subscription-based video streaming services such as Netflix.
 ```Text

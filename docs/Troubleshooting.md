@@ -67,4 +67,46 @@ To reinstall all the native packages: `pi -Qnq` | `pi -S -` or `pi -S $(pi -Qnq)
 
 You will then need to reinstall all the foreign packages, which can be listed with `pi -Qmq`.
 
+## Using Dropbox with non-ext4 filesystems
+Workarounds have been created, see for example [dropbox-fix2AUR](https://aur.archlinux.org/packages/dropbox-fix2/). These workarounds are based on substituting the filesystem detection functions by the use of LD_PRELOAD.
+
+It is also possible to create an ext4 formatted [sparse file](https://wiki.archlinux.org/index.php/Sparse_file) within a non-ext4 filesystem. It can then be mounted to the desired location for the Dropbox folder. On btrfs systems, it's recommended to disable copy-on-write.
+
+## Dropbox keeps saying Downloading files
+
+But in fact now files are synced with your box. This problem is likely to appear when your Dropbox folder is located on a NTFS partition whose mount path contains spaces, or permissions are not set for that partition. See more in the [forums](https://bbs.archlinux.org/viewtopic.php?id=153368). To resolve the problem pay attention to your entry in /`etc/fstab`. Avoid spaces in the mount path and set write permissions with the "default_permissions" option:
+```shelll
+    UUID=01CD2ABB65E17DE0 /run/media/username/Windows ntfs-3g uid=username,gid=users,default_permissions 0 0
+```
+## Error Connecting with dropbox...
+It may happen that Dropbox cannot connect successfully because it was loaded before an internet connection was established. This can happen on wireless connections, or fast loading machines on wired networks. The best solution to this problem, for wired and wireless connections, is #Dropbox on laptops which will ensure that Dropbox is started only after the connection is established.
+
+An alternative solution, for those not using netctl or NetworkManager, is to delay the startup of Dropbox:
+
+- `cp ~/.config/autostart/dropbox.desktop ~/.config/autostart/dropbox-delayed.desktop`
+- Prevent Dropbox from doing a standard autostart by unchecking Dropbox - Preferences - General - Start Dropbox on system startup. This removes `~/.config/autostart/dropbox.desktop.`
+- Edit `~/.config/autostart/dropbox-delayed.desktop` and replace` Exec=dropbox` with `Exec=bash -c "sleep timeout && dropbox"`. Tweak the **timeout** parameter, the value of `3` is a good start.
+
+## Dropbox does not start - "This is usually because of a permission error"
+**Check permissions**
+Make sure that you own Dropbox's directories before running the application. This includes
+
+- `/.dropbox` - Dropbox's configuration directory
+- `/Dropbox` - Dropbox's download directory (default)
+You can ensure this by changing their owner with `chown -R.`
+
+This error could also be caused by `/var` being full.
+## Dropbox was Errors caused by running out of space
+A common error that might happen is that there is no more available space on your `/tmp` and `/var` partitions. If this happens, Dropbox will crash on startup with the following error in its log:
+```Text
+    Exception: Not a valid FileCache file
+```
+A detailed story of such an occurrence can be found in the forums. Make sure there is enough space available before launching Dropbox.
+
+Another case is when the root partition is full:
+```Text
+    OperationalError: database or disk is full
+```
+Check to see the available space on partitions with `df`.
+
 ---

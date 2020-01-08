@@ -84,7 +84,7 @@ Once the connection is established, we can clean up and end `bluetoothctl`:
 ```
 We have now a connection to the bluetooth headset and are able to stream audio to that device.
 
->**Tips:** For A2DP
+>**Tips:** For A2DP Device
 
 The headset supports the A2DP profile and therefore is able to playback music with a much higher quality. But You must switch bluetooth card into a a2dp sink. This is done by this simple command.
 ```Text

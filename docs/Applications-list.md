@@ -4,30 +4,32 @@ title: Applications Docs
 sidebar_label: Applications 
 ---
 ---
-If you are new for konsole or terminal, Please [Click here]()
-If you have used it before and you want to install applications on your OS you have to open terminal and typed this command:
+Before you install any applications you have to make sure your system is already updated.If you don't update the system yet use this command:
+```shell
+    $ pi -Syu
+```
+you want to install applications on your OS you have to open terminal and typed this command:
 ```shell
     $ pi -S Applications_Name
 ```
 If you wish to remove your applications from you PC, you can use this command:
 ```shell
-    $ pi -Rns Applications_Name
+    $ rm -r Applications_Name
 ```
-Down Here are some tips for installing applications with its name:
+For installing applications with its name, Click on applications name you want to install and it will be direct to it:
 
-```Text
-    atom            $ pi -S atom
-    brave           $ pi -S brave
-    chrome          $ pi -S google-chrome
-    dropbox         $ pi -S dropbox
-    firefox          $ pi -S firefox
-    git             $ pi -S git
-    gnome           $ pi -S gnome
-    Guvcview        $ pi -S guvcview
-    kdenlive        $ pi -S kdenlive
-    KMPlayer        $ pi -S kmplayer
-    krita           $ pi -S krita
-    Popcorn Time    $ pi -S popcorntime-bin
-    snape store     $ sudo snap install snap-store
-    vscode          $ pi -S code --classic
-```
+
+- [atom]()            
+- [brave]()          
+- [chrome]()         
+- [dropbox]()         
+- [firefox]()          
+- [git]()             
+- [gnome]()           
+- [Guvcview]()        
+- [kdenlive]()        
+- [KMPlayer]()        
+- [krita]()          
+- [Popcorn Time]()    
+- [snape store]()     
+- [vscode]()          
