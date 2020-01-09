@@ -79,6 +79,23 @@ KMPlayer is a highly customizable multimedia software providing high-quality vid
 ```
     $ pi -S kmplayer
 ```
+## Music
+#### Spotify
+```Text
+    $ pi -S spotify
+```
+>**Noted:**If you run the commands below, but it failed. And show like kind of error like below run the other command below and reinstall the command above again.
+```Text
+    ....
+    bsdtar: Failed to set default locale
+    -> Compressing package...
+    bsdtar: Failed to set default locale
+ 
+```
+Here is the command for  solve the error:
+```Text
+    $ sudo locale-gen
+```
 ## Software
 #### Gnome
 GNOME Software utility for software application installations and updates. The Software Center allows for easy installations and updates of software applications and system extensions.
@@ -152,12 +169,12 @@ After you done with installing git run this command to clone Dropbox repo:
 Your dropbox repo was cloned and then go into the directory by `$ cd dropbox/`.
 After that run this command:
 ```Text
-    $ makepkg -s
+    $ makepkg -S
 ```
 When the processed is done, now you have to list the files. by using this `$ ls`.
 After that you see the name of a dropbox that end with this `.pkg.tar.xz `.
 ```Text
-    $ pi -U dropbox*.pkg.tar.xz
+    $ pi -U 
 ```
 And you will be done installing it and it will be appear on your  system.
 #### Popcorn Time

@@ -108,5 +108,23 @@ Another case is when the root partition is full:
     OperationalError: database or disk is full
 ```
 Check to see the available space on partitions with `df`.
+## My terminal does not support UTF-8
+The following lists some (not all) terminals that support UTF-8:
 
+- gnustep-terminal
+- konsole
+- mlterm
+- rxvt-unicode
+- st
+- termite
+- VTE-based terminals
+- xterm - Run with the argument `-u8` or configure resource `xterm*utf8: 2`.
+
+## Gnome-terminal or rxvt-unicode
+You need to launch these applications from a UTF-8 locale or they will drop UTF-8 support. Enable the `en_US.UTF-8` locale (or your local UTF-8 alternative) per the instructions above and set it as the default locale, then reboot.
+## My system is still using wrong language
+It is possible that the environment variables are redefined in other files than `locale.conf`, for example ~/.pam_environment. 
+If you are using a desktop environment, such as **GNOME**, its language settings may be overriding the settings in `locale.conf.`
+
+**KDE** Plasma also allows to change the UI's language through the system settings. If the desktop environment is still using the default language after the modification, deleting the file at `~/.config/plasma-localerc` (previously: `~/.config/plasma-locale-settings.sh`) should resolve the issue.
 ---

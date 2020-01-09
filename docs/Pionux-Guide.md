@@ -194,6 +194,32 @@ Output :
 ```text
     Hello, This is Pionux.
 ```
+#### locale
+**Locales** are used by `glibc` and other locale-aware programs or libraries for rendering text, correctly displaying regional monetary values, time and date formats, alphabetic idiosyncrasies, and other locale-specific standards.
+
+- `locale-gen` also runs with every update of `glibc.`
+- `UTF-8` is recommended over other character sets. 
+
+##### Setting the locale
+To display the currently set locale and its related environmental settings, type:
+```
+    $ locale
+```
+The locale to be used, chosen among the previously generated ones, is set in locale.conf files. Each of these files must contain a new-line separated list of environment variable assignments, having the same format as output by locale.
+
+To list available locales which have been previously generated, run:
+```
+    $ localedef --list-archive
+```
+Alternatively, using `localectl`:
+```Text
+    $ localectl list-locales
+```
+##### Generating locales
+Before a **locale** can be enabled on the system, it must be generated. This can be achieved by uncommenting applicable entries in `/etc/locale`.gen, and running:
+```Text
+    $ sudo locale-gen`.
+```
 #### nano
 
 - "**nano**" and "**vi**" are already installed in Pionux command line. The **nano** command is a good text editor that denotes keywords with color and can recognize most languages. And **vi** is simpler than nano.

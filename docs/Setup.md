@@ -140,6 +140,3 @@ For checking `list-timezones` that are available:
 ```Text
     $ timedatectl list-timezones
 ```
-<!-- ## Network
-## Printer -->
-<!-- ## Fonts -->
