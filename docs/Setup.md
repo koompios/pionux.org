@@ -25,7 +25,8 @@ If you want to enable it permanently, you can do this `systemctl enable`:
 ```Text
     $ sudo systemctl enable bluetooth
 ```
-That's all!!! Down here is the other way, To install it:
+That's all!!! 
+Down here is the other way, To install it:
 
 1.  Open the terminal, by default Pionux comes with Konsole.
 
