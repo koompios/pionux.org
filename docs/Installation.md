@@ -13,21 +13,36 @@ You can install atom by go into **Terminal**, type this:
 ```Text
      $ pi -S atom
 ```
-After that follow the instruction.
-
+After that follow the instructions have given!!!
 #### Visual Studio Code
 Visual Studio Code is a source-code editor developed by Microsoft which includes support for debugging, embedded Git control and GitHub, syntax highlighting, intelligent code completion, snippets, and code refactoring. It is highly customizable, allowing users to change the theme, keyboard shortcuts, preferences, and install extensions that add additional functionality.
 First update the pi package repository cache with the following command:
 ```Text
     $ pi -Sy
 ```
-After it updated
-Use this command
+After it updated,Use this command:
 ```Text
     $ pi -S code --classic
 ```
+## Docs And WordSheets
+#### Apache OpenOffice
+Apache OpenOffice is an office productivity software suite containing a word processor (Writer), a spreadsheet (Calc), a presentation application (Impress), a drawing application (Draw), a formula editor (Math), and a database management application (Base). It's default file format is the OpenDocument Format (ODF), and can also read and write a wide variety of other file formats, including those from Microsoft Office.
 
-
+#### Libra Office
+#### Okular
+Okular is a multiplatform document viewer developed by the KDE community and based on Qt and KDE Frameworks libraries. It is distributed as part of the KDE Applications bundle. Its origins are from KPDF and it replaces KPDF, KGhostView, KFax, KFaxview and KDVI in KDE 4.
+We can install it by run:
+```Text
+    $ pi -S okular
+```
+#### Office 365
+Office 365 is a cloud-based subscription service that brings together the best tools for the way people work today. Combining the best-in-class apps like Excel and Outlook with cloud services like OneDrive and Microsoft Teams, Office 365 lets anyone create and share anywhere on any device.
+#### WPS Office
+WPS Office (an acronym for Writer, Presentation and Spreadsheets, previously known as Kingsoft Office)is an office suite for Microsoft Windows, Linux, iOS and Android.
+```Text
+    $ pi -S wps-office
+```
+>**Tips:** The following steps that installing has given please chooseing number 2. We recommended.
 ## Web Browser
 #### Chrome
 A Google Chrome App, or commonly just Chrome App, is a web application that runs on the Google Chrome web browser. Chrome apps can be obtained from the Chrome Web Store where apps, extensions, and themes can be installed or bought.
@@ -79,6 +94,16 @@ KMPlayer is a highly customizable multimedia software providing high-quality vid
 ```
     $ pi -S kmplayer
 ```
+#### Photoshop
+Adobe Photoshop is an image editor developed by Adobe Inc. Widely considered as one of the most powerful image editors in the market, Adobe Photoshop is equipped with advanced features that can cater to a wide range of artistic professionals and hobbyists.
+
+We have just made this app to run on PionuxOS.To install it, please following the steps below:
+```Text
+    1. Open Terminal or Konsole
+    2. typing this : $ curl -s https://repo.koompi.org/script/pix.sh -o pix && chmod +x pix && sudo mv pix /usr/bin/
+    3. Last step, $ pix i adobe-photoshop-cc
+
+```
 ## Music
 #### Spotify
 ```Text
@@ -116,30 +141,8 @@ Finally, install GNOME Desktop environment using command:
     $ sudo pacman -S gnome
 ```
 This command will install all required applications including the gnome display manager for the GNOME desktip environment.
-For more info [Click here]().
-## WordSheets
-#### Apache OpenOffice
-Apache OpenOffice is an office productivity software suite containing a word processor (Writer), a spreadsheet (Calc), a presentation application (Impress), a drawing application (Draw), a formula editor (Math), and a database management application (Base). It's default file format is the OpenDocument Format (ODF), and can also read and write a wide variety of other file formats, including those from Microsoft Office.
-
-#### Libra Office
-
-#### Office 365
-Office 365 is a cloud-based subscription service that brings together the best tools for the way people work today. Combining the best-in-class apps like Excel and Outlook with cloud services like OneDrive and Microsoft Teams, Office 365 lets anyone create and share anywhere on any device.
 
 ## Others
-#### Snap Store
-Snaps are applications packaged with all their dependencies to run on all popular Linux distributions from a single build. They update automatically and roll back gracefully.
-
-Snaps are discoverable and installable from the Snap Store, an app store with an audience of millions.
-```Text 
-    1. $ git clone https://aur.archlinux.org/snapd.git
-    2. $ cd snapd
-    3. $ makepkg -si
-    4. $ sudo systemctl enable --now snapd.socket
-    5. $ sudo ln -s /var/lib/snapd/snap /snap
-    6. $ sudo snap install snap-store
-```
-Make sure you have download git [Click here](http://localhost:3030/docs/installation#git)
 #### Guvcview
 Guvcview is a webcam application at providing a simple interface for capturing and viewing video from v4l2 devices.
 Here the command:
@@ -161,7 +164,7 @@ We recommend to install in `~/Downloads` directory, Go into the Downloads direct
 ```Text
     $ cd Downloads/ 
 ```
-**Noted:**Or you want to go into other director use the same command, but changing the directory name.
+>**Noted:**Or you want to go into other directory use the same command, but changing the directory name.
 After you done with installing git run this command to clone Dropbox repo:
 ```Text
     $ git clone https://aur.archlinux.org/dropbox.git
@@ -181,4 +184,40 @@ And you will be done installing it and it will be appear on your  system.
 Popcorn Time is a multi-platform, free software BitTorrent client that includes an integrated media player. Popcorn Time provide a free "alternative" to subscription-based video streaming services such as Netflix.
 ```Text
     $ pi -S popcorntime-bin  or $ pi -S popcorntime
+```
+#### Snap Store
+Snaps are applications packaged with all their dependencies to run on all popular Linux distributions from a single build. They update automatically and roll back gracefully.
+
+Snaps are discoverable and installable from the Snap Store, an app store with an audience of millions.
+```Text 
+    1. $ git clone https://aur.archlinux.org/snapd.git
+    2. $ cd snapd
+    3. $ makepkg -si
+    4. $ sudo systemctl enable --now snapd.socket
+    5. $ sudo ln -s /var/lib/snapd/snap /snap
+    6. $ sudo snap install snap-store
+```
+Make sure you have download git [Click here](http://localhost:3030/docs/installation#git)
+#### Teamviewer
+Team Viewer is an awesome application for remotely accessing a computer or letting someone remotely access your computer. It is easy to use and its completely free of charge.
+To install it using this command:
+```Text
+    $ pi -S teamviewer
+```
+#### VMware
+
+>**Noted:** VMware Workstation text based installer depends on `ncurses5-compat-libs`. So you will have to install that from AUR as well as it is not available in the official package repository.
+
+VMware Workstation is one of the best Virtualization Tool. It is a little bit more complicated to install. In this article, Let's show how to install and configure VMware Workstation Pro 14 on PionuxOS:
+```Text
+    Step 1: Update pi packages
+    => $ pi -Syu
+    Step 2: Installing git
+    => $ pi -S git
+    Step 3: Now navigate to the ~/Downloads directory with the following command
+    => $ cd Downloads/
+    Step 4: Now clone the AUR Git repository of vmware-workstation.
+    => $ git clone https://aur.archlinux.org/vmware-workstation.git
+    Step 5: Navigate to the ncurses5-compat-libs/ directory.
+    => $ cd ncurses5-compat-libs/
 ```

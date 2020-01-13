@@ -127,4 +127,15 @@ It is possible that the environment variables are redefined in other files than 
 If you are using a desktop environment, such as **GNOME**, its language settings may be overriding the settings in `locale.conf.`
 
 **KDE** Plasma also allows to change the UI's language through the system settings. If the desktop environment is still using the default language after the modification, deleting the file at `~/.config/plasma-localerc` (previously: `~/.config/plasma-locale-settings.sh`) should resolve the issue.
+## Fixing VMware not fullscreen
+Following the commands below:
+```Text
+    1. $ sudo bash
+    2. $ pacman -Sy gtkmm net-tools
+    3. $ pacman -Sy opeb-vm-tools
+    4. $ pacman -Sy xf86-video-vmware
+    5. $ pacman -Sy xf86-input-vmmouse
+    6. $ systemctl enable vmtoolsd.service
+    7. $ reboot
+```
 ---
