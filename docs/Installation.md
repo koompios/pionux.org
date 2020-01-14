@@ -29,6 +29,14 @@ After it updated,Use this command:
 Apache OpenOffice is an office productivity software suite containing a word processor (Writer), a spreadsheet (Calc), a presentation application (Impress), a drawing application (Draw), a formula editor (Math), and a database management application (Base). It's default file format is the OpenDocument Format (ODF), and can also read and write a wide variety of other file formats, including those from Microsoft Office.
 
 #### Libra Office
+ Libra Office is the free power-packed Open Source personal productivity suite for Windows, Macintosh and Linux, that gives you six feature-rich applications for all your document production and data processing needs: Writer, Calc, Impress, Draw, Math and Base.
+```Text
+    $ pi -S libreoffice-fresh 
+``` 
+or 
+```Text
+    $ pi -S libraoffice-still    
+```
 #### Okular
 Okular is a multiplatform document viewer developed by the KDE community and based on Qt and KDE Frameworks libraries. It is distributed as part of the KDE Applications bundle. Its origins are from KPDF and it replaces KPDF, KGhostView, KFax, KFaxview and KDVI in KDE 4.
 We can install it by run:
@@ -143,12 +151,6 @@ Finally, install GNOME Desktop environment using command:
 This command will install all required applications including the gnome display manager for the GNOME desktip environment.
 
 ## Others
-#### Guvcview
-Guvcview is a webcam application at providing a simple interface for capturing and viewing video from v4l2 devices.
-Here the command:
-```Text
-    $ pi -S guvcview
-```
 #### Dropbox
 Dropbox is a file sharing system with a GNU/Linux client. Use it to transparently sync files across computers and architectures. It is really easy to use. You can use Dropbox for free. But it also has paid plans if you want more storage space than the free version of it.
 >**Tips :** Make sure your system up to date, want to update system [Click Here](http://localhost:3030/docs/documentation#update-the-system)
@@ -180,6 +182,71 @@ After that you see the name of a dropbox that end with this `.pkg.tar.xz `.
     $ pi -U 
 ```
 And you will be done installing it and it will be appear on your  system.
+#### Guvcview
+Guvcview is a webcam application at providing a simple interface for capturing and viewing video from v4l2 devices.
+Here the command:
+```Text
+    $ pi -S guvcview
+```
+#### Parted
+Parted is a program for creating and manipulating partition tables. GParted is a GUI frontend.
+In other to install it you must type this command in konsole:
+```Text
+    $ pi -S parted
+```
+Parted has two modes: command line and interactive. Parted should always be started with:
+```
+    # parted device
+```
+where `device` is the hard disk device to edit (for example `/dev/sda`). If you omit the `device` argument, *parted* will attempt to guess which device you want.
+**Note:**If you are't in root, use this:
+```
+    $ sudo bash
+```
+##### Command line mode for Parted
+In command line mode, this is followed by one or more commands. For example:
+```Text
+    # parted /dev/sda mklabel gpt mkpart P1 ext3 1MiB 8MiB 
+```
+**Note:** Options (like `--help`) can only be specified on the command line.
+##### Interactive mode for Parted
+Interactive mode simplifies the partitioning process and reduces unnecessary repetition by automatically applying all partitioning commands to the specified device.
+
+In order to start operating on a device, execute:
+```Text
+    # parted /dev/sdx
+```
+**Tips:**You will notice that the command-line prompt changes from a hash (`#`) to (`parted`): this also means that the new prompt is not a command to be manually entered when running the commands in the examples.
+To see a list of the available commands, enter:
+```Text
+    (parted) help
+```
+When finished, or if wishing to implement a partition table or scheme for another device, exit from parted with:
+```Text
+    (parted) quit
+```
+After exiting, the command-line prompt will change back to `#`.
+
+If you do not give a parameter to a command, Parted will prompt you for it. For example:
+```Text
+(parted) mklabel
+New disk label type? gpt
+```
+##### Create new partition table
+You need to (re)create the partition table of a device when it has never been partitioned before, or when you want to change the type of its partition table. Recreating the partition table of a device is also useful when the partition scheme needs to be restructured from scratch.
+
+Open each device whose partition table must be (re)created with:
+```Text
+    # parted /dev/sdx
+```
+To then create a new **GUID Partition Table**, use the following command:
+```
+    (part) mklabel gpt
+```
+To create a new **Master Boot Record**/MS-DOS partition table instead, use:
+```Text
+    (parted) mklabel msdos
+```
 #### Popcorn Time
 Popcorn Time is a multi-platform, free software BitTorrent client that includes an integrated media player. Popcorn Time provide a free "alternative" to subscription-based video streaming services such as Netflix.
 ```Text
@@ -218,6 +285,15 @@ VMware Workstation is one of the best Virtualization Tool. It is a little bit mo
     => $ cd Downloads/
     Step 4: Now clone the AUR Git repository of vmware-workstation.
     => $ git clone https://aur.archlinux.org/vmware-workstation.git
-    Step 5: Navigate to the ncurses5-compat-libs/ directory.
-    => $ cd ncurses5-compat-libs/
+    Step 5: Navigate to the vmware-workstation/ directory.
+    => $ cd vmware-workstation/
+```
+>**&Noted:**: I tried the `makepkg -S` command for `vmware-workstation` but it throws the following errors.
+```Text
+    ==> Making package: vmware-workstation 15.5.1-3 (Tue Jan 14 20:10:41 2020)
+    ==> Checking runtime dependencies...
+    ==> Installing missing dependencies...
+    error: target not found: vmware-keymaps
+    ==> ERROR: 'pacman' failed to install missing dependencies.
+
 ```
