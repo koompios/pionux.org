@@ -153,35 +153,17 @@ This command will install all required applications including the gnome display 
 ## Others
 #### Dropbox
 Dropbox is a file sharing system with a GNU/Linux client. Use it to transparently sync files across computers and architectures. It is really easy to use. You can use Dropbox for free. But it also has paid plans if you want more storage space than the free version of it.
->**Tips :** Make sure your system up to date, want to update system [Click Here](http://localhost:3030/docs/documentation#update-the-system)
+>**Tips :** Make sure your system up to date, want to update system [Click Here]()
+Down here are commands that is possible for installing it:
+```Text
+    - $ pi -S nemo-dropbox
+    - $ pi -S nautilus-dropbox
+    - $ pi -S dropbox-cli
+    - $ pi -S thunar-dropbox
+    - $ pi -S caja-dropbox
+    - $ pi -S kfilebox
+```
 
-You need Git version control system to clone the git repository of Dropbox AUR (Arch User Repository)
-To install git:
-```Text
-    $ pi -S git
-```
-Want to know more about git [here](http://localhost:3030/docs/installation#git).
-Before you start clone the repo of dropbox Find location for installing it.
-We recommend to install in `~/Downloads` directory, Go into the Downloads directory using this:
-```Text
-    $ cd Downloads/ 
-```
->**Noted:**Or you want to go into other directory use the same command, but changing the directory name.
-After you done with installing git run this command to clone Dropbox repo:
-```Text
-    $ git clone https://aur.archlinux.org/dropbox.git
-```
-Your dropbox repo was cloned and then go into the directory by `$ cd dropbox/`.
-After that run this command:
-```Text
-    $ makepkg -S
-```
-When the processed is done, now you have to list the files. by using this `$ ls`.
-After that you see the name of a dropbox that end with this `.pkg.tar.xz `.
-```Text
-    $ pi -U 
-```
-And you will be done installing it and it will be appear on your  system.
 #### Guvcview
 Guvcview is a webcam application at providing a simple interface for capturing and viewing video from v4l2 devices.
 Here the command:
@@ -203,6 +185,7 @@ where `device` is the hard disk device to edit (for example `/dev/sda`). If you 
 ```
     $ sudo bash
 ```
+
 ##### Command line mode for Parted
 In command line mode, this is followed by one or more commands. For example:
 ```Text
@@ -246,6 +229,40 @@ To then create a new **GUID Partition Table**, use the following command:
 To create a new **Master Boot Record**/MS-DOS partition table instead, use:
 ```Text
     (parted) mklabel msdos
+```
+You can decide the number and size of the partitions the devices should be split into, and which directories will be used to mount the partitions in the installed system (also known as mount points).
+The following command will be used to create partitions:
+```Text
+    $ (parted) mkpart part-type fs-type start end
+```
+- `part-type` is one of `primary`, `extended` or `logical`, and is meaningful only for MBR partition tables.
+- `fs-type` is an identifier chosen among those listed by entering `help mkpart` as the closest match to the file system that you will use. The *mkpart* command does not actually create the file system: the `fs-type` parameter will simply be used by parted to set a 1-byte code that is used by boot loaders to "preview" what kind of data is found in the partition, and act accordingly if necessary.
+- `start` is the beginning of the partition from the start of the device. It consists of a number followed by a **unit**, for example `1MiB` means start at 1 MiB.
+- `end` is the end of the partition from the start of the device (not from the start value). It has the same syntax as `start`, for example `100%` means end at the end of the device (use all the remaining space).
+>**Tip:** Most Open-Source native file systems map to the same MBR partition type code **{0x83](https://en.wikipedia.org/wiki/Partition_type#PID_83h)**, so it is perfectly safe to e.g. use ext2 for an ext4-formatted partition.
+
+>**Warning:** It is important that the partitions do not overlap each other: if you do not want to leave unused space in the device, make sure that each partition starts where the previous one ends.
+
+>**Note:** parted may issue a warning like:
+```Text
+    Warning: The resulting partition is not properly aligned for best performance.
+    Ignore/Cancel?
+```
+The following command will be used to flag the partition that contains the /boot directory as bootable:
+```Text
+    (parted) set partition boot on
+```
+- `partition` is the number of the partition to be flagged (see the output of the `print` command).
+- `esp` is an alias for `boot` on GPT.
+Resizing partitions is used by this command:
+```Text
+    (parted) resizepart number end
+```
+##### Tips and tricks]
+###### Dual booting with Windows XP
+If you have a Windows XP partition that you would like to move from drive-to-drive that also happens to be your boot partition, you can do so easily with GParted and keep Windows happy simply by deleting the following registry key PRIOR to the partition move:
+```Text
+    HKEY_LOCAL_MACHINE\SYSTEM\MountedDevices
 ```
 #### Popcorn Time
 Popcorn Time is a multi-platform, free software BitTorrent client that includes an integrated media player. Popcorn Time provide a free "alternative" to subscription-based video streaming services such as Netflix.
