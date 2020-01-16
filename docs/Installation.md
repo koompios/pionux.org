@@ -14,6 +14,17 @@ You can install atom by go into **Terminal**, type this:
      $ pi -S atom
 ```
 After that follow the instructions have given!!!
+#### TeXmaker
+In the arena of Open-Source, LaTeX is considered as a standard markup language. It helps the users for editing the documents to markup level. TeXmaker is one of the best LaTeX editor available out there. It’s to be the most user-friendly LaTeX IDE for the newbie.
+
+There are lots of best LaTeX Editor available, but it seems difficult to choose the Best LaTeX Editor for both advanced and beginner.So, we can install it by :
+```Text
+    $ pi -S texmaker
+```
+If you wish to remove, run this command:
+```Text
+    $ pi -Rs texmaker
+```
 #### Visual Studio Code
 Visual Studio Code is a source-code editor developed by Microsoft which includes support for debugging, embedded Git control and GitHub, syntax highlighting, intelligent code completion, snippets, and code refactoring. It is highly customizable, allowing users to change the theme, keyboard shortcuts, preferences, and install extensions that add additional functionality.
 First update the pi package repository cache with the following command:
@@ -170,6 +181,15 @@ Here the command:
 ```Text
     $ pi -S guvcview
 ```
+#### Kazam- Screen Recorder
+Screencasting is an important task for many people for many reasons including making a video tutorial,creating a presentation, compiling a how-to tutorial or do a software review or having the fun of streaming while playing pc games. Moreover now a day many users are making an earning opportunity for themselves through YouTube, Facebook video or any other video hosting sites by making many helpful how-to guide videos.
+
+**Kazam**is one of the best lightweight screen recorder available for Linux desktop. It’s straightforward and nifty tool for screencasting.
+We can install it run this:
+```Text
+    $ pi -S kazam
+```
+
 #### Parted
 Parted is a program for creating and manipulating partition tables. GParted is a GUI frontend.
 In other to install it you must type this command in konsole:
@@ -258,7 +278,7 @@ Resizing partitions is used by this command:
 ```Text
     (parted) resizepart number end
 ```
-##### Tips and tricks]
+##### Tips and tricks
 ###### Dual booting with Windows XP
 If you have a Windows XP partition that you would like to move from drive-to-drive that also happens to be your boot partition, you can do so easily with GParted and keep Windows happy simply by deleting the following registry key PRIOR to the partition move:
 ```Text
@@ -288,6 +308,16 @@ To install it using this command:
 ```Text
     $ pi -S teamviewer
 ```
+#### Transmission
+ you are searching for something that is entirely free, open source and comes with minimum configuration, then *Transmission torrent client* is one of them. It supports cross-platform like Windows, Linux, Mac OS, and Unix based systems.h
+
+There are several packages available to install Transmission with:
+- `$ pi -S transmission-cli` – daemon, with CLI, andWeb Interface.
+- `$ pi -S transmission-gtk` – GTK 3 graphical interface.
+- `$ pi -S transmission-qt` – Qt 5 graphical interface.
+- `$ pi -S tremc or tremc-git` – Curses interface for the daemon.
+- `$ pi -S transmission-remote-gtk` – GTK 3 graphical interface for the daemon.
+
 #### VMware
 
 >**Noted:** VMware Workstation text based installer depends on `ncurses5-compat-libs`. So you will have to install that from AUR as well as it is not available in the official package repository.
