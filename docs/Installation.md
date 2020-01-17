@@ -14,6 +14,8 @@ You can install atom by go into **Terminal**, type this:
      $ pi -S atom
 ```
 After that follow the instructions have given!!!
+
+---
 #### TeXmaker
 In the arena of Open-Source, LaTeX is considered as a standard markup language. It helps the users for editing the documents to markup level. TeXmaker is one of the best LaTeX editor available out there. It’s to be the most user-friendly LaTeX IDE for the newbie.
 
@@ -25,6 +27,7 @@ If you wish to remove, run this command:
 ```Text
     $ pi -Rs texmaker
 ```
+---
 #### Visual Studio Code
 Visual Studio Code is a source-code editor developed by Microsoft which includes support for debugging, embedded Git control and GitHub, syntax highlighting, intelligent code completion, snippets, and code refactoring. It is highly customizable, allowing users to change the theme, keyboard shortcuts, preferences, and install extensions that add additional functionality.
 First update the pi package repository cache with the following command:
@@ -35,10 +38,12 @@ After it updated,Use this command:
 ```Text
     $ pi -S code --classic
 ```
+---
 ## Docs And WordSheets
 #### Apache OpenOffice
 Apache OpenOffice is an office productivity software suite containing a word processor (Writer), a spreadsheet (Calc), a presentation application (Impress), a drawing application (Draw), a formula editor (Math), and a database management application (Base). It's default file format is the OpenDocument Format (ODF), and can also read and write a wide variety of other file formats, including those from Microsoft Office.
 
+---
 #### Libra Office
  Libra Office is the free power-packed Open Source personal productivity suite for Windows, Macintosh and Linux, that gives you six feature-rich applications for all your document production and data processing needs: Writer, Calc, Impress, Draw, Math and Base.
 ```Text
@@ -48,20 +53,27 @@ or
 ```Text
     $ pi -S libraoffice-still    
 ```
+---
 #### Okular
 Okular is a multiplatform document viewer developed by the KDE community and based on Qt and KDE Frameworks libraries. It is distributed as part of the KDE Applications bundle. Its origins are from KPDF and it replaces KPDF, KGhostView, KFax, KFaxview and KDVI in KDE 4.
 We can install it by run:
 ```Text
     $ pi -S okular
 ```
+
+---
 #### Office 365
 Office 365 is a cloud-based subscription service that brings together the best tools for the way people work today. Combining the best-in-class apps like Excel and Outlook with cloud services like OneDrive and Microsoft Teams, Office 365 lets anyone create and share anywhere on any device.
+
+---
 #### WPS Office
 WPS Office (an acronym for Writer, Presentation and Spreadsheets, previously known as Kingsoft Office)is an office suite for Microsoft Windows, Linux, iOS and Android.
 ```Text
     $ pi -S wps-office
 ```
 >**Tips:** The following steps that installing has given please chooseing number 2. We recommended.
+
+---
 ## Web Browser
 #### Chrome
 A Google Chrome App, or commonly just Chrome App, is a web application that runs on the Google Chrome web browser. Chrome apps can be obtained from the Chrome Web Store where apps, extensions, and themes can be installed or bought.
@@ -72,13 +84,14 @@ To install chrome, follow steps below:
     2. Type '$ pi -S google-chrome'
     3. Following the sentences have been given.
 ```
+---
 #### Brave 
 Brave is a new way of thinking about how the web works. Brave is open source and built by a team of privacy focused, performance oriented pioneers of the web. Brave fights malware and prevents tracking while keeping your information safe and secure.
 To installed **Brave Browser**, open terminal and use this command:
 ```Text
     $ pi -S brave
 ```
-
+---
 #### Firefox 
 Mozilla Firefox, Firefox Browser, or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, Mozilla Corporation. Firefox uses the Gecko layout engine to render web pages, which implements current and anticipated web standards.
 In order to install it use these command
@@ -87,7 +100,7 @@ In order to install it use these command
     2. Type '$ pi -S firefox'
     3. And it would ask for your permission 'Enter' for 'Yes'
 ```
-
+---
 #### Git
 Git is the version control system (VCS) designed and developed by Linus Torvalds, the creator of the Linux kernel. Git is now used to maintain AUR packages, as well as many other projects, including sources for the Linux kernel.
 
@@ -95,7 +108,7 @@ You can install git through this line:
 ```Text
     $ pi -S git
 ```
-
+---
 ## Editors
 #### Krita
 [Krita](https://docs.krita.org/en/index.html) is a raster graphics editor designed primarily for digital painting and animation. It is a fast,flexible, and free Photoshop alternative built by artists and perfect for everyone from amateur to professional. Krita gives budding artists and illustrators a pro-level set of tools with a natural painting toolbox.
@@ -103,16 +116,19 @@ You can install git through this line:
 ``` 
     $ pi -S krita
 ```
+---
 #### Kdenlive
 Kdenlive is a non-linear video editing software featuring multi-track editing with a timeline. It supports an unlimited number of video and audio tracks and includes tools to create, move, crop and delete video, audio, text and image clips. Kdenlive has a built-in title editor and the ability to add custom effects and transitions.
 ```
     $ pi -S kdenlive
 ```
+---
 #### KMPlayer
 KMPlayer is a highly customizable multimedia software providing high-quality video playback of media files with much more additional functionality. KMPlayer recognizes a large number of file formats, is able to capture videos from online sources and allows users to make animated GIFs.
 ```
     $ pi -S kmplayer
 ```
+---
 #### Photoshop
 Adobe Photoshop is an image editor developed by Adobe Inc. Widely considered as one of the most powerful image editors in the market, Adobe Photoshop is equipped with advanced features that can cater to a wide range of artistic professionals and hobbyists.
 
@@ -123,6 +139,8 @@ We have just made this app to run on PionuxOS.To install it, please following th
     3. Last step, $ pix i adobe-photoshop-cc
 
 ```
+
+---
 ## Music
 #### Spotify
 ```Text
@@ -140,6 +158,8 @@ Here is the command for  solve the error:
 ```Text
     $ sudo locale-gen
 ```
+
+---
 ## Software
 #### Gnome
 GNOME Software utility for software application installations and updates. The Software Center allows for easy installations and updates of software applications and system extensions.
@@ -161,6 +181,7 @@ Finally, install GNOME Desktop environment using command:
 ```
 This command will install all required applications including the gnome display manager for the GNOME desktip environment.
 
+---
 ## Others
 #### Dropbox
 Dropbox is a file sharing system with a GNU/Linux client. Use it to transparently sync files across computers and architectures. It is really easy to use. You can use Dropbox for free. But it also has paid plans if you want more storage space than the free version of it.
@@ -174,13 +195,19 @@ Down here are commands that is possible for installing it:
     - $ pi -S caja-dropbox
     - $ pi -S kfilebox
 ```
-
+---
+#### FileZilla
+FTP ( File Transfer Protocol ) is one of the great and efficient ways of transferring files over a TCP based system like the internet. It helps to move a large number of computer files from one host or system to another host or system without any hassle and complexity.
+```Text
+    $ pi -S  filezilla
+```
 #### Guvcview
 Guvcview is a webcam application at providing a simple interface for capturing and viewing video from v4l2 devices.
 Here the command:
 ```Text
     $ pi -S guvcview
 ```
+---
 #### Kazam- Screen Recorder
 Screencasting is an important task for many people for many reasons including making a video tutorial,creating a presentation, compiling a how-to tutorial or do a software review or having the fun of streaming while playing pc games. Moreover now a day many users are making an earning opportunity for themselves through YouTube, Facebook video or any other video hosting sites by making many helpful how-to guide videos.
 
@@ -189,7 +216,7 @@ We can install it run this:
 ```Text
     $ pi -S kazam
 ```
-
+---
 #### Parted
 Parted is a program for creating and manipulating partition tables. GParted is a GUI frontend.
 In other to install it you must type this command in konsole:
@@ -200,7 +227,7 @@ Parted has two modes: command line and interactive. Parted should always be star
 ```
     # parted device
 ```
-where `device` is the hard disk device to edit (for example `/dev/sda`). If you omit the `device` argument, *parted* will attempt to guess which device you want.
+Where `device` is the hard disk device to edit (for example `/dev/sda`). If you omit the `device` argument, *parted* will attempt to guess which device you want.
 **Note:**If you are't in root, use this:
 ```
     $ sudo bash
@@ -284,11 +311,13 @@ If you have a Windows XP partition that you would like to move from drive-to-dri
 ```Text
     HKEY_LOCAL_MACHINE\SYSTEM\MountedDevices
 ```
+---
 #### Popcorn Time
 Popcorn Time is a multi-platform, free software BitTorrent client that includes an integrated media player. Popcorn Time provide a free "alternative" to subscription-based video streaming services such as Netflix.
 ```Text
     $ pi -S popcorntime-bin  or $ pi -S popcorntime
 ```
+---
 #### Snap Store
 Snaps are applications packaged with all their dependencies to run on all popular Linux distributions from a single build. They update automatically and roll back gracefully.
 
@@ -302,14 +331,17 @@ Snaps are discoverable and installable from the Snap Store, an app store with an
     6. $ sudo snap install snap-store
 ```
 Make sure you have download git [Click here](http://localhost:3030/docs/installation#git)
+
+---
 #### Teamviewer
 Team Viewer is an awesome application for remotely accessing a computer or letting someone remotely access your computer. It is easy to use and its completely free of charge.
 To install it using this command:
 ```Text
     $ pi -S teamviewer
 ```
+---
 #### Transmission
- you are searching for something that is entirely free, open source and comes with minimum configuration, then *Transmission torrent client* is one of them. It supports cross-platform like Windows, Linux, Mac OS, and Unix based systems.h
+ You are searching for something that is entirely free, open source and comes with minimum configuration, then *Transmission torrent client* is one of them. It supports cross-platform like Windows, Linux, Mac OS, and Unix based systems.h
 
 There are several packages available to install Transmission with:
 - `$ pi -S transmission-cli` – daemon, with CLI, andWeb Interface.
@@ -318,29 +350,17 @@ There are several packages available to install Transmission with:
 - `$ pi -S tremc or tremc-git` – Curses interface for the daemon.
 - `$ pi -S transmission-remote-gtk` – GTK 3 graphical interface for the daemon.
 
+---
+
 #### VMware
 
->**Noted:** VMware Workstation text based installer depends on `ncurses5-compat-libs`. So you will have to install that from AUR as well as it is not available in the official package repository.
+VMware Workstation is a hosted hypervisor that runs on x64 versions of Windows and Linux operating systems (an x86 version of earlier releases was available); it enables users to set up virtual machines (VMs) on a single physical machine, and use them simultaneously along with the actual machine.
+##### Official VMware Tools
+###### Modules
+- `vmblock` - Filesystem driver. Enables drag & drop functionality between host and guest (superseded by the vmware-vmblock-fuse utility).
+- `vmci` - High performance communication interface between host and guest.
+- `vmmon` - Virtual Machine Monitor.
+- `vmnet` - Networking driver.
+- `vsock` - VMCI sockets.
 
-VMware Workstation is one of the best Virtualization Tool. It is a little bit more complicated to install. In this article, Let's show how to install and configure VMware Workstation Pro 14 on PionuxOS:
-```Text
-    Step 1: Update pi packages
-    => $ pi -Syu
-    Step 2: Installing git
-    => $ pi -S git
-    Step 3: Now navigate to the ~/Downloads directory with the following command
-    => $ cd Downloads/
-    Step 4: Now clone the AUR Git repository of vmware-workstation.
-    => $ git clone https://aur.archlinux.org/vmware-workstation.git
-    Step 5: Navigate to the vmware-workstation/ directory.
-    => $ cd vmware-workstation/
-```
->**&Noted:**: I tried the `makepkg -S` command for `vmware-workstation` but it throws the following errors.
-```Text
-    ==> Making package: vmware-workstation 15.5.1-3 (Tue Jan 14 20:10:41 2020)
-    ==> Checking runtime dependencies...
-    ==> Installing missing dependencies...
-    error: target not found: vmware-keymaps
-    ==> ERROR: 'pacman' failed to install missing dependencies.
-
-```
+>**Note:** There is no module for vmware-vmblock-fuse, and vmblock has been removed from the kernel unless you disable fuse. Instead, systemd services need to be enabled to allow these functions. See instructions below.
