@@ -19,4 +19,5 @@ If you have problem with Pi, you can use Pix to reinstall Pi now.
 ```
     $ pix i pi
 ```
+>**Noted:**Pix is the command which is the extra and extention of more software supporting. It can support more applicantions than *pi* like Microsoft Office and many more.
 

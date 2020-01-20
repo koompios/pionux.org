@@ -66,6 +66,12 @@ We can install it by run:
 Office 365 is a cloud-based subscription service that brings together the best tools for the way people work today. Combining the best-in-class apps like Excel and Outlook with cloud services like OneDrive and Microsoft Teams, Office 365 lets anyone create and share anywhere on any device.
 
 ---
+#### Simplenote
+Simplenote is the best note taking the app for Pionux right now. It provides all the features that a modern and professional note-taking app must have.
+```Text
+    $ pi -S simplenote-electron-bin
+```
+---
 #### WPS Office
 WPS Office (an acronym for Writer, Presentation and Spreadsheets, previously known as Kingsoft Office)is an office suite for Microsoft Windows, Linux, iOS and Android.
 ```Text
@@ -183,6 +189,14 @@ This command will install all required applications including the gnome display 
 
 ---
 ## Others
+#### Bacula
+To recovers from some unexpected situations like human errors, Disk failure or RAID, Corruption of file systems we need a good backup plan.
+
+Bacula is an Open Source Backup Software.It is an automated task that need not require intervention from a systems administrator or computer operator. Bacula supports Pionux, Linux, UNIX, and Windows backup clients.
+```Text
+    $ pi -S bacula-dir
+```
+---
 #### Dropbox
 Dropbox is a file sharing system with a GNU/Linux client. Use it to transparently sync files across computers and architectures. It is really easy to use. You can use Dropbox for free. But it also has paid plans if you want more storage space than the free version of it.
 >**Tips :** Make sure your system up to date, want to update system [Click Here]()
@@ -318,6 +332,7 @@ Popcorn Time is a multi-platform, free software BitTorrent client that includes 
     $ pi -S popcorntime-bin  or $ pi -S popcorntime
 ```
 ---
+#### Sophos
 #### Snap Store
 Snaps are applications packaged with all their dependencies to run on all popular Linux distributions from a single build. They update automatically and roll back gracefully.
 
