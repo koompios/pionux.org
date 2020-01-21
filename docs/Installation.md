@@ -145,7 +145,12 @@ We have just made this app to run on PionuxOS.To install it, please following th
     3. Last step, $ pix i adobe-photoshop-cc
 
 ```
-
+---
+#### Open Shot
+Open Shot video editor is an open source Video Editing Software. It works well in the other distribution, too.
+```
+    $ pi -S openshot
+```
 ---
 ## Music
 #### Spotify
@@ -164,7 +169,15 @@ Here is the command for  solve the error:
 ```Text
     $ sudo locale-gen
 ```
+---
+## Socail Media
+#### Telegram
+Telegram is a cloud-based cross-platform instant messaging service with optional end-to-end encryption. Account creation requires a phone number.
 
+The official clients are open-source but the code for recent versions is not always immediately published. The server-side code is proprietary.
+```Text
+    $ pi -S telegram-desktop
+```
 ---
 ## Software
 #### Gnome
@@ -187,6 +200,24 @@ Finally, install GNOME Desktop environment using command:
 ```
 This command will install all required applications including the gnome display manager for the GNOME desktip environment.
 
+---
+#### KDE (Plasma)
+An educational expense is always high all over the world. This expense will be more if you want to use educational software on your machine. You may be searching over the net to get the best educational software for the kids or yourself.
+
+KDE is not just software; it is a package of software for different user purpose. This software was started as a free educational package named as KDE educational project which now included lots of software package. It can also be installed from the software center or from commands below:
+```Text
+    $ pi -S plasma
+```
+To install the full set of KDE applications, Running this:
+```text 
+    $ pi -S kde-applications or $ pi -S kde-applications-meta
+```
+>**Noted:** This will only install applications, it will not install any version of Plasma.
+##### Power Management
+Install *powerdevil* for an integrated Plasma power managing service. This service offers additional power saving features, monitor brightness control.
+```Text
+    $ pi -S powerdevil
+```
 ---
 ## Others
 #### Bacula
@@ -222,6 +253,7 @@ Here the command:
     $ pi -S guvcview
 ```
 ---
+
 #### Kazam- Screen Recorder
 Screencasting is an important task for many people for many reasons including making a video tutorial,creating a presentation, compiling a how-to tutorial or do a software review or having the fun of streaming while playing pc games. Moreover now a day many users are making an earning opportunity for themselves through YouTube, Facebook video or any other video hosting sites by making many helpful how-to guide videos.
 
@@ -332,7 +364,7 @@ Popcorn Time is a multi-platform, free software BitTorrent client that includes 
     $ pi -S popcorntime-bin  or $ pi -S popcorntime
 ```
 ---
-#### Sophos
+
 #### Snap Store
 Snaps are applications packaged with all their dependencies to run on all popular Linux distributions from a single build. They update automatically and roll back gracefully.
 
@@ -366,6 +398,13 @@ There are several packages available to install Transmission with:
 - `$ pi -S transmission-remote-gtk` – GTK 3 graphical interface for the daemon.
 
 ---
+#### uGet
+uGet is an open source download manager for Linux which will download your files fast. This download manager can be efficiently organized and highly configurable. You can control your downloads in one central place.
+
+All the modern browsers have default download manager, it’s not good enough to handle effective downloading system. When the question comes whether a web browser can handle multiple download, pause system, torrent integration or fast download, then the answer is not satisfactory.
+
+We can install it by run `$ pi -S uget`
+
 
 #### VMware
 
