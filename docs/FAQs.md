@@ -41,7 +41,11 @@ The `pi` which is the shortcut formation of `pacman` is one of the majority feat
 ## What is sudo?
 
 **sudo** — A widely used command in the Linux command line, sudo stands for "SuperUser Do". So, if you want any command to be done with administrative or root privileges, you can use the sudo command.
+## What is the different between Pix and Pi?
 
+As you know that pi is the shortcut form of pacman which we are using it to install applications and packages. Even thought we  had some updated we still using pi as the main command. 
+
+Pix sounds familiar, but it is quite different because it is stand for **pacman extented or extra** which is supported by many more applicantions..,ect. that **Pi** can't support like Microsoft office. 
 ## How to install Pi or Pacman?
 
 ```shell
@@ -82,6 +86,43 @@ As a Pionux or Linux system administrator (sysadmin) you can change password for
 
 For more Info about password: [Click here](https://pionux.org/docs/documentation#password-info-in-pionuxos)
 
+## Problem with Updating System
+#### How can I fix this when I run "$ pi -Syu" it show like this:(pyqt5-common)
+```Text
+    :: Synchronizing package databases...
+    core is up to date
+    extra is up to date
+    community is up to date
+    :: Starting full system upgrade...
+    :: Replace ilmbase with extra/openexr? [Y/n] 
+    :: Replace libmagick with extra/imagemagick? [Y/n] 
+    :: Replace pygobject2-devel with extra/python2-gobject2? [Y/n] 
+    resolving dependencies...
+    looking for conflicting packages...
+    :: python-pyqt5 and pyqt5-common are in conflict. Remove pyqt5-common? [y/N] 
+    error: unresolvable package conflicts detected
+    error: failed to prepare transaction (conflicting dependencies)
+    :: python-pyqt5 and pyqt5-common are in conflict
+    Error installing repo packages
+```
+In order to solve this problem, you have to:
+    1. Go into your terminal
+    2. Run this commands `$ sudo pacman -Rdd pyqt5-common`. (Following all the insturction)
+    3. After it succeed you can update your system now
+#### After I have done it, it is still not working. What should I do?
+So, What you need to do is that you have to run other command
+```Text
+    $ sudo pacman -Rdd libdmx libxxf86dga
+```
+After that is done, run the updated command:
+```Text
+    $ pi -Syu
+```
+After update just do this next command, you will be finish:
+```Text
+    $ pacman -Rns $(pacman -Qqtd)
+```
+---
 <!-- * [I found error, what should I do?]()
 * [Can I join the community?]()
 * [Is Pionux need more developer?]()

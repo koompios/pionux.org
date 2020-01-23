@@ -115,6 +115,12 @@ You can install git through this line:
     $ pi -S git
 ```
 ---
+#### Thunderbird
+Mozilla Thunderbird is a free and open-source, cross-platform email client, news client, RSS, and chat client developed by the Mozilla Foundation. The project strategy was modeled after that of the Mozilla Firefox web browser. It is installed by default on Ubuntu desktop systems.
+Using command below install it:
+```Text
+    $ pi -S thunderbird
+```
 ## Editors
 #### Krita
 [Krita](https://docs.krita.org/en/index.html) is a raster graphics editor designed primarily for digital painting and animation. It is a fast,flexible, and free Photoshop alternative built by artists and perfect for everyone from amateur to professional. Krita gives budding artists and illustrators a pro-level set of tools with a natural painting toolbox.
@@ -263,6 +269,20 @@ We can install it run this:
     $ pi -S kazam
 ```
 ---
+#### Kodi
+Kodi is one of the best free and open source media server software available in the market. It offers an intuitive graphical user interface with lots of customization options. Kodi is an all in one entertainment software center which supports all the primary OS including Android.
+```Text
+    $ pi -S kodi
+```
+---
+#### Owncloud
+OwnCloud is one of the popular and most prominent open source community driven cloud software available in the market. It let you create easy to use a personal cloud server for both home and office use. You can also have full control over your data and who can have access at all.
+It is easy to install it, go to your terminal and type this:
+```text
+    $ pi -S owncloud
+```
+---
+
 #### Parted
 Parted is a program for creating and manipulating partition tables. GParted is a GUI frontend.
 In other to install it you must type this command in konsole:
@@ -405,6 +425,40 @@ All the modern browsers have default download manager, it’s not good enough to
 
 We can install it by run `$ pi -S uget`
 
+---
+#### VLC
+VLC Media Player is one of the best and most popular Best Linux Software in the category of video players. It is an open source media player which support almost all media file types. VLC Media Player support network shares are browsing, downloading subtitles, video playlists, pop-up video, etc.
+```Text
+    $ pi -S vlc
+```
+##### Troubleshooting
+###### Video broken or other issue after upgrade
+Now and then VLC will have some issues with configuration even in minor releases. Before making bug reports, remove or rename your configuration located at `~/.config/vlc` and confirm whether the issue is still there.
+
+If using a ffmpeg variant from the AUR, be sure that you have upgraded it as well. Pacman will not upgrade it when necessary and a mismatch will break VLC.
+
+###### Segmentation fault
+If that does not work, VLC has a segfault issue with `plugins.dat`, simply remove the file:
+```Text
+    $ rm <Location of the file>
+```
+###### Missing icons in dropdown menus
+This can happen under XFCE, there will be no more icons in dropdown menus, like the PCI card icon.
+
+Execute these commands to reactivate these icons:
+```Text
+    $ gconftool-2 --type boolean --set /desktop/gnome/interface/buttons_have_icons true
+    $ gconftool-2 --type boolean --set /desktop/gnome/interface/menus_have_icons true
+```
+###### Failed to open VDPAU backend
+Since your system probably does not support VDPAU you should tell VLC to use VA-API instead, see [#Hardware video acceleration](https://wiki.archlinux.org/index.php/VLC_media_player#Hardware_video_acceleration).
+###### No playback via SFTP of media files names containing spaces
+If VLC does not play any videos or audio files over SFTP make sure you have **sshfs** installed.
+
+If it refuses to play any media files containing spaces via SFTP and always asks for authentication change the Exec line in the` vlc.desktop` file to:
+```Text
+    $ Exec=/usr/bin/vlc --started-from-file %F
+```
 
 #### VMware
 

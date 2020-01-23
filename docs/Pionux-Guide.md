@@ -180,7 +180,7 @@ If you want to search for the locateion of the file, you can use **locate**:
     $ locate <file_name>
 ```
 ## Intermediate Commands in PionuxOS
-
+#### echo
 - The **echo** command helps us move some data, usually text into file.For example, if you want to create a new text file or add to an already made text file, you just need to type in, **“echo Hello, This is Pionux. >> new.txt”**.
 
 #### cat
