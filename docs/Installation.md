@@ -158,7 +158,7 @@ Open Shot video editor is an open source Video Editing Software. It works well i
     $ pi -S openshot
 ```
 ---
-## Music
+## Music Apps
 #### Spotify
 ```Text
     $ pi -S spotify
@@ -181,9 +181,17 @@ Here is the command for  solve the error:
 Telegram is a cloud-based cross-platform instant messaging service with optional end-to-end encryption. Account creation requires a phone number.
 
 The official clients are open-source but the code for recent versions is not always immediately published. The server-side code is proprietary.
-```Text
-    $ pi -S telegram-desktop
-```
+
+You can use one of following methods in order to use Telegram:
+
+>**TIps:**We are recommending these two commands for installing:
+- `$ pi -S telegram-desktop`, built by Arch Linux
+- `$ pi -S telegram-desktop-bin`, built by upstream
+
+For Command-line clients, Openning terminal and typing below commands(You can choose which one you want):
+- `$ pi -S telegram-cli-git` provides command-line interface to connect and use Telegram. For more information about the program, visit the program page on [Github](https://github.com/vysheng/tg).
+- `$ pi -S nctelegram-git` is a command-line interface for Telegram based on [Ncurses]() and needs **telegram-cli-git** to run. For more information about the program, visit the program page on [Github](https://github.com/Nanoseb/ncTelegram).
+- `$ pi -S python-telegram-send` , not a full client but a command-line tool to directly send messages or files via Telegram.
 ---
 ## Software
 #### Gnome

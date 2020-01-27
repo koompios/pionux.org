@@ -776,3 +776,86 @@ Second Way,Press:
 ```
     sudo passwd -dl root
 ```
+## Cache Clean Up
+We all know that Pacman, the default package manager for Arch Linux so does Pionux and its derivatives, will store all downloaded packages in /var/cache/pacman/pkg/ folder. We also know that it will not delete old or uninstalled packages automatically from the cache. After a particular period of time, the cache folder will grow bigger in size. So, it is recommended to clean the package cache periodically to free up the hard disk’s space.
+
+Pacman has a built-in option to remove all cached packages. You can clean the cached packages by running *sudo pacman -Sc* command. However, this command will remove all old versions and leave only the versions of packages which are currently installed available. This is not a recommended way.Because, sometimes you might want to downgrade a particular package to its older version. So, if you cleaned all old packages, you have no choice to install them from the Cache folder. You can only install them from the official repositories. This is where the **Paccache** script comes in helps.
+
+The Paccache script is provided by the Pacman package itself. So, you don’t have to bother with installation steps. Paccache will keep the 3 most recent package versions by default. Except the 3 most recent package versions, It will delete all cached versions of each package regardless of whether they’re installed or not. This brief tutorial teaches how to properly clean the package cache and its derivatives using paccache script.
+
+#### The Recommended Way To Clean The Package Cache In Pionux
+Let check first how many cached packages are available in my cache folder.
+```Text
+    $ sudo ls /var/cache/pacman/pkg/ | wc -l
+
+    Output: 1990
+```
+As you see in the above output has totally **1990** cached packages. Let check the total disk space used by the cache folder.
+```Text
+    $ du -sh /var/cache/pacman/pkg/
+
+    Output: 2.5G    /var/cache/pacman/pkg/
+```
+Currently, We can see that this PC has cached packages of 2.5 GB in size. This is too much which not suppose to keep all of them.
+
+To clean all packages, except the 3 most recent versions, run the following command
+```Text
+    $ sudo paccache -r
+
+    [sudo] password for sk:
+    
+    ==> finished: 245 packages removed (disk space saved: 1.08 GiB)
+```
+Still want to remove more packages? Of course, you can! **Paccache **allows you to decide how many recent versions you want to keep. For instance, run the following command if you want to keep only one most recent version:
+```Text
+    $ sudo paccache -rk 1
+```
+Where, **k** indicates to keep “num” of each package in the cache.
+
+To remove all cached versions of uninstalled packages, re-run paccache with:
+```Text
+    $ sudo paccache -ruk0
+```
+Where, u flag indicates the uninstalled packages.
+
+Or, simply use the following pacman command to remove all uninstalled packages:
+```Text
+    $ pi -Sc
+```
+To completely remove all packages (Whether they are installed or uninstalled) from the cache, run the following command:
+```Text
+    $ pi -Scc
+```
+>**Warning:**Please be careful while using this command. There is no way to retrieve the cached packages once they are deleted.
+#### Automatically clean the package cache
+If you are too lazy to clean the package cache manually, you can automate this task using pacman hooks. The pacman hook will automatically clean the package cache after every pacman transaction.
+
+To do so, create a file /etc/pacman.d/hooks/clean_package_cache.hook:
+```Text
+    $ sudo mkdir /etc/pacman.d/hooks
+```
+Next:
+```Text
+    $ sudo nano /etc/pacman.d/hooks/clean_package_cache.hook
+```
+Add the following lines:
+```Text
+    [Trigger]
+    Operation = Upgrade
+    Operation = Install
+    Operation = Remove
+    Type = Package
+    Target = *
+    [Action]
+    Description = Cleaning pacman cache...
+    When = PostTransaction
+    Exec = /usr/bin/paccache -r
+```
+Save and close the file. From now on, the package cache will be cleaned automatically after every pacman transactions (like upgrade, install, remove). You don’t have to run paccache command manually every time.
+
+For more details, refer the Paccache help section by running the following command:
+```Text
+    $ paccache -h
+```
+
+
