@@ -472,3 +472,4 @@ VMware Workstation is a hosted hypervisor that runs on x64 versions of Windows a
 - `vsock` - VMCI sockets.
 
 >**Note:** There is no module for vmware-vmblock-fuse, and vmblock has been removed from the kernel unless you disable fuse. Instead, systemd services need to be enabled to allow these functions. See instructions below.
+---
