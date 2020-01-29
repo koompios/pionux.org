@@ -192,6 +192,13 @@ For Command-line clients, Openning terminal and typing below commands(You can ch
 - `$ pi -S telegram-cli-git` provides command-line interface to connect and use Telegram. For more information about the program, visit the program page on [Github](https://github.com/vysheng/tg).
 - `$ pi -S nctelegram-git` is a command-line interface for Telegram based on [Ncurses]() and needs **telegram-cli-git** to run. For more information about the program, visit the program page on [Github](https://github.com/Nanoseb/ncTelegram).
 - `$ pi -S python-telegram-send` , not a full client but a command-line tool to directly send messages or files via Telegram.
+##### Helps
+###### Can't Open Telegram, What should I do?
+If you are finding trouble with telegram after you have updated it like when you try to open it back 
+and it can't open or can open for only seconds.What you need to do is that you must go into terminal and type this `$ telegram-desktop`and then `Enter`.
+
+It will appear the some problems connected to **Qt5,libicu,etc**, please [Click here]().
+
 ---
 ## Software
 #### Gnome
@@ -244,8 +251,7 @@ Bacula is an Open Source Backup Software.It is an automated task that need not r
 ---
 #### Dropbox
 Dropbox is a file sharing system with a GNU/Linux client. Use it to transparently sync files across computers and architectures. It is really easy to use. You can use Dropbox for free. But it also has paid plans if you want more storage space than the free version of it.
->**Tips :** Make sure your system up to date, want to update system [Click Here]()
-Down here are commands that is possible for installing it:
+>**Warning:**The Dropbox has been removed for OS. And all the AURs are broken.
 ```Text
     - $ pi -S nemo-dropbox
     - $ pi -S nautilus-dropbox

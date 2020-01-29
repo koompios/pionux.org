@@ -123,6 +123,18 @@ After update just do this next command, you will be finish:
     $ pacman -Rns $(pacman -Qqtd)
 ```
 ---
+## Missing Qt5-base, What should I do ?
+What you must do is that you have to go in terminal and then installed it back.
+
+>**Noted:**If you know which packages of `Qt5` are missing!!!
+
+Run this in your terminal ` $ pi -S qt5-base`-> Enter your password and -> `Enter`
+
+>**Tips:**We recommend to use this command which it will install missing files even the new files that have been updated.
+```
+    $ pi -S qt5
+```
+
 <!-- * [I found error, what should I do?]()
 * [Can I join the community?]()
 * [Is Pionux need more developer?]()

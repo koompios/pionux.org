@@ -767,14 +767,14 @@ Second Way,Press:
 #### Unlocked the Root Account
 1. **Unlock the root account (PionuxOS)**. PionuxOS locks the root account so that the average user can't access it. This is done because root access is rarely necessary when using the `sudo` command (see the previous section). Unlocking the root account will allow you to log in as root.
 ```
-    sudo passwd root
+    $ sudo passwd root
 ```
 2.  **Open the terminal**. If the terminal is not already open, open it. Many distributions allow you to open it by pressing `Ctrl+Alt+T`.
 3. Type `sudo passwd root` and `press ↵` Enter. When prompted for a password, enter your *user* password.
 4. `Set a new password`. You'll be prompted to create a new password and enter it twice. Once a password has been set, the root account will be active.
 5. `Lock the root account again`. If you want to lock the root account, enter the following command to remove the password and lock root:
 ```
-    sudo passwd -dl root
+    $ sudo passwd -dl root
 ```
 ## Cache Clean Up
 We all know that Pacman, the default package manager for Arch Linux so does Pionux and its derivatives, will store all downloaded packages in /var/cache/pacman/pkg/ folder. We also know that it will not delete old or uninstalled packages automatically from the cache. After a particular period of time, the cache folder will grow bigger in size. So, it is recommended to clean the package cache periodically to free up the hard disk’s space.
