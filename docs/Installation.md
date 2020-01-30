@@ -122,6 +122,45 @@ Using command below install it:
     $ pi -S thunderbird
 ```
 ## Editors
+As Window has widely used photo editor enterprise-level Photo management and editing software. So does Pionux which contain a large number of open-source industry professionals software.Down here are the avaible software you can install in the Pionux. And surprisingly all comes with a handful of features and tools to fulfill your image editing or painting or designing task.
+#### GIMP - The High-Quality Photo Manipulation
+GIMP is an insanely popular open source **Free Photo Editing Software** Like Photoshop. It’s a multi-platform supported software which supports various system like Windows, Linux, Mac OS X and so does pionux. Users can easily complete the job with this free software.
+
+It provides a set of advanced tools so that the scientists, photographers, and designers can accomplish the jobs smoothly. Without any doubt, this is one of the best photoshop alternative free picture editor.
+
+You can easily installed this by only one command.
+>**Noted:**You must update your system before installing this.
+
+Here is the command:
+```
+    $ pi -S gimp
+```
+**Tips and tricks**
+1. **Captions**
+To caption an image follow these steps after inputting the desired text:
+- Click `Layer` and `Text to Path`
+- Click `Select` and `From Path`
+- Click `Select` and `Invert`
+- Click `Edit` and `Stroke Path`
+2. **Create a circle**
+To draw a circle in GIMP follow these steps:
+- Select the Ellipse tool and hold Shift
+- Click Edit and Fill with Color
+- Click Select and Shrink
+- Press Delete
+
+>**Tip:** Grow and Border give the same result.
+---
+#### Inkscape – Professional Vector Graphics Editor
+Inkscape is an amazing open source and free vector design tool. It’s very powerful with lots of tools and features for digital vector work and posters creations. This tool is very similar and alternative to Adobe Illustrator but there are many features available in photoshop also thus it can be considered as photoshop and Illustrator alternative.
+
+Inkscape is a compact software package including vector editor, text tools, drawing tools, support for Bezier and spiro curves etc.
+
+Here is the one way to install it:
+Go into terminal and Run this command `$ pi -S inkscape`
+
+---
+
 #### Krita
 [Krita](https://docs.krita.org/en/index.html) is a raster graphics editor designed primarily for digital painting and animation. It is a fast,flexible, and free Photoshop alternative built by artists and perfect for everyone from amateur to professional. Krita gives budding artists and illustrators a pro-level set of tools with a natural painting toolbox.
 
@@ -157,6 +196,18 @@ Open Shot video editor is an open source Video Editing Software. It works well i
 ```
     $ pi -S openshot
 ```
+---
+#### RawTherapee
+RawTherapee is more like an alternative to Adobe Lightroom than Programs Like Photoshop. But still, as it’s related to raw image editing and the output files can be imported and used in Photoshop, that’s why it has been included in this list.
+
+This application offers vast and featured full tools for processing raw images as non-destructive picture editing.
+
+What you need to do is that you have to open terminal and then run this following command:
+```
+    $ pi -S rawtherapee
+```
+After you typed it in terminal, Then follow the instruction have been given.
+
 ---
 ## Music Apps
 #### Spotify
