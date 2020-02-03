@@ -4,7 +4,7 @@ title: Input/Output
 sidebar_label: Setup
 ---
 ---
-## Bluetooth And Pulseadio
+## Bluetooth And Pulseaudio
 [Bluetooth](https://en.wikipedia.org/wiki/Bluetooth) is a standard for the short-range wireless interconnection of cellular phones, computers, and other electronic devices. In Linux, the canonical implementation of the Bluetooth protocol stack is [BlueZ](http://www.bluez.org/).
 ### Setup The Basics
 >**Note:** If you have already installed its library, you can skip this commands

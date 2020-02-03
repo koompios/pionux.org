@@ -66,6 +66,11 @@ We can install it by run:
 Office 365 is a cloud-based subscription service that brings together the best tools for the way people work today. Combining the best-in-class apps like Excel and Outlook with cloud services like OneDrive and Microsoft Teams, Office 365 lets anyone create and share anywhere on any device.
 
 ---
+#### Master PDF - The Complete Editing PDF App
+Master PDF Editor is simple in use but effective application for work with PDF files. Its features enable you to create, edit, view, encrypt, sign, and print interactive PDF documents with just a couple mouse clicks. Applications features include full PDF files support, import/export of PDF pages to images of different formats, XPS conversion to PDF and 256-bit encryption. You can also add different control elements such as buttons, text fields, flags and many other. Each control element can have event handlers assigned for predefined user actions, such as click, scroll, or selection. Your work will become even simpler than ever before with powerful comment tools like Sticky Note and Stamp.
+
+
+For Installion,You just need to type on
 #### Simplenote
 Simplenote is the best note taking the app for Pionux right now. It provides all the features that a modern and professional note-taking app must have.
 ```Text
@@ -150,7 +155,27 @@ To draw a circle in GIMP follow these steps:
 - Press Delete
 
 >**Tip:** Grow and Border give the same result.
+--- 
+#### Darktable - Photography Workflow Application
+It let you store all the precious digital negatives in a database which you can, later on, develop raw images. It’s a powerful image editing application created by the photographers for the photographers.
+
+For installation, Running this only command `$ pi -S darktable` and following the instructions were given.
+
 ---
+#### DigiKam - Professional Photo Management
+digiKam is yet another best photo management software for the community. It’s fully free, open source and comes with easy to use GUI. Besides photo management and metadata editing, it has the capability to do some basic image editing like Photoshop.
+
+We can download it with only one command:
+```Text
+    $ pi -S digikam
+```
+>**Tips:**DigiKam has its own widget style setting. If tooltips are either blank (empty rectangles), or unreadable due to a poor foreground and background combination, choose a different widget style:
+    1. Navigate to Settings > Configure digiKam > Miscellaneous
+    2. Now in Widget Style, choose "Cleanlooks"
+>
+>**Note:**This will have a simple, readable white text on black background in the tool tip!
+---
+
 #### Inkscape – Professional Vector Graphics Editor
 Inkscape is an amazing open source and free vector design tool. It’s very powerful with lots of tools and features for digital vector work and posters creations. This tool is very similar and alternative to Adobe Illustrator but there are many features available in photoshop also thus it can be considered as photoshop and Illustrator alternative.
 
@@ -178,6 +203,13 @@ Kdenlive is a non-linear video editing software featuring multi-track editing wi
 KMPlayer is a highly customizable multimedia software providing high-quality video playback of media files with much more additional functionality. KMPlayer recognizes a large number of file formats, is able to capture videos from online sources and allows users to make animated GIFs.
 ```
     $ pi -S kmplayer
+```
+---
+#### Pinta – Drawing and Image Editing Program
+Pinta is one of the best Photoshop alternative free picture editor available out here. Pinta provides some basic editing tools and core functions including full edit history, unlimited layers, effect tools etc for quick image retouching and simple edit. 
+You can install this one by use this command:
+```
+    $ pi -S pinta
 ```
 ---
 #### Photoshop
@@ -209,6 +241,7 @@ What you need to do is that you have to open terminal and then run this followin
 After you typed it in terminal, Then follow the instruction have been given.
 
 ---
+
 ## Music Apps
 #### Spotify
 ```Text
@@ -243,6 +276,7 @@ For Command-line clients, Openning terminal and typing below commands(You can ch
 - `$ pi -S telegram-cli-git` provides command-line interface to connect and use Telegram. For more information about the program, visit the program page on [Github](https://github.com/vysheng/tg).
 - `$ pi -S nctelegram-git` is a command-line interface for Telegram based on [Ncurses]() and needs **telegram-cli-git** to run. For more information about the program, visit the program page on [Github](https://github.com/Nanoseb/ncTelegram).
 - `$ pi -S python-telegram-send` , not a full client but a command-line tool to directly send messages or files via Telegram.
+
 ##### Helps
 ###### Can't Open Telegram, What should I do?
 If you are finding trouble with telegram after you have updated it like when you try to open it back 
@@ -251,6 +285,28 @@ and it can't open or can open for only seconds.What you need to do is that you m
 It will appear the some problems connected to **Qt5,libicu,etc**, please [Click here]().
 
 ---
+#### Wechat
+WeChat is more than a messaging and social media app – it is a lifestyle for over one billion users across the world. It is free and safe downloaded.
+
+You can install it on our OS by 2 ways.
+
+The first way:
+   
+    1. Open terminal
+    2. Run this command `$ yes | pi -S electronic-wechat-bin`
+    3. After that, you just have to follow the following was given.
+    4. It is also asking you for password.
+
+>**Tip:**We recommended you to use **the second way**.It is easier and not much question.
+
+The Second way:
+```
+    curl -S http://repo.koompi.org/packages/electronic-wechat-bin-2.3.1-1-x86_64.pkg.tar.xz -O && sudo pacman -U electronic-wechat-bin-2.3.1-1-x86_64.pkg.tar.xz && sudo pacman -S nss gtk3 libxss
+```
+---
+
+
+
 ## Software
 #### Gnome
 GNOME Software utility for software application installations and updates. The Software Center allows for easy installations and updates of software applications and system extensions.
