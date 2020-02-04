@@ -1,13 +1,11 @@
 ---
-id: installation
-title: Application Installation 
-sidebar_label: Info of Applications
+id: D-Applications
+title: Informations Of Apps In Pionux
+sidebar_label: Applications Documentaions
 ---
-
-> **Tips**:Down here are all the application that you can install in PionuxOS. It is all open-source apps. You can install them through commands or through snap store.
-
+---
 ## Code Editors
-#### Atom
+### Atom
 Atom is a free and open-source text and source code editor for macOS, Linux, and Microsoft Windows with support for plug-ins written in Node. js, and embedded Git Control, developed by GitHub. Atom is a desktop application built using web technologies.
 You can install atom by go into **Terminal**, type this:
 ```Text
@@ -16,7 +14,7 @@ You can install atom by go into **Terminal**, type this:
 After that follow the instructions have given!!!
 
 ---
-#### TeXmaker
+### TeXmaker
 In the arena of Open-Source, LaTeX is considered as a standard markup language. It helps the users for editing the documents to markup level. TeXmaker is one of the best LaTeX editor available out there. It’s to be the most user-friendly LaTeX IDE for the newbie.
 
 There are lots of best LaTeX Editor available, but it seems difficult to choose the Best LaTeX Editor for both advanced and beginner.So, we can install it by :
@@ -28,7 +26,7 @@ If you wish to remove, run this command:
     $ pi -Rs texmaker
 ```
 ---
-#### Visual Studio Code
+### Visual Studio Code
 Visual Studio Code is a source-code editor developed by Microsoft which includes support for debugging, embedded Git control and GitHub, syntax highlighting, intelligent code completion, snippets, and code refactoring. It is highly customizable, allowing users to change the theme, keyboard shortcuts, preferences, and install extensions that add additional functionality.
 First update the pi package repository cache with the following command:
 ```Text
@@ -40,11 +38,11 @@ After it updated,Use this command:
 ```
 ---
 ## Docs And WordSheets
-#### Apache OpenOffice
+### Apache OpenOffice
 Apache OpenOffice is an office productivity software suite containing a word processor (Writer), a spreadsheet (Calc), a presentation application (Impress), a drawing application (Draw), a formula editor (Math), and a database management application (Base). It's default file format is the OpenDocument Format (ODF), and can also read and write a wide variety of other file formats, including those from Microsoft Office.
 
 ---
-#### Libra Office
+### Libra Office
  Libra Office is the free power-packed Open Source personal productivity suite for Windows, Macintosh and Linux, that gives you six feature-rich applications for all your document production and data processing needs: Writer, Calc, Impress, Draw, Math and Base.
 ```Text
     $ pi -S libreoffice-fresh 
@@ -54,7 +52,7 @@ or
     $ pi -S libraoffice-still    
 ```
 ---
-#### Okular
+### Okular
 Okular is a multiplatform document viewer developed by the KDE community and based on Qt and KDE Frameworks libraries. It is distributed as part of the KDE Applications bundle. Its origins are from KPDF and it replaces KPDF, KGhostView, KFax, KFaxview and KDVI in KDE 4.
 We can install it by run:
 ```Text
@@ -62,22 +60,22 @@ We can install it by run:
 ```
 
 ---
-#### Office 365
+### Office 365
 Office 365 is a cloud-based subscription service that brings together the best tools for the way people work today. Combining the best-in-class apps like Excel and Outlook with cloud services like OneDrive and Microsoft Teams, Office 365 lets anyone create and share anywhere on any device.
 
 ---
-#### Master PDF - The Complete Editing PDF App
+### Master PDF - The Complete Editing PDF App
 Master PDF Editor is simple in use but effective application for work with PDF files. Its features enable you to create, edit, view, encrypt, sign, and print interactive PDF documents with just a couple mouse clicks. Applications features include full PDF files support, import/export of PDF pages to images of different formats, XPS conversion to PDF and 256-bit encryption. You can also add different control elements such as buttons, text fields, flags and many other. Each control element can have event handlers assigned for predefined user actions, such as click, scroll, or selection. Your work will become even simpler than ever before with powerful comment tools like Sticky Note and Stamp.
 
 
 For Installion,You just need to type on
-#### Simplenote
+### Simplenote
 Simplenote is the best note taking the app for Pionux right now. It provides all the features that a modern and professional note-taking app must have.
 ```Text
     $ pi -S simplenote-electron-bin
 ```
 ---
-#### WPS Office
+### WPS Office
 WPS Office (an acronym for Writer, Presentation and Spreadsheets, previously known as Kingsoft Office)is an office suite for Microsoft Windows, Linux, iOS and Android.
 ```Text
     $ pi -S wps-office
@@ -86,7 +84,7 @@ WPS Office (an acronym for Writer, Presentation and Spreadsheets, previously kno
 
 ---
 ## Web Browser
-#### Chrome
+### Chrome
 A Google Chrome App, or commonly just Chrome App, is a web application that runs on the Google Chrome web browser. Chrome apps can be obtained from the Chrome Web Store where apps, extensions, and themes can be installed or bought.
 
 To install chrome, follow steps below:
@@ -96,14 +94,14 @@ To install chrome, follow steps below:
     3. Following the sentences have been given.
 ```
 ---
-#### Brave 
+### Brave 
 Brave is a new way of thinking about how the web works. Brave is open source and built by a team of privacy focused, performance oriented pioneers of the web. Brave fights malware and prevents tracking while keeping your information safe and secure.
 To installed **Brave Browser**, open terminal and use this command:
 ```Text
     $ pi -S brave
 ```
 ---
-#### Firefox 
+### Firefox 
 Mozilla Firefox, Firefox Browser, or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, Mozilla Corporation. Firefox uses the Gecko layout engine to render web pages, which implements current and anticipated web standards.
 In order to install it use these command
 ```Text
@@ -112,7 +110,7 @@ In order to install it use these command
     3. And it would ask for your permission 'Enter' for 'Yes'
 ```
 ---
-#### Git
+### Git
 Git is the version control system (VCS) designed and developed by Linus Torvalds, the creator of the Linux kernel. Git is now used to maintain AUR packages, as well as many other projects, including sources for the Linux kernel.
 
 You can install git through this line:
@@ -120,7 +118,7 @@ You can install git through this line:
     $ pi -S git
 ```
 ---
-#### Thunderbird
+### Thunderbird
 Mozilla Thunderbird is a free and open-source, cross-platform email client, news client, RSS, and chat client developed by the Mozilla Foundation. The project strategy was modeled after that of the Mozilla Firefox web browser. It is installed by default on Ubuntu desktop systems.
 Using command below install it:
 ```Text
@@ -128,7 +126,7 @@ Using command below install it:
 ```
 ## Editors
 As Window has widely used photo editor enterprise-level Photo management and editing software. So does Pionux which contain a large number of open-source industry professionals software.Down here are the avaible software you can install in the Pionux. And surprisingly all comes with a handful of features and tools to fulfill your image editing or painting or designing task.
-#### GIMP - The High-Quality Photo Manipulation
+### GIMP - The High-Quality Photo Manipulation
 GIMP is an insanely popular open source **Free Photo Editing Software** Like Photoshop. It’s a multi-platform supported software which supports various system like Windows, Linux, Mac OS X and so does pionux. Users can easily complete the job with this free software.
 
 It provides a set of advanced tools so that the scientists, photographers, and designers can accomplish the jobs smoothly. Without any doubt, this is one of the best photoshop alternative free picture editor.
@@ -156,13 +154,13 @@ To draw a circle in GIMP follow these steps:
 
 >**Tip:** Grow and Border give the same result.
 --- 
-#### Darktable - Photography Workflow Application
+### Darktable - Photography Workflow Application
 It let you store all the precious digital negatives in a database which you can, later on, develop raw images. It’s a powerful image editing application created by the photographers for the photographers.
 
 For installation, Running this only command `$ pi -S darktable` and following the instructions were given.
 
 ---
-#### DigiKam - Professional Photo Management
+### DigiKam - Professional Photo Management
 digiKam is yet another best photo management software for the community. It’s fully free, open source and comes with easy to use GUI. Besides photo management and metadata editing, it has the capability to do some basic image editing like Photoshop.
 
 We can download it with only one command:
@@ -176,7 +174,7 @@ We can download it with only one command:
 >**Note:**This will have a simple, readable white text on black background in the tool tip!
 ---
 
-#### Inkscape – Professional Vector Graphics Editor
+### Inkscape – Professional Vector Graphics Editor
 Inkscape is an amazing open source and free vector design tool. It’s very powerful with lots of tools and features for digital vector work and posters creations. This tool is very similar and alternative to Adobe Illustrator but there are many features available in photoshop also thus it can be considered as photoshop and Illustrator alternative.
 
 Inkscape is a compact software package including vector editor, text tools, drawing tools, support for Bezier and spiro curves etc.
@@ -186,33 +184,33 @@ Go into terminal and Run this command `$ pi -S inkscape`
 
 ---
 
-#### Krita
+### Krita
 [Krita](https://docs.krita.org/en/index.html) is a raster graphics editor designed primarily for digital painting and animation. It is a fast,flexible, and free Photoshop alternative built by artists and perfect for everyone from amateur to professional. Krita gives budding artists and illustrators a pro-level set of tools with a natural painting toolbox.
 
 ``` 
     $ pi -S krita
 ```
 ---
-#### Kdenlive
+### Kdenlive
 Kdenlive is a non-linear video editing software featuring multi-track editing with a timeline. It supports an unlimited number of video and audio tracks and includes tools to create, move, crop and delete video, audio, text and image clips. Kdenlive has a built-in title editor and the ability to add custom effects and transitions.
 ```
     $ pi -S kdenlive
 ```
 ---
-#### KMPlayer
+### KMPlayer
 KMPlayer is a highly customizable multimedia software providing high-quality video playback of media files with much more additional functionality. KMPlayer recognizes a large number of file formats, is able to capture videos from online sources and allows users to make animated GIFs.
 ```
     $ pi -S kmplayer
 ```
 ---
-#### Pinta – Drawing and Image Editing Program
+### Pinta – Drawing and Image Editing Program
 Pinta is one of the best Photoshop alternative free picture editor available out here. Pinta provides some basic editing tools and core functions including full edit history, unlimited layers, effect tools etc for quick image retouching and simple edit. 
 You can install this one by use this command:
 ```
     $ pi -S pinta
 ```
 ---
-#### Photoshop
+### Photoshop
 Adobe Photoshop is an image editor developed by Adobe Inc. Widely considered as one of the most powerful image editors in the market, Adobe Photoshop is equipped with advanced features that can cater to a wide range of artistic professionals and hobbyists.
 
 We have just made this app to run on PionuxOS.To install it, please following the steps below:
@@ -223,13 +221,13 @@ We have just made this app to run on PionuxOS.To install it, please following th
 
 ```
 ---
-#### Open Shot
+### Open Shot
 Open Shot video editor is an open source Video Editing Software. It works well in the other distribution, too.
 ```
     $ pi -S openshot
 ```
 ---
-#### RawTherapee
+### RawTherapee
 RawTherapee is more like an alternative to Adobe Lightroom than Programs Like Photoshop. But still, as it’s related to raw image editing and the output files can be imported and used in Photoshop, that’s why it has been included in this list.
 
 This application offers vast and featured full tools for processing raw images as non-destructive picture editing.
@@ -243,7 +241,7 @@ After you typed it in terminal, Then follow the instruction have been given.
 ---
 
 ## Music Apps
-#### Spotify
+### Spotify
 ```Text
     $ pi -S spotify
 ```
@@ -261,7 +259,7 @@ Here is the command for  solve the error:
 ```
 ---
 ## Socail Media
-#### Telegram
+### Telegram
 Telegram is a cloud-based cross-platform instant messaging service with optional end-to-end encryption. Account creation requires a phone number.
 
 The official clients are open-source but the code for recent versions is not always immediately published. The server-side code is proprietary.
@@ -285,7 +283,7 @@ and it can't open or can open for only seconds.What you need to do is that you m
 It will appear the some problems connected to **Qt5,libicu,etc**, please [Click here]().
 
 ---
-#### Wechat
+### Wechat
 WeChat is more than a messaging and social media app – it is a lifestyle for over one billion users across the world. It is free and safe downloaded.
 
 You can install it on our OS by 2 ways.
@@ -308,7 +306,7 @@ The Second way:
 
 
 ## Software
-#### Gnome
+### Gnome
 GNOME Software utility for software application installations and updates. The Software Center allows for easy installations and updates of software applications and system extensions.
 First of all, make sure you have updated your PionuxOS system.
 ```Text
@@ -348,7 +346,7 @@ Install *powerdevil* for an integrated Plasma power managing service. This servi
 ```
 ---
 ## Others
-#### Bacula
+### Bacula
 To recovers from some unexpected situations like human errors, Disk failure or RAID, Corruption of file systems we need a good backup plan.
 
 Bacula is an Open Source Backup Software.It is an automated task that need not require intervention from a systems administrator or computer operator. Bacula supports Pionux, Linux, UNIX, and Windows backup clients.
@@ -356,7 +354,7 @@ Bacula is an Open Source Backup Software.It is an automated task that need not r
     $ pi -S bacula-dir
 ```
 ---
-#### Dropbox
+### Dropbox
 Dropbox is a file sharing system with a GNU/Linux client. Use it to transparently sync files across computers and architectures. It is really easy to use. You can use Dropbox for free. But it also has paid plans if you want more storage space than the free version of it.
 >**Warning:**The Dropbox has been removed for OS. And all the AURs are broken.
 ```Text
@@ -368,12 +366,12 @@ Dropbox is a file sharing system with a GNU/Linux client. Use it to transparentl
     - $ pi -S kfilebox
 ```
 ---
-#### FileZilla
+### FileZilla
 FTP ( File Transfer Protocol ) is one of the great and efficient ways of transferring files over a TCP based system like the internet. It helps to move a large number of computer files from one host or system to another host or system without any hassle and complexity.
 ```Text
     $ pi -S  filezilla
 ```
-#### Guvcview
+### Guvcview
 Guvcview is a webcam application at providing a simple interface for capturing and viewing video from v4l2 devices.
 Here the command:
 ```Text
@@ -381,7 +379,7 @@ Here the command:
 ```
 ---
 
-#### Kazam- Screen Recorder
+### Kazam- Screen Recorder
 Screencasting is an important task for many people for many reasons including making a video tutorial,creating a presentation, compiling a how-to tutorial or do a software review or having the fun of streaming while playing pc games. Moreover now a day many users are making an earning opportunity for themselves through YouTube, Facebook video or any other video hosting sites by making many helpful how-to guide videos.
 
 **Kazam**is one of the best lightweight screen recorder available for Linux desktop. It’s straightforward and nifty tool for screencasting.
@@ -390,13 +388,13 @@ We can install it run this:
     $ pi -S kazam
 ```
 ---
-#### Kodi
+### Kodi
 Kodi is one of the best free and open source media server software available in the market. It offers an intuitive graphical user interface with lots of customization options. Kodi is an all in one entertainment software center which supports all the primary OS including Android.
 ```Text
     $ pi -S kodi
 ```
 ---
-#### Owncloud
+### Owncloud
 OwnCloud is one of the popular and most prominent open source community driven cloud software available in the market. It let you create easy to use a personal cloud server for both home and office use. You can also have full control over your data and who can have access at all.
 It is easy to install it, go to your terminal and type this:
 ```text
@@ -404,7 +402,7 @@ It is easy to install it, go to your terminal and type this:
 ```
 ---
 
-#### Parted
+### Parted
 Parted is a program for creating and manipulating partition tables. GParted is a GUI frontend.
 In other to install it you must type this command in konsole:
 ```Text
@@ -420,13 +418,13 @@ Where `device` is the hard disk device to edit (for example `/dev/sda`). If you 
     $ sudo bash
 ```
 
-##### Command line mode for Parted
+#### Command line mode for Parted
 In command line mode, this is followed by one or more commands. For example:
 ```Text
     # parted /dev/sda mklabel gpt mkpart P1 ext3 1MiB 8MiB 
 ```
 **Note:** Options (like `--help`) can only be specified on the command line.
-##### Interactive mode for Parted
+#### Interactive mode for Parted
 Interactive mode simplifies the partitioning process and reduces unnecessary repetition by automatically applying all partitioning commands to the specified device.
 
 In order to start operating on a device, execute:
@@ -449,7 +447,7 @@ If you do not give a parameter to a command, Parted will prompt you for it. For 
 (parted) mklabel
 New disk label type? gpt
 ```
-##### Create new partition table
+#### Create new partition table
 You need to (re)create the partition table of a device when it has never been partitioned before, or when you want to change the type of its partition table. Recreating the partition table of a device is also useful when the partition scheme needs to be restructured from scratch.
 
 Open each device whose partition table must be (re)created with:
@@ -499,14 +497,14 @@ If you have a Windows XP partition that you would like to move from drive-to-dri
     HKEY_LOCAL_MACHINE\SYSTEM\MountedDevices
 ```
 ---
-#### Popcorn Time
+### Popcorn Time
 Popcorn Time is a multi-platform, free software BitTorrent client that includes an integrated media player. Popcorn Time provide a free "alternative" to subscription-based video streaming services such as Netflix.
 ```Text
     $ pi -S popcorntime-bin  or $ pi -S popcorntime
 ```
 ---
 
-#### Snap Store
+### Snap Store
 Snaps are applications packaged with all their dependencies to run on all popular Linux distributions from a single build. They update automatically and roll back gracefully.
 
 Snaps are discoverable and installable from the Snap Store, an app store with an audience of millions.
@@ -521,14 +519,14 @@ Snaps are discoverable and installable from the Snap Store, an app store with an
 Make sure you have download git [Click here](http://localhost:3030/docs/installation#git)
 
 ---
-#### Teamviewer
+### Teamviewer
 Team Viewer is an awesome application for remotely accessing a computer or letting someone remotely access your computer. It is easy to use and its completely free of charge.
 To install it using this command:
 ```Text
     $ pi -S teamviewer
 ```
 ---
-#### Transmission
+### Transmission
  You are searching for something that is entirely free, open source and comes with minimum configuration, then *Transmission torrent client* is one of them. It supports cross-platform like Windows, Linux, Mac OS, and Unix based systems.h
 
 There are several packages available to install Transmission with:
@@ -539,7 +537,7 @@ There are several packages available to install Transmission with:
 - `$ pi -S transmission-remote-gtk` – GTK 3 graphical interface for the daemon.
 
 ---
-#### uGet
+### uGet
 uGet is an open source download manager for Linux which will download your files fast. This download manager can be efficiently organized and highly configurable. You can control your downloads in one central place.
 
 All the modern browsers have default download manager, it’s not good enough to handle effective downloading system. When the question comes whether a web browser can handle multiple download, pause system, torrent integration or fast download, then the answer is not satisfactory.
@@ -547,7 +545,7 @@ All the modern browsers have default download manager, it’s not good enough to
 We can install it by run `$ pi -S uget`
 
 ---
-#### VLC
+### VLC
 VLC Media Player is one of the best and most popular Best Linux Software in the category of video players. It is an open source media player which support almost all media file types. VLC Media Player support network shares are browsing, downloading subtitles, video playlists, pop-up video, etc.
 ```Text
     $ pi -S vlc
@@ -581,7 +579,7 @@ If it refuses to play any media files containing spaces via SFTP and always asks
     $ Exec=/usr/bin/vlc --started-from-file %F
 ```
 
-#### VMware
+### VMware
 
 VMware Workstation is a hosted hypervisor that runs on x64 versions of Windows and Linux operating systems (an x86 version of earlier releases was available); it enables users to set up virtual machines (VMs) on a single physical machine, and use them simultaneously along with the actual machine.
 ##### Official VMware Tools

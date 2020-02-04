@@ -1,5 +1,5 @@
 ---
-id: Troubleshooting
+id: D-Troubleshooting
 title: Bugs & Helps
 sidebar_label: Bugs & Helps
 ---

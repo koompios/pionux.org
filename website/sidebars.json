@@ -3,12 +3,12 @@
     "News":["News"]
   },
   "docs": {
-    "PionuxOS Informations": ["documentation","installation","pionux-OS"],
-    "Supports":["contributer","Maintainer","Troubleshooting","FAQs"]
+    "PionuxOS Informations": ["D-OS","D-Applications-List","D-Applications"],
+    "Interaction":["D-C-Helps","D-Contributer","D-Maintainer","D-FAQs"]
     
   },
   "docs-1":{
-    "PionuxOS Informations":["applications-list","Guide-line","Set-up","version","Licence"]
+    "PionuxOS Informations":["applications-list","Set-up","version","Licence"]
   },
   "docs-2":{
     "Desktop Operating System":["tutorial"],

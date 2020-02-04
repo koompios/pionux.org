@@ -1,7 +1,7 @@
 ---
-id: contributer
+id: D-Contributer
 title: Learn more about Contributing
-sidebar_label: Contributing
+sidebar_label: Contribute
 ---
 ---
 Love Pionux and you want to help? Thank you so much for being Contributors with Pionux!
@@ -52,4 +52,4 @@ Thanks goes to these wonderful people:
 - Mr. Vuthy San
 - Miss Claire Bun
 - Mr. Sovanden Sarim
-- Mr. Hengsrun Seang
+

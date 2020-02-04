@@ -1,6 +1,6 @@
 ---
-id: Maintainer
-title: Learn more about Maintainers
+id: D-Maintainer
+title: Learn More About Maintainers
 sidebar_label: Maintainers
 ---
 ---

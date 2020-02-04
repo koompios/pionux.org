@@ -1,13 +1,13 @@
 ---
-id: Guide-line
-title: OS Details
-sidebar_label: PionuxOS
+id: D-OS
+title: OS Informations
+sidebar_label: Operating System
 ---
 ---
-Pionux is an open source and free software operating system build around Linux kernel. You can customize everything on Pionux that you want.
+Pionux is an open source and free software operating system build around Linux Kernel. You can customize everything on Pionux that you want.
 
-Even the almost the commands are down here for you to use it. furthermore you would see something that how team have produces in this past year. [Click here](https://pionux.org/docs/News) to see what is news? 
-## Basic Commands in PionuxOS
+Down here are almost the commands for using. Furthermore, There are somethings more that how team have produces in this past years. [Click here]() to see what is news? 
+## Basic Commands Info
 > **Noted**: To do all  basic commands below, you must be in the terminal:
 
 To show the directory you are currently in:
@@ -179,8 +179,8 @@ If you want to search for the locateion of the file, you can use **locate**:
 ```command
     $ locate <file_name>
 ```
-## Intermediate Commands in PionuxOS
-#### echo
+## Intermediate Commands Info
+
 - The **echo** command helps us move some data, usually text into file.For example, if you want to create a new text file or add to an already made text file, you just need to type in, **“echo Hello, This is Pionux. >> new.txt”**.
 
 #### cat
@@ -194,6 +194,9 @@ Output :
 ```text
     Hello, This is Pionux.
 ```
+#### nano
+
+- "**nano**" and "**vi**" are already installed in Pionux command line. The **nano** command is a good text editor that denotes keywords with color and can recognize most languages. And **vi** is simpler than nano.
 #### locale
 **Locales** are used by `glibc` and other locale-aware programs or libraries for rendering text, correctly displaying regional monetary values, time and date formats, alphabetic idiosyncrasies, and other locale-specific standards.
 
@@ -220,10 +223,6 @@ Before a **locale** can be enabled on the system, it must be generated. This can
 ```Text
     $ sudo locale-gen`.
 ```
-#### nano
-
-- "**nano**" and "**vi**" are already installed in Pionux command line. The **nano** command is a good text editor that denotes keywords with color and can recognize most languages. And **vi** is simpler than nano.
-
 #### sudo
 - **sudo** — A widely used command in the Linux command line, sudo stands for "SuperUser Do". So, if you want any command to be done with administrative or root privileges, you can use the sudo command. 
 you can change root password by using command below:
@@ -306,7 +305,7 @@ The following example is the WORD grep where it is searching only for the word �
 ```
 >**Tips**: If you need any further assistance please [contact]() our support department.
 
-## Packages Info in PionuxOS
+## Packages Info 
 
 #### Listing Packages
 You may want to get the list of installed packages with their version, which is useful when reporting bugs or discussing installed packages.
@@ -352,7 +351,7 @@ To reinstall all native packages, use:
 ```shell
     # pi -Qqn | pi -S -
 ```
-## Password Info in PionuxOS
+## Password Info 
 > - How do I set or change Pionux system password for any user account?
 > - How can I change user password on Pionux operating system using the command-line options?
 
@@ -424,7 +423,7 @@ The passwd command line utility is used to update or change user’s password. T
     $ cat /etc/passwd
     $ grep '^userNameHere' /etc/passwd
 ```
-## Pi Info in PionuxOS
+## Pi Info
 #### What is Pi?
 The **`pi`** which is the shortcut formation of **`pacman`** is one of the majority features of our System. It is a combination of simple binary package manager with easy-open-source-to-use build system.
 
@@ -740,9 +739,9 @@ getpkgbuild specific options:
     -f --force            # Force download for existing tar packages
 ```
 
-Developed by @LyhourChhen
+Contributed by @LyhourChhen
 
-## Root Info In PionuxOS
+## Root Info
 
 The **root** account on a Pionux computer is the account with full privileges. Root access is often necessary for performing commands in PionuxOS, especially commands that affect system files. Because root is so powerful, it's recommended to only request root access when necessary, as opposed to logging in as the root user. This can help prevent accidental damage to important system files.
 
@@ -768,12 +767,95 @@ Second Way,Press:
 #### Unlocked the Root Account
 1. **Unlock the root account (PionuxOS)**. PionuxOS locks the root account so that the average user can't access it. This is done because root access is rarely necessary when using the `sudo` command (see the previous section). Unlocking the root account will allow you to log in as root.
 ```
-    sudo passwd root
+    $ sudo passwd root
 ```
 2.  **Open the terminal**. If the terminal is not already open, open it. Many distributions allow you to open it by pressing `Ctrl+Alt+T`.
 3. Type `sudo passwd root` and `press ↵` Enter. When prompted for a password, enter your *user* password.
 4. `Set a new password`. You'll be prompted to create a new password and enter it twice. Once a password has been set, the root account will be active.
 5. `Lock the root account again`. If you want to lock the root account, enter the following command to remove the password and lock root:
 ```
-    sudo passwd -dl root
+    $ sudo passwd -dl root
 ```
+## Cache Clean Up
+We all know that Pacman, the default package manager for Arch Linux so does Pionux and its derivatives, will store all downloaded packages in /var/cache/pacman/pkg/ folder. We also know that it will not delete old or uninstalled packages automatically from the cache. After a particular period of time, the cache folder will grow bigger in size. So, it is recommended to clean the package cache periodically to free up the hard disk’s space.
+
+Pacman has a built-in option to remove all cached packages. You can clean the cached packages by running *sudo pacman -Sc* command. However, this command will remove all old versions and leave only the versions of packages which are currently installed available. This is not a recommended way.Because, sometimes you might want to downgrade a particular package to its older version. So, if you cleaned all old packages, you have no choice to install them from the Cache folder. You can only install them from the official repositories. This is where the **Paccache** script comes in helps.
+
+The Paccache script is provided by the Pacman package itself. So, you don’t have to bother with installation steps. Paccache will keep the 3 most recent package versions by default. Except the 3 most recent package versions, It will delete all cached versions of each package regardless of whether they’re installed or not. This brief tutorial teaches how to properly clean the package cache and its derivatives using paccache script.
+
+#### The Recommended Way To Clean The Package Cache In Pionux
+Let check first how many cached packages are available in my cache folder.
+```Text
+    $ sudo ls /var/cache/pacman/pkg/ | wc -l
+
+    Output: 1990
+```
+As you see in the above output has totally **1990** cached packages. Let check the total disk space used by the cache folder.
+```Text
+    $ du -sh /var/cache/pacman/pkg/
+
+    Output: 2.5G    /var/cache/pacman/pkg/
+```
+Currently, We can see that this PC has cached packages of 2.5 GB in size. This is too much which not suppose to keep all of them.
+
+To clean all packages, except the 3 most recent versions, run the following command
+```Text
+    $ sudo paccache -r
+
+    [sudo] password for sk:
+    
+    ==> finished: 245 packages removed (disk space saved: 1.08 GiB)
+```
+Still want to remove more packages? Of course, you can! **Paccache **allows you to decide how many recent versions you want to keep. For instance, run the following command if you want to keep only one most recent version:
+```Text
+    $ sudo paccache -rk 1
+```
+Where, **k** indicates to keep “num” of each package in the cache.
+
+To remove all cached versions of uninstalled packages, re-run paccache with:
+```Text
+    $ sudo paccache -ruk0
+```
+Where, u flag indicates the uninstalled packages.
+
+Or, simply use the following pacman command to remove all uninstalled packages:
+```Text
+    $ pi -Sc
+```
+To completely remove all packages (Whether they are installed or uninstalled) from the cache, run the following command:
+```Text
+    $ pi -Scc
+```
+>**Warning:**Please be careful while using this command. There is no way to retrieve the cached packages once they are deleted.
+#### Automatically clean the package cache
+If you are too lazy to clean the package cache manually, you can automate this task using pacman hooks. The pacman hook will automatically clean the package cache after every pacman transaction.
+
+To do so, create a file /etc/pacman.d/hooks/clean_package_cache.hook:
+```Text
+    $ sudo mkdir /etc/pacman.d/hooks
+```
+Next:
+```Text
+    $ sudo nano /etc/pacman.d/hooks/clean_package_cache.hook
+```
+Add the following lines:
+```Text
+    [Trigger]
+    Operation = Upgrade
+    Operation = Install
+    Operation = Remove
+    Type = Package
+    Target = *
+    [Action]
+    Description = Cleaning pacman cache...
+    When = PostTransaction
+    Exec = /usr/bin/paccache -r
+```
+Save and close the file. From now on, the package cache will be cleaned automatically after every pacman transactions (like upgrade, install, remove). You don’t have to run paccache command manually every time.
+
+For more details, refer the Paccache help section by running the following command:
+```Text
+    $ paccache -h
+```
+
+

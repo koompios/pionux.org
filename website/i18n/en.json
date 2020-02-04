@@ -8,45 +8,49 @@
       "about": {
         "title": "About"
       },
-      "applications-list": {
-        "title": "Applications Docs",
-        "sidebar_label": "Applications"
+      "D-Applications-List": {
+        "title": "List Of Apps In Pionux",
+        "sidebar_label": "Applications List"
       },
-      "contributer": {
+      "D-Applications": {
+        "title": "Informations Of Apps In Pionux",
+        "sidebar_label": "Applications Documentaions"
+      },
+      "D-C-Helps": {
+        "title": "Basic Learning Tutorial",
+        "sidebar_label": "Common Troubles"
+      },
+      "D-Contributer": {
         "title": "Learn more about Contributing",
-        "sidebar_label": "Contributing"
+        "sidebar_label": "Contribute"
       },
-      "documentation": {
-        "title": "PionuxOS Infomations",
-        "sidebar_label": "PionuxOS"
-      },
-      "FAQs": {
+      "D-FAQs": {
         "title": "Contents",
         "sidebar_label": "FAQs"
       },
-      "installation": {
-        "title": "Application Installation",
-        "sidebar_label": "Info of Applications"
+      "D-Maintainer": {
+        "title": "Learn More About Maintainers",
+        "sidebar_label": "Maintainers"
+      },
+      "pionux-OS": {
+        "title": "How to install PionuxOS on your Laptop /PC",
+        "sidebar_label": "PionuxOS Installation"
+      },
+      "D-OS": {
+        "title": "OS Informations",
+        "sidebar_label": "Operating System"
+      },
+      "D-Troubleshooting": {
+        "title": "Bugs & Helps",
+        "sidebar_label": "Bugs & Helps"
       },
       "Licence": {
         "title": "License",
         "sidebar_label": "License"
       },
-      "Maintainer": {
-        "title": "Learn more about Maintainers",
-        "sidebar_label": "Maintainers"
-      },
       "News": {
         "title": "Latest News",
         "sidebar_label": "Latest News"
-      },
-      "Guide-line": {
-        "title": "OS Details",
-        "sidebar_label": "PionuxOS"
-      },
-      "pionux-OS": {
-        "title": "How to install PionuxOS on your Laptop /PC",
-        "sidebar_label": "PionuxOS Installation"
       },
       "version": {
         "title": "The revolution of our OS(Operating System)",
@@ -55,10 +59,6 @@
       "Set-up": {
         "title": "Input/Output",
         "sidebar_label": "Setup"
-      },
-      "Troubleshooting": {
-        "title": "Bugs & Helps",
-        "sidebar_label": "Bugs & Helps"
       },
       "tutorial": {
         "title": "Desktop OS Details",
@@ -76,13 +76,12 @@
     "links": {
       "News": "News",
       "Documents": "Documents",
-      "PionuxOS": "PionuxOS",
       "Tutorials": "Tutorials"
     },
     "categories": {
       "News": "News",
       "PionuxOS Informations": "PionuxOS Informations",
-      "Supports": "Supports",
+      "Interaction": "Interaction",
       "Desktop Operating System": "Desktop Operating System",
       "Mobile Operating System": "Mobile Operating System",
       "Others": "Others"
