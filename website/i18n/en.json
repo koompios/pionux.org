@@ -14,7 +14,11 @@
       },
       "D-Applications": {
         "title": "Informations Of Apps In Pionux",
-        "sidebar_label": "Applications Documentaions"
+        "sidebar_label": "Applications Info"
+      },
+      "D-BasicCommands": {
+        "title": "All You Need To Know About Basic Commands",
+        "sidebar_label": "Basic Commands Info"
       },
       "D-C-Helps": {
         "title": "Basic Learning Tutorial",
@@ -28,6 +32,10 @@
         "title": "Contents",
         "sidebar_label": "FAQs"
       },
+      "D-IntermediatedCommands": {
+        "title": "All You Need To Know About Intermediate Commands",
+        "sidebar_label": "Intermediate Commands Info"
+      },
       "D-Maintainer": {
         "title": "Learn More About Maintainers",
         "sidebar_label": "Maintainers"
@@ -38,7 +46,7 @@
       },
       "D-OS": {
         "title": "OS Informations",
-        "sidebar_label": "Operating System"
+        "sidebar_label": "Operating System Info"
       },
       "D-Troubleshooting": {
         "title": "Bugs & Helps",

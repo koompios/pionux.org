@@ -1,7 +1,7 @@
 ---
 id: D-Applications
 title: Informations Of Apps In Pionux
-sidebar_label: Applications Documentaions
+sidebar_label: Applications Info
 ---
 ---
 ## Code Editors
@@ -346,7 +346,7 @@ Install *powerdevil* for an integrated Plasma power managing service. This servi
 ```
 ---
 ## Others
-### Bacula
+#### Bacula
 To recovers from some unexpected situations like human errors, Disk failure or RAID, Corruption of file systems we need a good backup plan.
 
 Bacula is an Open Source Backup Software.It is an automated task that need not require intervention from a systems administrator or computer operator. Bacula supports Pionux, Linux, UNIX, and Windows backup clients.
