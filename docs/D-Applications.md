@@ -42,7 +42,7 @@ After it updated,Use this command:
 Apache OpenOffice is an office productivity software suite containing a word processor (Writer), a spreadsheet (Calc), a presentation application (Impress), a drawing application (Draw), a formula editor (Math), and a database management application (Base). It's default file format is the OpenDocument Format (ODF), and can also read and write a wide variety of other file formats, including those from Microsoft Office.
 
 ---
-#### Libra Office
+#### Libra-Office
  Libra Office is the free power-packed Open Source personal productivity suite for Windows, Macintosh and Linux, that gives you six feature-rich applications for all your document production and data processing needs: Writer, Calc, Impress, Draw, Math and Base.
 ```Text
     $ pi -S libreoffice-fresh 
@@ -154,13 +154,13 @@ To draw a circle in GIMP follow these steps:
 
 >**Tip:** Grow and Border give the same result.
 --- 
-#### Darktable - Photography Workflow Application
+#### Darktable
 It let you store all the precious digital negatives in a database which you can, later on, develop raw images. It’s a powerful image editing application created by the photographers for the photographers.
 
 For installation, Running this only command `$ pi -S darktable` and following the instructions were given.
 
 ---
-#### DigiKam - Professional Photo Management
+#### DigiKam
 digiKam is yet another best photo management software for the community. It’s fully free, open source and comes with easy to use GUI. Besides photo management and metadata editing, it has the capability to do some basic image editing like Photoshop.
 
 We can download it with only one command:
@@ -174,7 +174,7 @@ We can download it with only one command:
 >**Note:**This will have a simple, readable white text on black background in the tool tip!
 ---
 
-#### Inkscape – Professional Vector Graphics Editor
+#### Inkscape
 Inkscape is an amazing open source and free vector design tool. It’s very powerful with lots of tools and features for digital vector work and posters creations. This tool is very similar and alternative to Adobe Illustrator but there are many features available in photoshop also thus it can be considered as photoshop and Illustrator alternative.
 
 Inkscape is a compact software package including vector editor, text tools, drawing tools, support for Bezier and spiro curves etc.
@@ -203,7 +203,7 @@ KMPlayer is a highly customizable multimedia software providing high-quality vid
     $ pi -S kmplayer
 ```
 ---
-#### Pinta – Drawing and Image Editing Program
+#### Pinta
 Pinta is one of the best Photoshop alternative free picture editor available out here. Pinta provides some basic editing tools and core functions including full edit history, unlimited layers, effect tools etc for quick image retouching and simple edit. 
 You can install this one by use this command:
 ```
@@ -221,7 +221,7 @@ We have just made this app to run on PionuxOS.To install it, please following th
 
 ```
 ---
-#### Open Shot
+#### Open-Shot
 Open Shot video editor is an open source Video Editing Software. It works well in the other distribution, too.
 ```
     $ pi -S openshot
@@ -303,8 +303,6 @@ The Second way:
 ```
 ---
 
-
-
 ## Software
 #### Gnome
 GNOME Software utility for software application installations and updates. The Software Center allows for easy installations and updates of software applications and system extensions.
@@ -379,7 +377,7 @@ Here the command:
 ```
 ---
 
-#### Kazam- Screen Recorder
+#### Kazam
 Screencasting is an important task for many people for many reasons including making a video tutorial,creating a presentation, compiling a how-to tutorial or do a software review or having the fun of streaming while playing pc games. Moreover now a day many users are making an earning opportunity for themselves through YouTube, Facebook video or any other video hosting sites by making many helpful how-to guide videos.
 
 **Kazam**is one of the best lightweight screen recorder available for Linux desktop. It’s straightforward and nifty tool for screencasting.

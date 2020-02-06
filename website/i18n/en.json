@@ -20,10 +20,6 @@
         "title": "All You Need To Know About Basic Commands",
         "sidebar_label": "Basic Commands Info"
       },
-      "D-C-Helps": {
-        "title": "Basic Learning Tutorial",
-        "sidebar_label": "Common Troubles"
-      },
       "D-Contributer": {
         "title": "Learn more about Contributing",
         "sidebar_label": "Contribute"
@@ -36,6 +32,13 @@
         "title": "All You Need To Know About Intermediate Commands",
         "sidebar_label": "Intermediate Commands Info"
       },
+      "D-KUsers": {
+        "title": "D-KUsers"
+      },
+      "D-Licence": {
+        "title": "License",
+        "sidebar_label": "License"
+      },
       "D-Maintainer": {
         "title": "Learn More About Maintainers",
         "sidebar_label": "Maintainers"
@@ -47,6 +50,10 @@
       "D-OS": {
         "title": "OS Informations",
         "sidebar_label": "Operating System Info"
+      },
+      "D-Root": {
+        "title": "What is Root?",
+        "sidebar_label": "Root Info"
       },
       "D-Troubleshooting": {
         "title": "Bugs & Helps",
@@ -90,9 +97,9 @@
       "News": "News",
       "PionuxOS Informations": "PionuxOS Informations",
       "Interaction": "Interaction",
+      "Others": "Others",
       "Desktop Operating System": "Desktop Operating System",
-      "Mobile Operating System": "Mobile Operating System",
-      "Others": "Others"
+      "Mobile Operating System": "Mobile Operating System"
     }
   },
   "pages-strings": {

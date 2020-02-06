@@ -33,3 +33,5 @@ By having a PR, it is easier for contributors of this project to follow-up with 
 >**Task**: Before starting a new task, check frequently the project board. This tools is a great way to check colleague work and not wasting time. If a contributor has an idea for documentation. Add it in the backlog items with proper description it will be addressed later.
 
 It way seems difficult with practice, it will be easier.
+
+---

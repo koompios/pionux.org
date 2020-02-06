@@ -21,39 +21,60 @@ If you wish to remove your applications from you PC, you can use this command:
 
 Here is where the list of applications that you can install in PionuxOS. It is all open-source apps. You can install them through commands or through snap store.
 
-| Nº | Name of Apps       | Type of Apps         | Link              | Description|
-|----|--------------------|----------------------|-------------------| -----------|
-|  1.| Apache OpenOffice  | Word Sheet           |[Click Here]()     |
-|  2.| Atom               | Code Editor          |[Click Here]()     |
-|  3.| Bacula             | Others               |[Click Here]()     |
-|  4.| Brave              | Web Browser          |[Click Here]()     |
-|  5.| Darktable          | Graphic Editor       |[Click Here]()     |
-|    | DigiKam            | Graphic Editor       |[Click Here]()     |
-|    | FileZilla          | Others               |[Click Here]()     |
-|    | Firefox            | Web Browser          |[Click Here]()     |
-|    | GIMP               | Graphic Editor       |[Click Here]()     |
-|    | Git                | Web Platform         |[Click Here]()     |
-|    | Gnome              | Software Platform    |[Click Here]()     |
-|    | Google Chrome      | Web Browser          |[Click Here]()     |
-|    | Inkscape           | Graphic Editor       |[Click Here]()     |
-|    | KDE(Plasma)        | Software Platform    |[Click Here]()     |
-|    | Kdenlive           | Graphic Editor       |[Click Here]()     |
-|    | KMPlayer           | Graphic Editor       |[Click Here]()     |
-|    | Krita              | Graphic Editor       |[Click Here]()     |
-|    | Libra Office       | Word Sheet           |[Click Here]()     |
-|    | Master PDF         | Word Sheet           |[Click Here]()     |
-|    | Okular             | Word Sheet           |[Click Here]()     |
-|    | Open Shot          | Graphic Editor       |[Click Here]()     |
-|    | Pinta              | Graphic Editor       |[Click Here]()     |
-|    | PhotoShop          | Graphic Editor       |[Click Here]()     |
-|    | RawTherapee        | Graphic Editor       |[Click Here]()     |
-|    | Simplenote         | Word Sheet           |[Click Here]()     |
-|    | Spotify            | Musical Platform     |[Click Here]()     |
-|    | Telegram           | Social Media Platform|[Click Here]()     |
-|    | Thunderbird        | Web Browser          |[Click Here]()     |
-|    | Visual Studio Code | Code Editor          |[Click Here]()     |
-|    | WeChat             | Social Media Platform|[Click Here]()     |
-|    | WPS Office         | Word Sheet           |[Click Here]()     |
+| Nº  | Name of Apps       | Type of Apps         | Link                                         |
+|-----|--------------------|----------------------|----------------------------------------------|
+|  1. | Apache OpenOffice  | Word Sheet           |[Click Here](./D-Applications.md####)         |
+|  2. | Atom               | Code Editor          |[Click Here](./D-Applications.md####Atom)     |
+|  3. | Bacula             | Others               |[Click Here](./D-Applications.md####Bacula)   |
+|  4. | Brave              | Web Browser          |[Click Here](./D-Applications.md####Brave)    |
+|  5. | Darktable          | Graphic Editor       |[Click Here](./D-Applications.md####Darktable)|
+|  6. | DigiKam            | Graphic Editor       |[Click Here](./D-Applications.md####DigiKam)  |
+|  7. | FileZilla          | Others               |[Click Here](./D-Applications.md####FileZilla)|  
+|  8. | Firefox            | Web Browser          |[Click Here](./D-Applications.md####FireFox)  |
+|  9. | GIMP               | Graphic Editor       |[Click Here](./D-Applications.md####GIMP)     |
+|  10.| Git                | Web Platform         |[Click Here](./D-Applications.md####Git)      |
+|  11.| Gnome              | Software Platform    |[Click Here](./D-Applications.md####Gnome)    |
+|  12.| Google Chrome      | Web Browser          |[Click Here](./D-Applications.md####Chrome)   |
+|  13.| Guvcview           | Recorder Platform    |[Click Here](./D-Applications.md####Guvcview) |
+|  14.| Kazam              | Recorder Platform    |[Click Here](./D-Applications.md####Kazam)    |
+|  15.| Inkscape           | Graphic Editor       |[Click Here](./D-Applications.md####Inkscape) |
+|  16.| KDE(Plasma)        | Software Platform    |[Click Here](./D-Applications.md####KDE)      |
+|  17.| Kdenlive           | Graphic Editor       |[Click Here](./D-Applications.md####Kdenlive) |
+|  18.| KMPlayer           | Graphic Editor       |[Click Here](./D-Applications.md####KMPlayer) |
+|  19.| Kodi               | Media Platform       |[Click Here](./D-Applications.md####Kodi)     |
+|  20.| Krita              | Graphic Editor       |[Click Here](./D-Applications.md####Krita)    |
+|  21.| Libra Office       | Word Sheet           |[Click Here](./D-Applications.md####Libra)    |
+|  22.| Master PDF         | Word Sheet           |[Click Here](./D-Applications.md####Master)   |
+|  23.| Okular             | Word Sheet           |[Click Here](./D-Applications.md####Okular)   |
+|  24.| Open Shot          | Graphic Editor       |[Click Here](./D-Applications.md####Open-Sho)     |
+|  25.| Owncloud           | Storage Platform     |[Click Here](./D-Applications.md####)     |
+|  26.| Parted             | Software             |[Click Here](./D-Applications.md####)     |
+|  27.| Pinta              | Graphic Editor       |[Click Here](./D-Applications.md####)     |
+|  28.| PhotoShop          | Graphic Editor       |[Click Here](./D-Applications.md####)     |
+|  29.| Popcorn Time       | Media Platform       |[Click Here](./D-Applications.md####)     |
+|  30.| RawTherapee        | Graphic Editor       |[Click Here](./D-Applications.md####)     |
+|  31.| Simplenote         | Word Sheet           |[Click Here](./D-Applications.md####)     |
+|  32.| Snap Store         | Media Platform       |[Click Here](./D-Applications.md####)     |
+|  33.| Spotify            | Musical Platform     |[Click Here](./D-Applications.md####)     |
+|  34.| Telegram           | Social Media Platform|[Click Here](./D-Applications.md####)     |
+|  35.| Teamviewer         | Software             |[Click Here](./D-Applications.md####)     |
+|  36.| Transmission       | Software             |[Click Here](./D-Applications.md####)     |
+|  37.| Thunderbird        | Web Browser          |[Click Here](./D-Applications.md####)     |
+|  38.| UGet               | Downloader Platform  |[Click Here](./D-Applications.md####)     |
+|  39.| Visual Studio Code | Code Editor          |[Click Here](./D-Applications.md####)     |
+|  40.| VLC                | Video Platform       |[Click Here](./D-Applications.md####)     |
+|  41.| VMware             | Software             |[Click Here](./D-Applications.md####)     |
+|  42.| WeChat             | Social Media Platform|[Click Here](./D-Applications.md####)     |
+|  43.| WPS Office         | Word Sheet           |[Click Here](./D-Applications.md####)     |
+
+
+
+
+
+
+
+
+
 
 
 
