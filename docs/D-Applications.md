@@ -124,9 +124,9 @@ Using command below install it:
 ```Text
     $ pi -S thunderbird
 ```
-## Editors
+## Graphic Editors
 As Window has widely used photo editor enterprise-level Photo management and editing software. So does Pionux which contain a large number of open-source industry professionals software.Down here are the avaible software you can install in the Pionux. And surprisingly all comes with a handful of features and tools to fulfill your image editing or painting or designing task.
-#### GIMP - The High-Quality Photo Manipulation
+#### GIMP
 GIMP is an insanely popular open source **Free Photo Editing Software** Like Photoshop. It’s a multi-platform supported software which supports various system like Windows, Linux, Mac OS X and so does pionux. Users can easily complete the job with this free software.
 
 It provides a set of advanced tools so that the scientists, photographers, and designers can accomplish the jobs smoothly. Without any doubt, this is one of the best photoshop alternative free picture editor.

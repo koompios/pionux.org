@@ -3,6 +3,7 @@ id: D-Applications-List
 title: List Of Apps In Pionux
 sidebar_label: Applications List
 ---
+
 If you are looking forward to install apps in pionux you are in the right place.
 
 Before you install any applications you have to make sure your system is already updated.If you don't update the system yet use this command:
@@ -21,7 +22,7 @@ If you wish to remove your applications from you PC, you can use this command:
 
 Here is where the list of applications that you can install in PionuxOS. It is all open-source apps. You can install them through commands or through snap store.
 
-| Nº  | Name of Apps       | Type of Apps         | Link                                         |
+| Nº  | Name of Apps       | Type of Apps         | Connected Links                              |
 |-----|--------------------|----------------------|----------------------------------------------|
 |  1. | Apache OpenOffice  | Word Sheet           |[Click Here](./D-Applications.md#)            |
 |  2. | Atom               | Code Editor          |[Click Here](./D-Applications.md#Atom)        |

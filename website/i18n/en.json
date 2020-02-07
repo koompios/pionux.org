@@ -33,7 +33,8 @@
         "sidebar_label": "Intermediate Commands Info"
       },
       "D-KUsers": {
-        "title": "D-KUsers"
+        "title": "Koompi Users",
+        "sidebar_label": "Common Problems"
       },
       "D-Licence": {
         "title": "License",
