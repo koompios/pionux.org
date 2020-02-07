@@ -26,7 +26,7 @@ If you wish to remove, run this command:
     $ pi -Rs texmaker
 ```
 ---
-#### Visual Studio Code
+#### VsCode
 Visual Studio Code is a source-code editor developed by Microsoft which includes support for debugging, embedded Git control and GitHub, syntax highlighting, intelligent code completion, snippets, and code refactoring. It is highly customizable, allowing users to change the theme, keyboard shortcuts, preferences, and install extensions that add additional functionality.
 First update the pi package repository cache with the following command:
 ```Text
@@ -75,7 +75,7 @@ Simplenote is the best note taking the app for Pionux right now. It provides all
     $ pi -S simplenote-electron-bin
 ```
 ---
-#### WPS Office
+#### WPS-Office
 WPS Office (an acronym for Writer, Presentation and Spreadsheets, previously known as Kingsoft Office)is an office suite for Microsoft Windows, Linux, iOS and Android.
 ```Text
     $ pi -S wps-office
@@ -495,14 +495,14 @@ If you have a Windows XP partition that you would like to move from drive-to-dri
     HKEY_LOCAL_MACHINE\SYSTEM\MountedDevices
 ```
 ---
-#### Popcorn Time
+#### Popcorn-Time
 Popcorn Time is a multi-platform, free software BitTorrent client that includes an integrated media player. Popcorn Time provide a free "alternative" to subscription-based video streaming services such as Netflix.
 ```Text
     $ pi -S popcorntime-bin  or $ pi -S popcorntime
 ```
 ---
 
-#### Snap Store
+#### Snap-Store
 Snaps are applications packaged with all their dependencies to run on all popular Linux distributions from a single build. They update automatically and roll back gracefully.
 
 Snaps are discoverable and installable from the Snap Store, an app store with an audience of millions.
@@ -535,7 +535,7 @@ There are several packages available to install Transmission with:
 - `$ pi -S transmission-remote-gtk` – GTK 3 graphical interface for the daemon.
 
 ---
-#### uGet
+#### UGet
 uGet is an open source download manager for Linux which will download your files fast. This download manager can be efficiently organized and highly configurable. You can control your downloads in one central place.
 
 All the modern browsers have default download manager, it’s not good enough to handle effective downloading system. When the question comes whether a web browser can handle multiple download, pause system, torrent integration or fast download, then the answer is not satisfactory.
