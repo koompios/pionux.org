@@ -58,7 +58,7 @@ Output :
 ```
     [koompi@koompi-pc Documents]$
 ```
-## Touch
+## Touch Command
 To create file " touch ":
 ```
     $ touch <file name with extension >
@@ -67,7 +67,7 @@ For example :
 ```
     $ touch Name.txt
 ```
-## Mkdir
+## Mkdir Command
 
 To create a directory, you must use:
 ``` 

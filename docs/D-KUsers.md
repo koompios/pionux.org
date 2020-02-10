@@ -11,6 +11,7 @@ sidebar_label: Common Problems
 |  3. | How to download Kroma OS?                       | [Click Here]()            |
 |  4. | I'm having a Sound problem.                     | [Click Here]()            |
 |  5. | Why the internet is not working?                | [Click Here]()            |
+|  6. | How can I know about my pc specs?               | [Click Here]()            |
 
 ---
  Down here are the answers for all questions that have been required by Koompi Users. We hope that it is more comfortable and suitable for your situation. 
@@ -59,5 +60,8 @@ After you run that command and your audio still isn’t working.
 ### Why the internet is not working?  
 What you need to do first is that you must try to reset your network manager first.
 - Run this command in your terminal: `sudo systemctl restart NetworkManager`
+
+### How can I know about my pc specs?
+It is very easy to know about the details of the pc when you are using this OS, What you need to do it that you have to open **Settings** `-->`**System Setting** `-->` **System Information**. Finally, now you can see all details about your pc.
 
 ---

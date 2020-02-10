@@ -131,4 +131,16 @@ The following example is the WORD grep where it is searching only for the word â
     And this is the last line
 ```
 >**Tips**: If you need any further assistance please [contact]() our support department.
+## Uname Command
+The `uname`command reports basic information about a computer's software and hardware.
+The way of using this command is below:
+```Text
+    $ uname [option]
+```
+When used without any options, uname reports the name, but not the version number.
+First option is with **-a**, which provide the following of information, the name of the kernel, network node host name (e.g., localhost.localdomain), kernel version number and release level (e.g., 2.4.20-6), kernel release date, machine hardware name, CPU (central processing unit) type, hardware platform and operating system name :
+```Text
+    $ uname -a
+```
+For more information using **--help** as the option. 
 ***
