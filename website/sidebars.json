@@ -3,7 +3,7 @@
     "News":["News"]
   },
   "docs": {
-    "PionuxOS Informations": ["D-Applications-List","D-Applications","D-BasicCommands","D-IntermediatedCommands","D-OS","D-Root"],
+    "PionuxOS Informations": ["D-Applications-List","D-Applications","D-BasicCommands","D-IntermediatedCommands","D-OS","D-Root","D-Setup"],
     "Interaction":["D-Contributer","D-Maintainer","D-FAQs"],
     "Others":["D-KUsers","D-Licence"]
     
