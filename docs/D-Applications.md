@@ -197,8 +197,15 @@ What you need to do is that you have to open terminal and then run this followin
 After you typed it in terminal, Then follow the instruction have been given.
 
 ---
+## Media Platforms
+### Discord
+Discord is a proprietary freeware VoIP application and digital distribution platform designed for video gaming communities, that specializes in text, image, video and audio communication between users in a chat channel
 
-## Music Apps
+In order to install this app you have to run it on terminal and typing this:
+```
+    $ pi -S discord
+```
+## Music Platforms
 #### Spotify
 ```Text
     $ pi -S spotify
