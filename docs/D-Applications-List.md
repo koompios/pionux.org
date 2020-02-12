@@ -20,53 +20,55 @@ If you wish to remove your applications from you PC, you can use this command:
     $ pi -Rn Applications_Name
 ```
 
-Here is where the list of applications that you can install in PionuxOS. It is all open-source apps. You can install them through commands or through snap store.
+Here is where the list of applications that you can click on links to install in PionuxOS. It is all open-source apps. You can install them through commands or through snap store.
 
-| Nº  | Name of Apps       | Type of Apps         | Connected Links                              |
-|-----|--------------------|----------------------|----------------------------------------------|
-|  1. | Apache OpenOffice  | Word Sheet           |[Click Here](./D-Applications.md#)            |
-|  2. | Atom               | Code Editor          |[Click Here](./D-Applications.md#Atom)        |
-|  3. | Bacula             | Others               |[Click Here](./D-Applications.md#Bacula)      |
-|  4. | Brave              | Web Browser          |[Click Here](./D-Applications.md#Brave)       |
-|  5. | Darktable          | Graphic Editor       |[Click Here](./D-Applications.md#Darktable)   |
-|  6. | DigiKam            | Graphic Editor       |[Click Here](./D-Applications.md#DigiKam)     |
-|  7. | FileZilla          | Others               |[Click Here](./D-Applications.md#FileZilla)   |  
-|  8. | Firefox            | Web Browser          |[Click Here](./D-Applications.md#FireFox)     |
-|  9. | GIMP               | Graphic Editor       |[Click Here](./D-Applications.md#GIMP)        |
-|  10.| Git                | Web Platform         |[Click Here](./D-Applications.md#Git)         |
-|  11.| Gnome              | Software Platform    |[Click Here](./D-Applications.md#Gnome)       |
-|  12.| Google Chrome      | Web Browser          |[Click Here](./D-Applications.md#Chrome)      |
-|  13.| Guvcview           | Recorder Platform    |[Click Here](./D-Applications.md#Guvcview)    |
-|  14.| Kazam              | Recorder Platform    |[Click Here](./D-Applications.md#Kazam)       |
-|  15.| Inkscape           | Graphic Editor       |[Click Here](./D-Applications.md#Inkscape)    |
-|  16.| KDE(Plasma)        | Software Platform    |[Click Here](./D-Applications.md#KDE)         |
-|  17.| Kdenlive           | Graphic Editor       |[Click Here](./D-Applications.md#Kdenlive)    |
-|  18.| KMPlayer           | Graphic Editor       |[Click Here](./D-Applications.md#KMPlayer)    |
-|  19.| Kodi               | Media Platform       |[Click Here](./D-Applications.md#Kodi)        |
-|  20.| Krita              | Graphic Editor       |[Click Here](./D-Applications.md#Krita)       |
-|  21.| Libra Office       | Word Sheet           |[Click Here](./D-Applications.md#Libra-Office)|
-|  22.| Master PDF         | Word Sheet           |[Click Here](./D-Applications.md#Master)      |
-|  23.| Okular             | Word Sheet           |[Click Here](./D-Applications.md#Okular)      |
-|  24.| Open Shot          | Graphic Editor       |[Click Here](./D-Applications.md#Open-Shot)   |  
-|  25.| Owncloud           | Storage Platform     |[Click Here](./D-Applications.md#Owncloud)    |
-|  26.| Parted             | Software             |[Click Here](./D-Applications.md#Parted)      |
-|  27.| Pinta              | Graphic Editor       |[Click Here](./D-Applications.md#Pinta)       |
-|  28.| PhotoShop          | Graphic Editor       |[Click Here](./D-Applications.md#PhotoShop)   |
-|  29.| Popcorn Time       | Media Platform       |[Click Here](./D-Applications.md#Popcorn-Time)|
-|  30.| RawTherapee        | Graphic Editor       |[Click Here](./D-Applications.md#RawTherapee) |
-|  31.| Simplenote         | Word Sheet           |[Click Here](./D-Applications.md#Simplenote)  |
-|  32.| Snap Store         | Media Platform       |[Click Here](./D-Applications.md#Snap-Store)  |
-|  33.| Spotify            | Musical Platform     |[Click Here](./D-Applications.md#Spotify)     |
-|  34.| Telegram           | Social Media Platform|[Click Here](./D-Applications.md#Telegram)    |
-|  35.| Teamviewer         | Media Platform       |[Click Here](./D-Applications.md#Teamviewer)  |
-|  36.| Transmission       | Software             |[Click Here](./D-Applications.md#Transmission)|
-|  37.| Thunderbird        | Web Browser          |[Click Here](./D-Applications.md#Thunderbird) |
-|  38.| UGet               | Downloader Platform  |[Click Here](./D-Applications.md#UGet)        |
-|  39.| Visual Studio Code | Code Editor          |[Click Here](./D-Applications.md#VsCode)      |
-|  40.| VLC                | Video Platform       |[Click Here](./D-Applications.md#VLC)         |
-|  41.| VMware             | Software             |[Click Here](./D-Applications.md#Vmware)      |
-|  42.| WeChat             | Social Media Platform|[Click Here](./D-Applications.md#WeChat)      |
-|  43.| WPS Office         | Word Sheet           |[Click Here](./D-Applications.md#Wps-Office)  |
+|+| Name of Apps     | Type of Apps        | Connected Links                                        |
+|-|------------------|---------------------|--------------------------------------------------------|
+|~|Apache OpenOffice |Word Sheet           |[Click Here](https://pionux.org/docs/D-Applications#apache-openoffice)|
+|~|Atom              |Code Editor          |[Click Here](https://pionux.org/docs/D-Applications#atom)|
+|~|Bacula            |Others               |[Click Here](https://pionux.org/docs/D-Applications#bacula)      |
+|~|Brave             |Web Browser          |[Click Here](https://pionux.org/docs/D-Applications#brave)       |
+|~|Darktable         |Graphic Editor       |[Click Here](https://pionux.org/docs/D-Applications#darktable)   |
+|~|DigiKam           |Graphic Editor       |[Click Here](https://pionux.org/docs/D-Applications#digikam)     |
+|~|Discord           |Media Platform       |[Click Here](./D-Applications.md#DigiKam)     |
+|~|FileZilla         |Others               |[Click Here](https://pionux.org/docs/D-Applications#filezilla)   |  
+|~|Firefox           |Web Browser          |[Click Here](https://pionux.org/docs/D-Applications#firefox)     |
+|~|GIMP              |Graphic Editor       |[Click Here](https://pionux.org/docs/D-Applications#gimp)        |
+|~|Git               |Web Platform         |[Click Here](https://pionux.org/docs/D-Applications#git) |
+|~|Gnome             |Software Platform    |[Click Here](https://pionux.org/docs/D-Applications#gnome)       |
+|~|Google Chrome     |Web Browser          |[Click Here](https://pionux.org/docs/D-Applications#chrome)      |
+|~|Guvcview          |Recorder Platform    |[Click Here](https://pionux.org/docs/D-Applications#guvcview)    |
+|~|Inkscape          |Graphic Editor       |[Click Here](https://pionux.org/docs/D-Applications#inkscape)    |
+|~|Kazam             |Recorder Platform    |[Click Here](https://pionux.org/docs/D-Applications#kazam)       |
+|~|KDE(Plasma)       |Software Platform    |[Click Here](https://pionux.org/docs/D-Applications#kde-plasma)         |
+|~|Kdenlive          |Graphic Editor       |[Click Here](https://pionux.org/docs/D-Applications#kdenlive)    |
+|~|KMPlayer          |Graphic Editor       |[Click Here](https://pionux.org/docs/D-Applications#kmplayer)    |
+|~|Kodi              |Media Platform       |[Click Here](https://pionux.org/docs/D-Applications#kodi)        |
+|~|Krita             |Graphic Editor       |[Click Here](https://pionux.org/docs/D-Applications#krita)       |
+|~|Libra Office      |Word Sheet           |[Click Here](https://pionux.org/docs/D-Applications#libra-office)|
+|~|Master PDF        |Word Sheet           |[Click Here](https://pionux.org/docs/D-Applications#master-pdf-the-complete-editing-pdf-app)      |
+|~|Okular            |Word Sheet           |[Click Here](https://pionux.org/docs/D-Applications#okular)      |
+|~|Open Shot         |Graphic Editor       |[Click Here](https://pionux.org/docs/D-Applications#open-shot)   |  
+|~|Owncloud          |Storage Platform     |[Click Here](https://pionux.org/docs/D-Applications#owncloud)    |
+|~|Parted            |Software             |[Click Here](https://pionux.org/docs/D-Applications#parted)      |
+|~|Pinta             |Graphic Editor       |[Click Here](https://pionux.org/docs/D-Applications#pinta)       |
+|~|PhotoShop         |Graphic Editor       |[Click Here](https://pionux.org/docs/D-Applications#photoshop)   |
+|~|Popcorn Time      |Media Platform       |[Click Here](https://pionux.org/docs/D-Applications#popcorn-time)|
+|~|RawTherapee       |Graphic Editor       |[Click Here](https://pionux.org/docs/D-Applications#rawtherapee) |
+|~|Simplenote        |Word Sheet           |[Click Here](https://pionux.org/docs/D-Applications#simplenote)  |
+|~|Snap Store        |Media Platform       |[Click Here](https://pionux.org/docs/D-Applications#snap-store)  |
+|~|Spotify           |Musical Platform     |[Click Here](https://pionux.org/docs/D-Applications#spotify)     |
+|~|Telegram          |Social Media Platform|[Click Here](https://pionux.org/docs/D-Applications#telegram)    |
+|~|Teamviewer        |Media Platform       |[Click Here](https://pionux.org/docs/D-Applications#teamviewer)  |
+|~|TeXmaker          |Code Editor          |[Click Here](https://pionux.org/docs/D-Applications#texmaker)|
+|~|Transmission      |Software             |[Click Here](https://pionux.org/docs/D-Applications#transmission)|
+|~|Thunderbird       |Web Browser          |[Click Here](https://pionux.org/docs/D-Applications#thunderbird) |
+|~|UGet              |Downloader Platform  |[Click Here](https://pionux.org/docs/D-Applications#uget)|
+|~|Visual Studio Code|Code Editor          |[Click Here](https://pionux.org/docs/D-Applications#vscode)      |
+|~|VLC               |Video Platform       |[Click Here](https://pionux.org/docs/D-Applications#vlc)|
+|~|VMware            |Software             |[Click Here](https://pionux.org/docs/D-Applications#vmware)      |
+|~|WeChat            |Social Media Platform|[Click Here](https://pionux.org/docs/D-Applications#wechat)      |
+|~|WPS Office        |Word Sheet           |[Click Here](https://pionux.org/docs/D-Applications#wps-office)  |
 
 ---
 

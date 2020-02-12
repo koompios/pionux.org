@@ -1,7 +1,7 @@
 ---
 id: D-Setup
 title: Input/Output 
-sidebar_label: Setup
+sidebar_label: Setup Info
 ---
 ---
 ## Bluetooth And Pulseaudio

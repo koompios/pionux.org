@@ -37,7 +37,7 @@ After it updated,Use this command:
     $ pi -S code --classic
 ```
 ---
-## Docs And WordSheets
+## Word Sheets
 #### Apache OpenOffice
 Apache OpenOffice is an office productivity software suite containing a word processor (Writer), a spreadsheet (Calc), a presentation application (Impress), a drawing application (Draw), a formula editor (Math), and a database management application (Base). It's default file format is the OpenDocument Format (ODF), and can also read and write a wide variety of other file formats, including those from Microsoft Office.
 
@@ -64,7 +64,7 @@ We can install it by run:
 Office 365 is a cloud-based subscription service that brings together the best tools for the way people work today. Combining the best-in-class apps like Excel and Outlook with cloud services like OneDrive and Microsoft Teams, Office 365 lets anyone create and share anywhere on any device.
 
 ---
-#### Master PDF - The Complete Editing PDF App
+#### Master PDF
 Master PDF Editor is simple in use but effective application for work with PDF files. Its features enable you to create, edit, view, encrypt, sign, and print interactive PDF documents with just a couple mouse clicks. Applications features include full PDF files support, import/export of PDF pages to images of different formats, XPS conversion to PDF and 256-bit encryption. You can also add different control elements such as buttons, text fields, flags and many other. Each control element can have event handlers assigned for predefined user actions, such as click, scroll, or selection. Your work will become even simpler than ever before with powerful comment tools like Sticky Note and Stamp.
 
 
@@ -75,55 +75,13 @@ Simplenote is the best note taking the app for Pionux right now. It provides all
     $ pi -S simplenote-electron-bin
 ```
 ---
-#### WPS-Office
+#### WPS Office
 WPS Office (an acronym for Writer, Presentation and Spreadsheets, previously known as Kingsoft Office)is an office suite for Microsoft Windows, Linux, iOS and Android.
 ```Text
     $ pi -S wps-office
 ```
 >**Tips:** The following steps that installing has given please chooseing number 2. We recommended.
-
 ---
-## Web Browser
-#### Chrome
-A Google Chrome App, or commonly just Chrome App, is a web application that runs on the Google Chrome web browser. Chrome apps can be obtained from the Chrome Web Store where apps, extensions, and themes can be installed or bought.
-
-To install chrome, follow steps below:
-```Text
-    1. Open Konsole or Terminal'ctrl'+'Alt'+T
-    2. Type '$ pi -S google-chrome'
-    3. Following the sentences have been given.
-```
----
-#### Brave 
-Brave is a new way of thinking about how the web works. Brave is open source and built by a team of privacy focused, performance oriented pioneers of the web. Brave fights malware and prevents tracking while keeping your information safe and secure.
-To installed **Brave Browser**, open terminal and use this command:
-```Text
-    $ pi -S brave
-```
----
-#### Firefox 
-Mozilla Firefox, Firefox Browser, or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, Mozilla Corporation. Firefox uses the Gecko layout engine to render web pages, which implements current and anticipated web standards.
-In order to install it use these command
-```Text
-    1. Open Konsole or Terminal'ctrl'+'Alt'+T
-    2. Type '$ pi -S firefox'
-    3. And it would ask for your permission 'Enter' for 'Yes'
-```
----
-#### Git
-Git is the version control system (VCS) designed and developed by Linus Torvalds, the creator of the Linux kernel. Git is now used to maintain AUR packages, as well as many other projects, including sources for the Linux kernel.
-
-You can install git through this line:
-```Text
-    $ pi -S git
-```
----
-#### Thunderbird
-Mozilla Thunderbird is a free and open-source, cross-platform email client, news client, RSS, and chat client developed by the Mozilla Foundation. The project strategy was modeled after that of the Mozilla Firefox web browser. It is installed by default on Ubuntu desktop systems.
-Using command below install it:
-```Text
-    $ pi -S thunderbird
-```
 ## Graphic Editors
 As Window has widely used photo editor enterprise-level Photo management and editing software. So does Pionux which contain a large number of open-source industry professionals software.Down here are the avaible software you can install in the Pionux. And surprisingly all comes with a handful of features and tools to fulfill your image editing or painting or designing task.
 #### GIMP
@@ -221,7 +179,7 @@ We have just made this app to run on PionuxOS.To install it, please following th
 
 ```
 ---
-#### Open-Shot
+#### Open Shot
 Open Shot video editor is an open source Video Editing Software. It works well in the other distribution, too.
 ```
     $ pi -S openshot
@@ -256,6 +214,48 @@ After you typed it in terminal, Then follow the instruction have been given.
 Here is the command for  solve the error:
 ```Text
     $ sudo locale-gen
+```
+---
+## Web Browsers
+#### Chrome
+A Google Chrome App, or commonly just Chrome App, is a web application that runs on the Google Chrome web browser. Chrome apps can be obtained from the Chrome Web Store where apps, extensions, and themes can be installed or bought.
+
+To install chrome, follow steps below:
+```Text
+    1. Open Konsole or Terminal'ctrl'+'Alt'+T
+    2. Type '$ pi -S google-chrome'
+    3. Following the sentences have been given.
+```
+---
+#### Brave 
+Brave is a new way of thinking about how the web works. Brave is open source and built by a team of privacy focused, performance oriented pioneers of the web. Brave fights malware and prevents tracking while keeping your information safe and secure.
+To installed **Brave Browser**, open terminal and use this command:
+```Text
+    $ pi -S brave
+```
+---
+#### Firefox 
+Mozilla Firefox, Firefox Browser, or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, Mozilla Corporation. Firefox uses the Gecko layout engine to render web pages, which implements current and anticipated web standards.
+In order to install it use these command
+```Text
+    1. Open Konsole or Terminal'ctrl'+'Alt'+T
+    2. Type '$ pi -S firefox'
+    3. And it would ask for your permission 'Enter' for 'Yes'
+```
+---
+#### Git
+Git is the version control system (VCS) designed and developed by Linus Torvalds, the creator of the Linux kernel. Git is now used to maintain AUR packages, as well as many other projects, including sources for the Linux kernel.
+
+You can install git through this line:
+```Text
+    $ pi -S git
+```
+---
+#### Thunderbird
+Mozilla Thunderbird is a free and open-source, cross-platform email client, news client, RSS, and chat client developed by the Mozilla Foundation. The project strategy was modeled after that of the Mozilla Firefox web browser. It is installed by default on Ubuntu desktop systems.
+Using command below install it:
+```Text
+    $ pi -S thunderbird
 ```
 ---
 ## Socail Media
@@ -502,7 +502,7 @@ Popcorn Time is a multi-platform, free software BitTorrent client that includes 
 ```
 ---
 
-#### Snap-Store
+#### Snap Store
 Snaps are applications packaged with all their dependencies to run on all popular Linux distributions from a single build. They update automatically and roll back gracefully.
 
 Snaps are discoverable and installable from the Snap Store, an app store with an audience of millions.
