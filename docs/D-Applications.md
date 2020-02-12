@@ -198,13 +198,60 @@ After you typed it in terminal, Then follow the instruction have been given.
 
 ---
 ## Media Platforms
-### Discord
+#### Discord
 Discord is a proprietary freeware VoIP application and digital distribution platform designed for video gaming communities, that specializes in text, image, video and audio communication between users in a chat channel
 
 In order to install this app you have to run it on terminal and typing this:
 ```
     $ pi -S discord
 ```
+#### Skype
+>**Reminder:**Don't forget to update your system first before installing apps!!
+Skype is a telecommunications application that specializes in providing video chat and voice calls between computers, tablets, mobile devices, the Xbox One console, and smartwatches via the Internet. Skype also provides instant messaging services. Users may transmit text, video, audio and images.
+#### Telegram
+Telegram is a cloud-based cross-platform instant messaging service with optional end-to-end encryption. Account creation requires a phone number.
+
+The official clients are open-source but the code for recent versions is not always immediately published. The server-side code is proprietary.
+
+You can use one of following methods in order to use Telegram:
+
+>**TIps:**We are recommending these two commands for installing:
+- `$ pi -S telegram-desktop`, built by Arch Linux
+- `$ pi -S telegram-desktop-bin`, built by upstream
+
+For Command-line clients, Openning terminal and typing below commands(You can choose which one you want):
+- `$ pi -S telegram-cli-git` provides command-line interface to connect and use Telegram. For more information about the program, visit the program page on [Github](https://github.com/vysheng/tg).
+- `$ pi -S nctelegram-git` is a command-line interface for Telegram based on [Ncurses]() and needs **telegram-cli-git** to run. For more information about the program, visit the program page on [Github](https://github.com/Nanoseb/ncTelegram).
+- `$ pi -S python-telegram-send` , not a full client but a command-line tool to directly send messages or files via Telegram.
+
+##### Helps
+###### Can't Open Telegram, What should I do?
+If you are finding trouble with telegram after you have updated it like when you try to open it back 
+and it can't open or can open for only seconds.What you need to do is that you must go into terminal and type this `$ telegram-desktop`and then `Enter`.
+
+It will appear the some problems connected to **Qt5,libicu,etc**, please [Click here]().
+
+---
+#### Wechat
+WeChat is more than a messaging and social media app – it is a lifestyle for over one billion users across the world. It is free and safe downloaded.
+
+You can install it on our OS by 2 ways.
+
+The first way:
+   
+    1. Open terminal
+    2. Run this command `$ yes | pi -S electronic-wechat-bin`
+    3. After that, you just have to follow the following was given.
+    4. It is also asking you for password.
+
+>**Tip:**We recommended you to use **the second way**.It is easier and not much question.
+
+The Second way:
+```
+    curl -S http://repo.koompi.org/packages/electronic-wechat-bin-2.3.1-1-x86_64.pkg.tar.xz -O && sudo pacman -U electronic-wechat-bin-2.3.1-1-x86_64.pkg.tar.xz && sudo pacman -S nss gtk3 libxss
+```
+---
+
 ## Music Platforms
 #### Spotify
 ```Text
@@ -265,51 +312,6 @@ Using command below install it:
     $ pi -S thunderbird
 ```
 ---
-## Socail Media
-#### Telegram
-Telegram is a cloud-based cross-platform instant messaging service with optional end-to-end encryption. Account creation requires a phone number.
-
-The official clients are open-source but the code for recent versions is not always immediately published. The server-side code is proprietary.
-
-You can use one of following methods in order to use Telegram:
-
->**TIps:**We are recommending these two commands for installing:
-- `$ pi -S telegram-desktop`, built by Arch Linux
-- `$ pi -S telegram-desktop-bin`, built by upstream
-
-For Command-line clients, Openning terminal and typing below commands(You can choose which one you want):
-- `$ pi -S telegram-cli-git` provides command-line interface to connect and use Telegram. For more information about the program, visit the program page on [Github](https://github.com/vysheng/tg).
-- `$ pi -S nctelegram-git` is a command-line interface for Telegram based on [Ncurses]() and needs **telegram-cli-git** to run. For more information about the program, visit the program page on [Github](https://github.com/Nanoseb/ncTelegram).
-- `$ pi -S python-telegram-send` , not a full client but a command-line tool to directly send messages or files via Telegram.
-
-##### Helps
-###### Can't Open Telegram, What should I do?
-If you are finding trouble with telegram after you have updated it like when you try to open it back 
-and it can't open or can open for only seconds.What you need to do is that you must go into terminal and type this `$ telegram-desktop`and then `Enter`.
-
-It will appear the some problems connected to **Qt5,libicu,etc**, please [Click here]().
-
----
-#### Wechat
-WeChat is more than a messaging and social media app – it is a lifestyle for over one billion users across the world. It is free and safe downloaded.
-
-You can install it on our OS by 2 ways.
-
-The first way:
-   
-    1. Open terminal
-    2. Run this command `$ yes | pi -S electronic-wechat-bin`
-    3. After that, you just have to follow the following was given.
-    4. It is also asking you for password.
-
->**Tip:**We recommended you to use **the second way**.It is easier and not much question.
-
-The Second way:
-```
-    curl -S http://repo.koompi.org/packages/electronic-wechat-bin-2.3.1-1-x86_64.pkg.tar.xz -O && sudo pacman -U electronic-wechat-bin-2.3.1-1-x86_64.pkg.tar.xz && sudo pacman -S nss gtk3 libxss
-```
----
-
 ## Software
 #### Gnome
 GNOME Software utility for software application installations and updates. The Software Center allows for easy installations and updates of software applications and system extensions.
