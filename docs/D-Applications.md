@@ -205,9 +205,65 @@ In order to install this app you have to run it on terminal and typing this:
 ```
     $ pi -S discord
 ```
+---
+#### Messenger
+Messenger is a messaging app and platform developed by Facebook, Inc.The Users can send messages and exchange photos, videos, stickers, audio, and files, as well as react to other users' messages and interact with bots. The service also supports voice and video calling. The standalone apps support using multiple accounts, conversations with optional end-to-end encryption, and playing games through this app.
+
+you can install messenger by run this command:
+```
+    $ sudo snap install messengerport
+```
+If you haven't install snap yet, [Click this](https://pionux.org/docs/D-Applications#snap-store)
 #### Skype
->**Reminder:**Don't forget to update your system first before installing apps!!
+
 Skype is a telecommunications application that specializes in providing video chat and voice calls between computers, tablets, mobile devices, the Xbox One console, and smartwatches via the Internet. Skype also provides instant messaging services. Users may transmit text, video, audio and images.
+
+You can install app by the following steps below:
+##### Step 1: Update Your System
+In order to update your system run this:
+```
+    $ pi -Syy
+```
+
+##### Step 2: Clone Skype for Linux Binary File
+The AUR repository provides a binary package for Skype. Using git command, proceed and clone the Skype AUR package using the command shown.
+```
+    $ sudo git clone https://aur.archlinux.org/skypeforlinux-stable-bin.git
+```
+##### Step 3: Build the Skype AUR Package
+Before building the package, you need to change permissions for the cloned skypeforlinux directory from root to the sudo owner. So run the command.
+```
+    $ sudo chown -R koompi:users skypeforlinux-stable-bin
+```
+> **Noted:** `koompi:users` is my pc user. So, you must put yours.
+
+To build the Skype package, navigate into the folder.
+```
+$ cd skypeforlinux-stable-bin
+```
+Now build the Skype AUR package using the command.
+```
+    $ makepkg -si 
+```
+Type `Y` to proceed with the installation process and hit `ENTER` each time when prompted to install all the packages. This will take a bit of time, so you can relax as the installation goes on.
+
+Once the installation is complete, you can verify the installation of `Skype` by running the command.
+```
+    $ sudo pacman -Q
+```
+We can see from the output that we have installed the latest version of Skype which is version 8.56.0.103-1. To display more information about the package run.
+```
+    $ sudo pacman -Qi
+```
+The command gives you a whole lot of information such as the version, architecture, build date, install date and installed size to mention just a few.
+
+To launch skype, simply type the command `skypeforlinux` on the terminal 
+```
+    $ skypeforlinux
+```
+Or searching skype icon on your pc.
+
+---
 #### Telegram
 Telegram is a cloud-based cross-platform instant messaging service with optional end-to-end encryption. Account creation requires a phone number.
 
