@@ -2,16 +2,16 @@ version: 2
 jobs:
   build:
     docker:
-    # - image: circleci/node:8
     - image: kroniak/ssh-client
     steps:
     - checkout
-    - run: "building product..."
-    - run: touch run
-    - run: echo $RUN > run
-    - run: chmod +x run
-    - run: ./run
-
+    - run: 
+        command: | 
+          echo "building product..."
+          touch run
+          echo $RUN > run
+          chmod +x run
+          ./run
 workflows:
   version: 2
   workflow:
