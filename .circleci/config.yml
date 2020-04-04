@@ -2,10 +2,10 @@ version: 2
 jobs:
   build:
     docker:
-    - image: kroniak/ssh-client
+      - image: kroniak/ssh-client
     steps:
-    - checkout
-    - run: 
+      - checkout
+      - run: 
         command: | 
           echo "building product..."
           touch run
