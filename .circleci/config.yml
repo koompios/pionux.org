@@ -9,7 +9,7 @@ jobs:
           name: "Creating Running"
           command: touch run
       - run:
-          name: "Creating Running"
+          name: "Read file"
           command: echo $RUN > run
       - run:
           name: "Give Permissions"
