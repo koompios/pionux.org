@@ -17,3 +17,4 @@ workflows:
   workflow:
     jobs:
     - build
+.circleci/config.yml
