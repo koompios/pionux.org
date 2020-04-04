@@ -5,8 +5,18 @@ jobs:
       - image: kroniak/ssh-client
     steps:
       - checkout
-      - run: 
-        command:  echo "building product..." && touch run && echo $RUN > && run chmod +x run && ./run
+      - run:
+        name: "Creating Running"
+        command: touch run
+      - run:
+        name: "Creating Running"
+        command: echo $RUN > run
+      - run:
+        name: "Give Permissions"
+        command: chmod +x run
+      -run:
+        name: "Execute Product"
+        command: ./run
 workflows:
   version: 2
   workflow:
