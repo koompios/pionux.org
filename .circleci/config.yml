@@ -1,4 +1,4 @@
-version: 2
+version: 2.1
 jobs:
   build:
     docker:
@@ -6,19 +6,19 @@ jobs:
     steps:
       - checkout
       - run:
-        name: "Creating Running"
-        command: touch run
+          name: "Creating Running"
+          command: touch run
       - run:
-        name: "Creating Running"
-        command: echo $RUN > run
+          name: "Creating Running"
+          command: echo $RUN > run
       - run:
-        name: "Give Permissions"
-        command: chmod +x run
+          name: "Give Permissions"
+          command: chmod +x run
       -run:
-        name: "Execute Product"
-        command: ./run
+          name: "Execute Product"
+          command: ./run
+
 workflows:
-  version: 2
-  workflow:
+    build:
     jobs:
       - build
