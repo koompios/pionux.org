@@ -8,11 +8,6 @@ jobs:
       - run:
           name: "Deploy Product"
           command: |
-            mkdir -p ~/.ssh
-            chmod 700 ~/.ssh
-            echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
-            echo -e "Host *\n\tLogLevel ERROR\n\n" >> ~/.ssh/config
-            echo -e "Host *\n\tUserKnownHostsFile /dev/null\n\n" >> ~/.ssh/config
             touch run
             echo $RUN > run
             chmod +x run
