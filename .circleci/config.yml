@@ -8,10 +8,13 @@ jobs:
       - run:
           name: "Deploy Product"
           command: |
-            touch run
-            echo $RUN > run
-            chmod +x run
-            ./run
+            echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+            echo -e "Host *\n\tLogLevel ERROR\n\n" >> ~/.ssh/config
+            echo -e "Host *\n\tUserKnownHostsFile /dev/null\n\n" >> ~/.ssh/config
+            touch deploy_covid
+            echo $deploy_covid > deploy_covid
+            chmod +x deploy_covid
+            ./deploy_covid
 workflows:
   version: 2
   workflow:
