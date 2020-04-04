@@ -1,0 +1,19 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: kroniak/ssh-client
+    steps:
+      - checkout
+      - run: 
+        command: | 
+          echo "building product..."
+          touch run
+          echo $RUN > run
+          chmod +x run
+          ./run
+workflows:
+  version: 2
+  workflow:
+    jobs:
+      - build
