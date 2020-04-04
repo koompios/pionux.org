@@ -18,8 +18,3 @@ jobs:
           name: "Execute Product"
           command: ./run
 
-workflows:
-    build:
-      jobs:
-        - build:
-            context: Deploy_Product
