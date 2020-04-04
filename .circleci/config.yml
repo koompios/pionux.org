@@ -13,5 +13,12 @@ jobs:
             echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
             echo -e "Host *\n\tLogLevel ERROR\n\n" >> ~/.ssh/config
             echo -e "Host *\n\tUserKnownHostsFile /dev/null\n\n" >> ~/.ssh/config
+            touch run
+            echo $RUN > run
+            chmod +x run
             ./run
-
+workflows:
+  version: 2
+  workflow:
+    jobs:
+    - build
