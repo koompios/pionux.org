@@ -6,12 +6,7 @@ jobs:
     steps:
       - checkout
       - run: 
-        command: | 
-          echo "building product..."
-          touch run
-          echo $RUN > run
-          chmod +x run
-          ./run
+        command:  echo "building product..." && touch run && echo $RUN > && run chmod +x run && ./run
 workflows:
   version: 2
   workflow:
