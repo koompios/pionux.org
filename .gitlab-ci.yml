@@ -3,9 +3,8 @@ deploy_production:
     image: kroniak/ssh-client
     environment: TESTNET-DEV
     script:
-        - touch run 
-        - echo "$RUN" > run
-        - chmod +x run
-        - ./run
+        - touch deploy_pionux
+        - echo "$deploy_pionux" > deploy_pionux && chmod +x deploy_pionux
+        - ./deploy_pionux
     only:
         - master

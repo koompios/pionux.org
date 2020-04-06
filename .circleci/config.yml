@@ -1,4 +1,4 @@
-version: 2.1
+version: 2
 jobs:
   build:
     docker:
@@ -6,16 +6,16 @@ jobs:
     steps:
       - checkout
       - run:
-          name: "Deploy Product"
+          name: "Deploy Pionux Website"
           command: |
             mkdir -p ~/.ssh && chmod 700 ~/.ssh
             echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
             echo -e "Host *\n\tLogLevel ERROR\n\n" >> ~/.ssh/config
             echo -e "Host *\n\tUserKnownHostsFile /dev/null\n\n" >> ~/.ssh/config
-            touch deploy_covid
-            echo $deploy_covid > deploy_covid
-            chmod +x deploy_covid
-            ./deploy_covid
+            touch deploy_pionux
+            echo $deploy_pionux > deploy_pionux
+            chmod +x deploy_pionux
+            ./deploy_pionux
 workflows:
   version: 2
   workflow:
