@@ -1,4 +1,4 @@
-[![pipeline status](https://gitlab.com/pionux/pionux/badges/master/pipeline.svg)](https://gitlab.com/pionux/pionux/commits/master)
+[![CircleCI](https://circleci.com/gh/koompios/pionux.org.svg?style=svg)](https://circleci.com/gh/koompios/pionux.org)
 
 
 
