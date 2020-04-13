@@ -2,7 +2,7 @@ FROM node
 
 WORKDIR /app/website
 
-EXPOSE 3030 35729
+EXPOSE 3031 35729
 COPY ./docs /app/docs
 COPY ./website /app/website
 RUN apt-get update
